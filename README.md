@@ -25,6 +25,36 @@ Every fact here carries the label `LLM-verified`. None of them has been reviewed
 
 The depth of a fact is the length of the longest dependency chain below it. Most of the graph records directions that the final proof does not use, including counterexamples to intermediate conjectures.
 
+## Highlights
+
+The 18 facts below carry most of the mathematics; their short names are ours. In the picture a fact sits in the row of its depth, and an arrow means that the lower fact uses the upper one, possibly through facts that are not shown. Facts with no path to the theorem, such as the optimality of 2/9, are results that the final proof does not need.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/highlights-dark.svg">
+  <img alt="The 18 highlighted facts arranged by depth, with an arrow from each fact to the facts that use it" src="assets/highlights-light.svg">
+</picture>
+
+| depth | name | fact | statement |
+|---|---|---|---|
+| 0 | Depth normal form | [`400272f6de6c67bb`](facts/400272f6de6c67bb.md) | Exact normal form for the depth at a slice point |
+| 0 | Compatibility | [`8ad0785e5b4ae9ef`](facts/8ad0785e5b4ae9ef.md) | Compatibility is a Minkowski midpoint inclusion |
+| 0 | One dominant slice | [`2f9be517307232c7`](facts/2f9be517307232c7.md) | A slice carrying half the area settles it |
+| 0 | Cap areas are not enough | [`a5309a9087686166`](facts/a5309a9087686166.md) | Cap areas do not determine the cover defect |
+| 1 | Realizable areas | [`d7bdfc054d5093e8`](facts/d7bdfc054d5093e8.md) | Which area triples occur |
+| 1 | Cover duality | [`8f5f00ddd4f22d2f`](facts/8f5f00ddd4f22d2f.md) | A counterexample is a low-mass three-halfspace cover |
+| 1 | Added area is not enough | [`1c0264823debcab3`](facts/1c0264823debcab3.md) | Enlarging the middle slice: location, not amount |
+| 1 | 2/9 is optimal | [`43e70f89f224c5d7`](facts/43e70f89f224c5d7.md) | No constant larger than 2/9 is possible |
+| 1 | Overlap beats the square | [`9414163c0331b8f2`](facts/9414163c0331b8f2.md) | The uncovered area is dominated by the overlap |
+| 2 | Balanced outer slices | [`87035f4e1344144e`](facts/87035f4e1344144e.md) | Balanced outer areas are settled at a middle point |
+| 4 | Middle-centroid criterion | [`c02e26ea799dadd7`](facts/c02e26ea799dadd7.md) | An area criterion certifying the middle centroid |
+| 8 | The minimal family | [`96f5513b8ab88a8f`](facts/96f5513b8ab88a8f.md) | The minimal family in full |
+| 9 | Three concurrent caps | [`851e063a1b9908a3`](facts/851e063a1b9908a3.md) | The sharp concurrent three-cap inequality |
+| 10 | Without concurrency | [`5b75ecd9ec86dbcf`](facts/5b75ecd9ec86dbcf.md) | The same inequality for non-concurrent cuts |
+| 10 | Reduction to triangles | [`c4077ad10a0441a5`](facts/c4077ad10a0441a5.md) | The cap inequality reduces to triangles |
+| 10 | Triangles to four parameters | [`cddd2c95c0ff12e3`](facts/cddd2c95c0ff12e3.md) | The triangle case reduces to a four-parameter inequality |
+| 11 | Planar cap inequality suffices | [`30d5406c9459a845`](facts/30d5406c9459a845.md) | One planar cap inequality implies the three-slice bound |
+| 12 | The theorem | [`0fee37ee73addcc3`](facts/0fee37ee73addcc3.md) | Every three-slice body has a point of halfspace depth 2/9 of the total area |
+
 ## Files
 
 - `facts/<id>.md` holds one accepted fact. The front matter gives its kind, the facts it depends on (`depends_on`), the subgoal it addresses, and the verifier run that approved it. The body has a statement and a proof.
