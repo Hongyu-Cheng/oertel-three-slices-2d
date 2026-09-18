@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically complete. The strict centroid-cap bound selects a residual row with endpoint deletion budget e<D; the closed complementary clips have the stated positive areas and their midpoints lie strictly in the other middle cap. Brunn--Minkowski and the correct concave shared-budget minimization yield the strict chain proving (10), including the equality boundary exclusion. The subsequent algebraic, scalar-window, and normalized-coordinate equivalences are correct, with all positivity, squaring, discriminant, root, and strict-boundary conditions handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

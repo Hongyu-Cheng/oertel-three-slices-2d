@@ -1,0 +1,18 @@
+{
+  "advances": "In the canonical finite-boundary setting, if the two rows other than the support-contact row are both empty-full lower crossings, then failure of the support-contact charge inequality forces \\(m/M<1/3\\). Equivalently, the doubly empty-full pattern satisfies the support-contact inequality throughout \\(m/M\\ge1/3\\). No conclusion is asserted for \\(m/M<1/3\\).\n",
+  "author": "mp_r316_boundary_support_contact",
+  "candidate_id": "8d5e52a54e5db729",
+  "candidate_schema": 2,
+  "created_at": "2026-08-10T04:40:58.170519+00:00",
+  "depends_on": [
+    "15bb2c1680a0254e",
+    "624b129b68e0fdee"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/8d5e52a54e5db729.md",
+  "proof": "For every \\(x\\in K\\), at least one of \\(f_1(x),f_2(x),f_3(x)\\) is nonpositive. Indeed, if all three were positive, then\n\\[\nf_1(x)+f_2(x)+f_3(x)>0,\n\\]\ncontrary to \\(f_1+f_2+f_3=-1\\). Therefore the three closed middle caps cover \\(K\\), including all points on their boundary lines, and hence\n\\[\nk\\le c_1+c_2+c_3.\n\\tag{1}\n\\]\n\nThe assumed failure \\(c_1+v_1<t\\), together with \\(v_1\\ge0\\), gives the strict inequality\n\\[\nc_1<t.\n\\tag{2}\n\\]\nBy the empty-full lower-crossing classification in accepted fact `624b129b68e0fdee`,\n\\[\nc_2=c_3=t-m.\n\\tag{3}\n\\]\nCombining (1)-(3) yields\n\\[\nk<t+2(t-m)=3t-2m.\n\\tag{4}\n\\]\nUsing \\(t=2(M+m+k)/9\\), inequality (4) becomes\n\\[\n\\begin{aligned}\nk\n&<\\frac{2(M+m+k)}3-2m\\\\\n&=\\frac{2M-4m+2k}{3}.\n\\end{aligned}\n\\]\nMultiplying by \\(3\\) and subtracting \\(2k\\) gives\n\\[\nk<2M-4m.\n\\tag{5}\n\\]\n\nThe residual strip in accepted fact `15bb2c1680a0254e` gives the strict lower bound\n\\[\nk>M-m.\n\\tag{6}\n\\]\nEquations (5) and (6) imply\n\\[\nM-m<2M-4m.\n\\]\nThus\n\\[\n3m<M,\n\\]\nand division by \\(M>0\\) proves\n\\[\n\\frac mM<\\frac13.\n\\]\nEvery inequality used to obtain the final threshold is strict exactly where required: strictness enters through the failed support-contact inequality in (2) and through the residual lower bound in (6).\n",
+  "source_packet_sha256": "f216c1b5563b333b01d4deb0de367359af73590570ccc4f9dbe17c315c7deacb",
+  "statement": "Let \\(A_0,A_2,K\\subset\\mathbb R^2\\) be nonempty two-dimensional convex polytopes in the canonical finite-boundary setting, relabeled so that\n\\[\nM=|A_0|\\ge m=|A_2|>0,\\qquad k=|K|,\\qquad\nt=\\frac{2(M+m+k)}9,\n\\]\nand so that the support-contact direction is row \\(1\\). Let \\(f_1,f_2,f_3\\) be the canonical affine rows, with\n\\[\nf_1+f_2+f_3=-1,\n\\]\nand put\n\\[\nc_i=|K\\cap\\{f_i\\le0\\}|.\n\\]\nFor the endpoint thresholds \\(L_i\\), put\n\\[\nu_i=|A_0\\cap\\{f_i\\le L_i\\}|,\\qquad\nv_i=|A_2\\cap\\{f_i\\le-L_i\\}|.\n\\]\nAssume rows \\(2\\) and \\(3\\) are both empty-full lower crossings. Thus, in the terminology and classification of accepted fact `624b129b68e0fdee`,\n\\[\nu_2=u_3=0,\\qquad\nv_2=v_3=m,\\qquad\nc_2=c_3=t-m.\n\\]\nAssume also the residual area hypotheses of accepted fact `15bb2c1680a0254e`; in particular,\n\\[\nk>M-m.\n\\]\nIf\n\\[\nc_1+v_1<t,\n\\]\nthen\n\\[\n\\frac mM<\\frac13.\n\\]\n",
+  "subgoal_id": "canonical-boundary-double-empty-full-one-third"
+}

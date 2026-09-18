@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The exclusions follow directly from the accepted cover inequality and strict cap bounds. In each listed case, an empty positive support on the relevant non-I1 row forces that row's cap to be zero, while the remaining I0 and I1 caps sum to strictly less than 4/9 + 1/2 = 17/18, contradicting c1 + c2 + c3 >= 1. The accepted predecessor covers both all-negative rows and weak-sign rows containing zeros, and the stated orbit labels and allowed O21 row swap are used consistently.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

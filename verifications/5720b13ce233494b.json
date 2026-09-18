@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is correct and complete. The translate-separation argument establishes the required planar Minkowski-sum area bound, which yields (1); the halfplane cover and the two scalar bounds in (3) then give (4) by a valid strict-inequality contradiction. The rational triangle, its coordinate Jacobian, cut thresholds, cell areas, tail and surplus margins, width-depth value, and endpoint nonrealizability all check exactly, including boundary and degenerate cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

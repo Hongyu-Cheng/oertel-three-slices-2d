@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically complete: the triangle cap areas are correct, the attained threshold construction and union bound are valid, midpoint convexity places the endpoint Minkowski average in the stated upper-side region, Brunn--Minkowski yields the claimed ledger bound, and the strict residual inequalities make both ledger entries strictly larger than 2d.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

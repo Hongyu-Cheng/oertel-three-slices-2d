@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The endpoint-cap Brunn-Minkowski contradiction is valid, including equality in hypothesis (4), and the accepted directional profile yields the claimed depth bound for every tilted and horizontal halfspace.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

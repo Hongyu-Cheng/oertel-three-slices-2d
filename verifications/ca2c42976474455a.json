@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The compatibility interval, residual-strip check, normalized quantiles, convolution maxima and contact sets, endpoint signs, unique interior optimizers, weighted sums, strict-concavity maximization, and exact radical evaluations are all correct, including the closed compatible endpoints and the distinction between the finite zero-demand extension and the actual E_q(0)=-infinity convention.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

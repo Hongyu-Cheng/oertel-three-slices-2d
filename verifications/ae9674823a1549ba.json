@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The compatibility range, residual-strip membership, cap quantiles, endpoint convolutions and contact sets, interior-crossing interval, optimizer and threshold formulas, weighted threshold, contact maximum, and both exact maximizations are correct. All boundary conventions and hypotheses of the accepted predecessor facts are handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

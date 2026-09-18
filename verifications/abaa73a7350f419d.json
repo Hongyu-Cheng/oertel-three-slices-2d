@@ -1,0 +1,1 @@
+{"schema":"math-prover-verifier-v2","verdict":"APPROVED","summary":"The proof correctly derives the exact mixed-area formula and budget, the centroid-cut area window, the transverse width dichotomy, and the equality case from the stated predecessor facts.","critical_errors":[],"gaps":[],"repair_hints":[],"target_match":null,"target_match_explanation":"Not applicable."}

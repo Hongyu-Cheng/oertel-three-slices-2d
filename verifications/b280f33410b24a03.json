@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The lifted sets are nonempty compact convex sets under the cap hypotheses, their midpoint Minkowski containment follows exactly from affinity and the assumed containment of the base sets, and their three-dimensional volumes equal the stated positive-part moments. The regularization argument correctly extends Brunn-Minkowski to nonempty zero-volume compact convex lifts, so all boundary, touching, and constant-affine cases claimed in the statement are covered without a gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

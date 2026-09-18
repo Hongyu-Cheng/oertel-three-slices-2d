@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The triangle halfspace-depth formula is proved correctly, including the sharp construction; the nonhorizontal and horizontal three-slice halfspace bounds follow with the stated algebra from condition (1); and all rational-example computations, strict containment, residual-strip membership, exclusions of the two predecessor classes, and openness claims are valid.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The scalar projection is exact under the stated Regime A hypotheses, both derived inequalities follow with the required strictness, and all numerical checks for the feasible and calibrated rows are correct. The conclusion is scoped correctly to fixed-cap scalar substitution.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

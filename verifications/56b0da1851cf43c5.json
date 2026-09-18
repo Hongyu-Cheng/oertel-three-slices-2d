@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The Jacobian and trapezoid width identity are exact; the predecessor lobe bounds apply; concavity yields the stated cap, width, and connector-area bounds including support and vertical-face degeneracies; the relaxed endpoint-width minimization has the correct exhaustive cases; and the final one-variable lower bound is strictly greater than 3/2. The Regime-A parameter reduction and general localization theorem then exclude a strict counterexample.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

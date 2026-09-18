@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The fixed-configuration estimate (12) is proved, but the concluding asymptotic claim of a uniformly positive zeroth-order separation does not follow under the stated family hypotheses.",
+  "critical_errors": [
+    "The assertion that (13) rules out B_U(d)=beta_U d+o(d) requires a d-uniform upper bound on D=diam(A_2), which is not assumed in the final d-to-zero statement. Convergence of the normalized gradients to a genuine fan controls H, J_psi^{-1}, and g, but it does not control D. If D grows with d^{-1}, then A=2DH/g can diverge and the positive root in (13) can tend to zero, so (13) does not provide the claimed uniformly positive zeroth-order separation."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "State that the d-family has a uniform diameter bound for A_2, or explicitly place the final asymptotic conclusion inside the previously described compact family with uniform bounds on D, H, J_psi^{-1}, and g^{-1}."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

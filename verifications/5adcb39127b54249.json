@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The three displayed inequalities and the rational survivor checks are largely consistent, but the candidate is not boundary-complete as stated and does not prove its asserted completeness of the triangle-cap family.",
+  "critical_errors": [
+    "Boundary item 1 is false at the included stratum alpha=beta=0. In the P_l application one then has r=alpha=0 and p=q=delta, so the lemma yields only the tautology 0<=0; it does not yield the strip T<=q. Thus the assertion that the containing half-plane is a strip whenever beta=alpha is not literal on every boundary, although (Tc) itself is automatic there."
+  ],
+  "gaps": [
+    "The proof does not establish the claimed completeness of (T0), (Tb), and (Tc). For the (p_j,p_k) target it correctly observes that the remaining p_l=0 chord lies inside the positive quadrant, but it then merely asserts that the two exterior supported cells give only unbounded wedges. The sign data do not imply that assertion: after swapping axes, a P_j point has the lemma's form (p,-r) in (p_k,p_j), and a P_{k l} point has that form in (p_j,p_k); when p exceeds the corresponding axis-section endpoint, the lemma gives a bounded triangle. The candidate must precisely define the mechanism as using only points on the third full cutting-line chord, or analyze and eliminate these exterior-cell cases. As written, the complete-family conclusion does not follow."
+  ],
+  "repair_hints": [
+    "Replace the beta=alpha boundary description by two cases: beta=alpha>0 gives the strip T<=q, while alpha=beta=0 gives only the tautological inequality and hence automatic (Tc).",
+    "State an exact scope for 'single-external-chord triangle caps' and prove the enumeration within that scope. If exterior supported-cell points are meant to be included, analyze their possible finite triangle bounds rather than asserting that their wedges are always unbounded."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

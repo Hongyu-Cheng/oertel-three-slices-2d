@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cell enumeration follows from the three stated outer orders, the crossing and tail manipulations are exact, the retained-section area bounds follow from the forced singleton midpoint inclusions and the proved section inequality, and the final scalar chain yields the strict contradiction 2b>39b/16>2b for b=p_empty>0. All invoked predecessor facts apply under the stated hypotheses, and boundary sets have area zero.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

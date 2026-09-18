@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the dominant-cap centroid displacement, applies the planar centroid-halfplane inequality and Brunn--Minkowski with all hypotheses satisfied, constructs the central-edge triangle with the exact affine-height area ratio and null overlap with the deep-cap midpoint body, and combines the resulting bounds with the exact crossing identity. Boundary and closure conventions are handled without changing any area.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

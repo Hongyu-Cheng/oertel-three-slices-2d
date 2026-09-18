@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. For every positive-quadrant point Z, convexity forces two triangles inside the two small adjacent cones, and their areas yield the stated coordinate bounds. Those bounds exclude x+y at least 1, so the entire positive-quadrant part of K lies in the prescribed strip, contradicting the two required areas.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

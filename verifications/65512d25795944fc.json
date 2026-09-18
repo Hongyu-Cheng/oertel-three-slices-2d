@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine transformation, both triangular cap-area formulas, the shoelace identity, the elimination formulas, and the strict-convexity determinant factorizations are all correct. The resulting positive-product certificate yields L^2>16H, while the stated expansion gives 16H>4(a+b)^2; positivity then implies L>2(a+b) and hence delta>a+b. All denominators and strict inequalities used are justified by the hypotheses, with no omitted boundary or degenerate case.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

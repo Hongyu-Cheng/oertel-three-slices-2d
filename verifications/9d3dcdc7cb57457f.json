@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The strict clipping inequality is proved correctly, including the equality and degenerate-boundary cases, but the stated nonexistence consequence is not established from the supplied candidate because the calibration terminology and its connection to the clipped areas are undefined.",
+  "critical_errors": [
+    "The claimed consequence does not follow from the stated premises. The candidate never defines the \"prescribed common-plane calibration\" or states that c_i=|C_i|, c_l=|C_l|, and c_q=|C_q| for the three clips appearing in (1). Equation (12) only shows that the three numerical c-values sum to |K|; without the missing identification, (1) cannot be applied to those values, so nonexistence of A_0, A_2, K, the shifts, and the support data is unsupported."
+  ],
+  "gaps": [
+    "Equation (2) invokes g_i, g_l, and g_q without defining them. The preceding direct halfplane-cover argument is sufficient, so this undefined assertion is unnecessary, but as written it is not verifiable."
+  ],
+  "repair_hints": [
+    "State the exact common-plane calibration assumptions within the candidate, in particular the identities tying c_i, c_l, and c_q to the areas of the three explicitly defined clips of the same polygon K.",
+    "Remove equation (2), or define the g-quantities and prove the asserted pointwise identity."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

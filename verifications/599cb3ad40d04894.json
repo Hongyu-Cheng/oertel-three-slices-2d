@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The five strata exhaust the unique-zero cases modulo the two allowed interchanges, and their column-sum equations, negative-mean inequalities, and literal middle-cap formulas are correct. The rank-one perturbation preserves column sums, q, compatibility, nonsingularity, all required centroid-incidence data, and strict row-mass inequalities by upper semicontinuity of the closed cap, including repeated and constant-at-threshold values. Each prescribed perturbation sign produces the stated all-nonzero support pair, every such pair lies outside the contained-support orbit, and accepted fact 89f1aef98e9b8915 therefore applies to yield the required contradiction.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

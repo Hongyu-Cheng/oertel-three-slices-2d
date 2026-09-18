@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The affine normalization, the elementary cyclic summation leading from (14) to (20), and the numerical arithmetic in (22)-(25) are consistent, but the candidate does not prove its central geometric implication (13) => (14) or supply an exact accepted/source theorem from which it follows. The opaque predecessor-fact references also do not provide enough information here to audit (4) and (18)-(19). Hence the candidate has essential verification gaps.",
+  "critical_errors": [],
+  "gaps": [
+    "The implication (13) => (14) is only asserted. The candidate gives neither a proof of the exposed-corner area inequality nor an exact source or accepted predecessor statement containing that lemma, so there is no way to check that admissibility conditions (8)-(9), the two exterior-side conditions, and the strict thresholds imply the claimed constant gamma_i = A_i D_i/J.",
+    "The claims in (4) and (18)-(19) invoke accepted facts only by identifier, without supplying their hypotheses or conclusions. Their exact applicability, normalization, and variable correspondence therefore cannot be audited from the permitted material."
+  ],
+  "repair_hints": [
+    "Supply a complete proof of the exposed-corner lemma in the stated (f_j,f_k) coordinates, including the area scaling by J, all quadrant and boundary cases, and a derivation of the factor 4 and the constant A_i D_i/J; alternatively, quote an accepted/source theorem verbatim and verify every hypothesis.",
+    "Include the precise predecessor statements used for (4) and (18), then explicitly map their notation and hypotheses to the present variables."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

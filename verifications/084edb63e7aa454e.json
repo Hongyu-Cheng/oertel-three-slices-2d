@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate follows from the supplied predecessor facts and standard planar mixed-area and Brunn--Minkowski properties. The algebraic equivalences, universal scalar restrictions, cap-shape sufficient conditions, residual-branch deductions, strict inequalities, and numerical comparisons are all correct, with the full-realization and residual-counterexample hypotheses kept separate.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The endpoint-cap reformulation follows exactly from the accepted one-sided cap inequality, including the zero-offset strata. The six ordered-pair applications for each polygon use the correct full sections, cap areas, target areas, and offsets. The A2 perspective, hull, boundary-completion, and intersection-stratum relations follow from the stated sign chambers and convexity. The displayed rational data satisfy the scalar, trace, A0, A2, and all twelve endpoint-cap constraints with the claimed strict slack, so the nonemptiness and relative-interior conclusions are justified.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The core conditional contradiction in (15) is largely supported, but the candidate overstates the consequence of (17) by dropping the retained-trace hypothesis, and equation (25) contains an undefined quantity.",
+  "critical_errors": [
+    "Equation (17) alone only yields the third condition in (15), namely |B_{rs}|\\le\\Phi_{rs}. The contradiction proving (15) also requires the retained-trace condition (11). Nothing in (17), (19), or (16) implies that the two axis sections of D_{rs} retain the Q-traces. Therefore the subsequent assertion that (17) itself excludes the stated breakpoint-density class, including the triangular example as stated, is not proved without explicitly retaining hypothesis (11)."
+  ],
+  "gaps": [
+    "The area identity (25) uses \\nu_0, which is never defined. The identity and the application of (23) require this factor to be u_0. As written, the displayed computation is not well-formed."
+  ],
+  "repair_hints": [
+    "State the consequence of (17) only for a row whose traces are retained as in (11) and whose separator is nondegenerate.",
+    "Replace the undefined \\nu_0 in (25) by u_0."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

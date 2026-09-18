@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The coordinate transform sends the two cones to opposite coordinate quadrants; the two support equalities supply zero-coordinate contacts in Q; midpoint inclusion then bounds each coordinate of every point of P. The determinant calculation gives the stated area bound, positive area forces alpha and beta to be positive, and compact containment in a positive-area rectangle makes area equality equivalent to equality with the full rectangle. Transforming its four corners yields exactly the stated characterization of A_0, including all vertex and edge contact cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

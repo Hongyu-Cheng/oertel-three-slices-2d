@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The midpoint-coordinate identities, endpoint segment containment, one-axis cap bounds, discretized dominance-triangle argument, boundary cases, zero-cell consequences, and both rational calibrations are all correct under the supplied common-plane conventions. The claimed inequalities follow with the stated area-scaling factors and no gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

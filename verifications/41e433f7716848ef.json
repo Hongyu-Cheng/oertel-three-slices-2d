@@ -1,0 +1,20 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The normalized-coordinate identities, the s^2 tau-to-r area factor, the equal-selector two-rail insertion, the diagonal-rail Jacobian calculation, the stated lower-crossing first-variation coefficient and inequality direction, the strict scalar gate, and the retained-area and concavity calculations are consistent. However, the boxed full-trace statement contains false set inclusions, so the candidate as stated cannot be approved.",
+  "critical_errors": [
+    "The middle inclusions in (18a) and (18b) are false as written. For every R>=1, the barycentric point (tau_1,tau_2,tau_3)=(0,R,1-R) belongs to {tau_2>=1, tau_3<=0}, so (18a) would put an unbounded ray inside overline{Q_2}^tau. But overline{Q_2}^tau is contained in the finite-area convex body A_{2,tau} and is bounded. The analogous ray (R,0,1-R) contradicts (18b). Consequently, the boxed statement and the written chain used to infer equality of the A_2 and C_tau sections are mathematically false."
+  ],
+  "gaps": [
+    "Even after restricting the middle sets in (18a)-(18b) to the relevant A_{2,tau} coordinate-line sections, the sentence that the remaining inclusions follow from the sign convention is insufficient. A closed sign condition alone does not show membership in the closure of a strict cell; the proof must perturb each trace point toward the already chosen interior point of Q_2 or Q_1 and verify that the perturbations lie in that strict cell.",
+    "In (22)-(23), (8)-(9) alone do not imply that every t in [x/s,beta_i] belongs to T_i. The assertion is true only after additionally using the positive opposite singleton cell Q_{3-i}, which supplies a point of C_tau with tau_i<0; since T_i is an interval and beta_i>1, it then contains [x/s,beta_i].",
+    "The assertion that (12) is a nonempty closing chamber beyond the predecessor maximum-chord restrictions is not established. The proof derives the conditional exclusion, but gives no compatible parameter witness or independence argument showing that the new parameter region is nonempty after the predecessor restrictions are imposed."
+  ],
+  "repair_hints": [
+    "Replace each false ambient sign-set inclusion in (18a)-(18b) by an inclusion of the corresponding A_{2,tau} coordinate-line section, and prove its inclusion in overline{Q_i}^tau by convexly perturbing toward an interior point of Q_i.",
+    "Add the opposite-singleton projection argument before applying the diagonal selector on the entire interval [x/s,beta_i].",
+    "Either prove the claimed nonemptiness and independence of the scalar chamber with an explicit admissible parameter or body example, or delete that characterization."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

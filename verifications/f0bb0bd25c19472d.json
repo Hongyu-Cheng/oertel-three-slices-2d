@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "All totals, crossing quantities, tail and proper-cap conditions, excess and defect identities, source-cap inequalities, overlap-corrected inequality, support implication, corrected three-line inequalities, and strengthened cyclic inequalities are verified for every real delta at least 1. The conclusion is correctly limited to scalar compatibility and does not assert geometric realization.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

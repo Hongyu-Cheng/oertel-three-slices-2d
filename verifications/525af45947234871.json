@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap formulas, strict inequality chain, boundary case t = 1/2, full-small-cap contradiction, parameter-band translation, and row and barycentric-vertex permutation symmetries are all valid under the stated hypotheses. No mathematical errors or gaps were found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

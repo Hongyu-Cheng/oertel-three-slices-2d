@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The central identities follow exactly from the stated support, crossings, and total-mass relation. The explicit affine data and rectangles satisfy the required orders, transversality, twelve positive cell areas, midpoint containment, crossings, canonical tails, finite-interior inequalities, and W=0.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

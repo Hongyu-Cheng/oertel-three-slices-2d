@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete under the supplied accepted facts. The planar comparison preserves the six radial endpoints and has the required directions for singleton and doubleton areas. The barycentric formulas, the piecewise concave polynomial argument (including omega = 0 and omega = 2/7), and the gauge regularization establish all three weighted sector inequalities, including nonpositive k and collinear marks. In the three-slice argument, the precise selected-section convention justifies the endpoint payment cases; the simultaneous moment balance fixes the displacement direction and gives the required chord ratio with the correct row labels. The trimming construction uses actual compatible endpoint bodies, and its area lower bound contradicts the weighted allowance using the supplied residual area bounds. The accepted predecessor statements apply with all required hypotheses. The rational calibration, its sections and first moments, its payments, and the polynomial identity also check exactly. No counterexample, mathematical error, or proof gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The ledger algebra and cap-shape calculations are consistent, but the asserted outer-survivor bounds are proved only after imposing an unstated canonical-counterexample restriction.",
+  "critical_errors": [],
+  "gaps": [
+    "The statement says that every full realization under (1) satisfies (9), and hence the later conclusions (11)-(12), but the proof derives these claims from M <= m+k. Accepted fact b8e22f6a4b26ea94 justifies M <= m+k only for a table that remains in the canonical counterexample branch: if M > m+k, the outer centroid already proves the target. Membership in that branch, or the inequality M <= m+k itself, is not among the candidate statement's hypotheses. Thus (25), the lower bound on Delta_0, D < 1/9, and the resulting p and Lambda conclusions are not established for every full realization as claimed."
+  ],
+  "repair_hints": [
+    "Restrict the outer-survivor assertions to realizations remaining in the canonical counterexample branch, or explicitly assume M <= m+k; the subsequent displayed derivations then apply."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

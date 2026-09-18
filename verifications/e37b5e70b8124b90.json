@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and exact. The three integer sections and midpoint compatibility are correct; the affine area scaling is consistent; the reduction to through-point halfspaces covers the whole-space, slice-parallel, closed-boundary, and vertex-incidence cases; the one-vertex cap parametrization and lambda range are exhaustive; all endpoint corner-cone inequalities and residual Y-cone Cauchy bounds have the stated rational margins; undoing the scale gives the claimed 1/1600 improvement; and the strict-low endpoint interior covers and middle-slice non-cover corollary handle open, closed, empty, and full sections correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

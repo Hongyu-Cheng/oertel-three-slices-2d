@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate statement follows from the stated hypotheses. The strip-width estimate, affine-coordinate box-section bound, exact maximization of Phi, coordinatewise monotonicity and strict positive-direction increase of Psi, and the final specialization to Omega are mathematically valid, including the relevant degenerate and branch-boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives p+e=t from threshold attainment, uses the exact zero-demand and over-capacity inverse conventions to identify the certifying-allocation interval as the singleton {p}, and then applies the accepted uniqueness result to identify the directionwise optimizer. The endpoint and common-allocation conclusions follow without additional assumptions or gaps.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is a valid composition of the supplied accepted predecessor facts. Fact 9414163c0331b8f2 proves every quantified instance of assertion (N) in cddd2c95c0ff12e3: the parameter domains, weak base-hit constraints, rational area formulas, cap floors, ordering, and strict pair-sum hypothesis coincide. Its stronger conclusion D_3 >= ((a+b)/2)^2 implies (N) because C_L >= 1 and D_3 >= 0. The independent proof of h >= 0 correctly applies 851e063a1b9908a3 after a continuous rotation with a strictly positive parameter, retaining nonzero pairwise nonparallel forms. The accepted triangle implication and the fixed-cap triangle reduction in c4077ad10a0441a5 then establish the planar inequality for every body and fan required by 30d5406c9459a845. Equality of the two largest cap areas with the total is covered by the non-strict branch; strict pair sums for all other pairs follow from the cap ordering. Common area scaling, tied cap areas, base-vertex hits, and limiting triangle extension factors leave no missing case. Applying 30d5406c9459a845 yields the claimed point under exactly the original slice hypotheses. No mathematical error or gap was found relative to the supplied accepted facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": true,
+  "target_match_explanation": "The candidate proves the affirmative universal claim for every compact polytope C whose mixed-integer intersection consists exactly of the three specified nonempty two-dimensional slices. It uses the same areas a_i, total T, point domain S, and depth defined by all closed halfspaces containing the point, and concludes the existence of one y* in S with h_S(y*) >= 2T/9. The planar assertion needed for the final accepted implication is proved without adding any hypothesis to the locked problem, so no condition or quantifier remains unresolved."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The exact clipping data and residual arithmetic are correct, and the accepted Farkas gate applies with all hypotheses satisfied. The strictly negative first gate coordinate contradicts the nonnegativity forced for every convex extension, proving both the stated polygonal nonexistence and the stronger convex-body nonexistence.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

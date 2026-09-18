@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly applies the accepted parallel-slide reduction locally, proves that a moving vertex cannot cross any cutting line while the polygon retains positive area on both sides, and handles the only possible first contact by a valid degeneracy deletion. Each operation preserves convexity, the fixed marks, chamber containment, the signed segment area of the affected arc, and hence all four cell areas, while strictly reducing the number of unmarked vertices. Termination and the twelve-vertex bound follow.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The lower-label support forces h_1 and h_2 to have opposite weak signs throughout the interior. The positive singleton-cell areas then provide strict-sign points on both sides, which forces the two zero lines to coincide and h_2=-alpha h_1 for alpha>0. Since h_3=c+(alpha-1)h_1 with c>2, requiring h_3<0 at singleton points on both opposite sides forces simultaneously alpha<1 and alpha>1. The contradiction is valid, all null-set and interior-point steps are justified, and the final universal inequality follows vacuously because the full realization set is empty.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

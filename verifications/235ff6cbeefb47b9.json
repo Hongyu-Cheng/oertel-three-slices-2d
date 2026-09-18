@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The conditional reduction is mathematically valid. The predecessor theorem applies with the stated area and cap aliases and establishes h >= 0. The minimizing-cut argument, including vertex chords, produces the stated common area normalization. The cap and overlap formulas, denominator positivity, side-hit thresholds, and displayed differential and square identities are correct. Each invocation of (N) retains its cap floors and strict pair-sum hypothesis, with reflection handling cap order. The both-side and one-side reductions preserve geometric feasibility and use valid monotonicity or convexity arguments; the interpolation beyond the strict-pair region invokes (N) only at admissible endpoints. The extension-factor boundary cases follow by the stated nested-triangle approximation. Completing the square and undoing the normalization establish (1), and the asserted counterexample implication is its valid contrapositive. No mathematical errors or gaps were found; (N) itself is assumed, not proved.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

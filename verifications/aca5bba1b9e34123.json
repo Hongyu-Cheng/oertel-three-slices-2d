@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine normalization, exact cap-area identities, concavity tent bound, and final contradiction are all valid under the stated strict hypotheses. The proof covers the relevant boundary and degenerate possibilities, and its conclusion exactly matches the candidate statement.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

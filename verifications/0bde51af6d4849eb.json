@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The trace elimination is exact: the accepted lower bounds, comparisons, strict disjunctions, and two product bounds are equivalent to the two strict lower-product conditions, and the substitutions to the cell-area form are correct. The numerical calibration satisfies the stated scalar identities, tails, lower bounds, trace gaps, and product inequalities exactly as claimed, while correctly disclaiming joint polygonal realization.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

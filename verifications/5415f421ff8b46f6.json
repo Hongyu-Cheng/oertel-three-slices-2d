@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cited primary source proves the stronger centroid halfspace-depth statement with constant (n/(n+1))^n, so in the affine plane E the n=2 constant is 4/9. The centroid, measure normalization, closed-halfplane application, inclusion in the open positive-coordinate region, and all numerical implications are correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

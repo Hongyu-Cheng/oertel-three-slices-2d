@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The six row-coordinate embeddings, retained-length endpoints, and displayed rational values are exact. The selected endpoints lie in A_2, the stated parameter puts z strictly between them, positive area of Q_{jk} supplies an interior chamber point whose segments approach z through Q_{jk}, and the k\\ell separator is then violated exactly. The conclusion is correctly limited to the calibrated simultaneous row model.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct. The three strict area bounds force each positive-sum singleton cell to have area greater than R; convexity then yields the origin, the exact triangular enclosure and monotonicity of F force both negative axis-support depths above 40, and the resulting forced hexagon lies in the tail half-plane while having area 28200/7 greater than 195104/63, a contradiction.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

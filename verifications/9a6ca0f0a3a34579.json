@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly establishes the disjoint residual decomposition, the structural Minkowski-union identities, all three cap-capacity bounds and their sum, and the calibrated numerical and Brunn--Minkowski estimates. The boundary, empty-cell, and positive-area cases used by the argument are handled without a gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,20 @@
+{
+  "advances": "The cyclic singleton hypothesis does not imply the strict all-double excess at the scalar level. The following exact nonnegative calibration satisfies every listed scalar input, including the cyclic bound, while the excess remains equality. No geometric realizability is claimed.\n",
+  "author": "mp_r39_cyclic_sufficiency",
+  "candidate_id": "a6e9e8f9abdefa92",
+  "candidate_schema": 2,
+  "created_at": "2026-07-31T23:28:05.845795+00:00",
+  "depends_on": [
+    "2bb72698f0248a65",
+    "624b129b68e0fdee",
+    "8234d1112ec2f031",
+    "91cb5bfc71da49ac"
+  ],
+  "external_sources": "none\n",
+  "kind": "counterexample",
+  "packet_file": ".math-prover/packets/a6e9e8f9abdefa92.md",
+  "proof": "The totals are\n\\[\nM=\\frac{119}{10}+3\\cdot\\frac15=\\frac{25}{2},\n\\qquad\nm=\\frac25+3\\cdot\\frac15=1,\n\\qquad\nk=3\\cdot2+3\\cdot1=9,\n\\]\nhence \\(M\\ge m>0\\). For every \\(i\\),\n\\[\nx_i=q_{N\\setminus\\{i\\}}=\\frac15,\n\\qquad\nu_i=\\frac15,\n\\qquad\nv_i=m-x_i=\\frac45,\n\\]\nand\n\\[\nc_i=2+1+1=4.\n\\]\nMoreover,\n\\[\nh=\\frac{2(M+m+k)}9\n=\\frac{2(25/2+1+9)}9\n=5.\n\\]\nThus every crossing holds:\n\\[\nu_i+v_i+c_i=\\frac15+\\frac45+4=5=h.\n\\]\nEvery tail constraint holds at equality:\n\\[\nc_i+m=4+1=5=h.\n\\]\nThe finite-interior scalar conditions also hold:\n\\[\n0<u_i<M,\\qquad 0<v_i<m,\\qquad 0<h<M.\n\\]\n\nThe three-cap product inequality is strict:\n\\[\nq_N^2m=\\frac4{25}>\\frac4{125}\n=4x_1x_2x_3.\n\\]\nThe accompanying square-root inequality is also strict:\n\\[\n\\sum_i\\sqrt{\\frac{x_i}{m}}\n=\\frac3{\\sqrt5}<\\frac32.\n\\]\n\nFor the multiplicity-corrected inequality, its right side is\n\\[\nk-r_N+\\sum_{|G|=1}r_G=9+6=15.\n\\]\nIts left side is\n\\[\n\\frac14\\sum_i(\\sqrt{p_\\varnothing}+\\sqrt{x_i})^2\n=\n\\frac34\\left(\\sqrt{\\frac{119}{10}}+\\sqrt{\\frac15}\\right)^2\n=\n\\frac{363+6\\sqrt{238}}{40}.\n\\]\nSince \\(4\\cdot238<79^2\\), one has \\(\\sqrt{238}<79/2\\), and therefore\n\\[\n\\frac{363+6\\sqrt{238}}{40}\n<\n\\frac{363+237}{40}\n=15.\n\\]\n\nThe added cyclic singleton hypothesis holds at equality:\n\\[\n\\left(\\sum_{|G|=1}\\sqrt{r_G}\\right)^2\n=(3\\sqrt2)^2\n=18\n=2k.\n\\]\n\nFinally,\n\\[\n\\sum_i u_i+m+q_N+\\sum_{|G|=2}r_G+2r_N\n=\n\\frac35+1+\\frac25+3\n=5,\n\\]\nwhereas\n\\[\n\\frac{2M-m-k}{3}\n=\n\\frac{25-1-9}{3}\n=5.\n\\]\nThus every listed scalar hypothesis, including the cyclic singleton bound, is compatible with equality rather than strict all-double excess. This is only an exact scalar calibration; no common-plane or geometric realization is asserted.\n",
+  "source_packet_sha256": "a8bf6f9f8e23f279883f8b80f7b653b029f04edfda86eef17f37dba1c3710ebe",
+  "statement": "Let \\(N=\\{1,2,3\\}\\), and use the scalar notation of accepted fact `2bb72698f0248a65`, the all-double excess of accepted fact `91cb5bfc71da49ac`, the crossing and tail conditions of accepted fact `624b129b68e0fdee`, and the three-cap inequalities of accepted fact `8234d1112ec2f031`.\n\nAssign every unlisted cell mass zero and set\n\\[\np_\\varnothing=\\frac{119}{10},\n\\qquad\np_{\\{1\\}}=p_{\\{2\\}}=p_{\\{3\\}}=\\frac15,\n\\]\n\\[\nq_N=\\frac25,\n\\qquad\nq_{\\{1,2\\}}=q_{\\{1,3\\}}=q_{\\{2,3\\}}=\\frac15,\n\\]\n\\[\nr_{\\{1\\}}=r_{\\{2\\}}=r_{\\{3\\}}=2,\n\\qquad\nr_{\\{1,2\\}}=r_{\\{1,3\\}}=r_{\\{2,3\\}}=1,\n\\qquad\nr_N=0.\n\\]\nThen all masses are nonnegative, the \\(Q\\)-support is exactly all-double, and\n\\[\nM=\\frac{25}{2},\\qquad m=1,\\qquad k=9.\n\\]\nThis calibration satisfies the three crossings, all canonical tail constraints, the three-cap product and square-root inequalities, the multiplicity-corrected inequality, and\n\\[\n\\left(\\sum_{|G|=1}\\sqrt{r_G}\\right)^2\\le 2k.\n\\]\nNevertheless,\n\\[\n\\sum_i u_i+m+q_N+\\sum_{|G|=2}r_G+2r_N\n=\n\\frac{2M-m-k}{3},\n\\]\nso the required strict inequality fails.\n",
+  "subgoal_id": "canonical-all-double-cyclic-sufficiency"
+}

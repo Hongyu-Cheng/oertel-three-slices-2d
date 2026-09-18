@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The algebraic parameter isolations and identities are exact. The verified profile slope inequalities and positive section widths prove the claimed convex polygon, the sign-cell convention gives precisely the stated six positive cells and empty Q_2 cell, all six coordinate-area integrals are correct, and the common affine translation and sign change preserve the accepted inverse area Jacobian, yielding exactly the physical areas in the table. Boundary cutting lines have area zero and every positive cell has nonempty interior.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

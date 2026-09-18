@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The supplied centroid halfspace inequality applies exactly as used, all strip and monotonicity estimates are correct, the two centroid-sign cases exhaust the possibilities, accepted theorem 0688f679297c8baa is invoked with the correct permutation, and the final strict mass inequality contradicts omega>0 throughout the stated open strip, including r=1/5.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

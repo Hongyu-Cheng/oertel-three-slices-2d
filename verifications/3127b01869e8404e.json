@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The argument is complete and correct. The strict row budget forces positive complement areas and an allocation budget below A; complement areas are exact because each coordinate-zero section has planar area zero, and midpoint compatibility restricts the endpoint complements into the middle complement. Planar Brunn-Minkowski then yields (4). The concavity and endpoint comparison in the allocation minimization are valid for A<B, while the substitutions in (6), the factorization and strict bounds in (7), and the right-side estimate (9) are exact. These give incompatible strict bounds around sqrt(2), with no dependence on the other two rows or omitted boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

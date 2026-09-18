@@ -1,0 +1,17 @@
+{
+  "advances": "Disproves the claim that every compatible balanced triple is solved by \\(y=(1,(g_0+g_2)/2)\\), while making no claim against the locked existence theorem.\n",
+  "author": "mp_r3_midpoint",
+  "candidate_id": "58bda9b5e8e68d8e",
+  "candidate_schema": 2,
+  "created_at": "2026-07-31T04:47:07.978326+00:00",
+  "depends_on": [
+    "8ad0785e5b4ae9ef"
+  ],
+  "external_sources": "none\n",
+  "kind": "counterexample",
+  "packet_file": ".math-prover/packets/58bda9b5e8e68d8e.md",
+  "proof": "Coordinatewise Minkowski addition gives\n\\[\n\\frac{A_0+A_2}{2}\n=\n[-5/8,5/8]\\times[-5/32,5/32]\n\\subseteq A_1.\n\\]\nThus accepted fact `8ad0785e5b4ae9ef` shows that\n\\[\nC=\\operatorname{conv}\\left(\n(\\{0\\}\\times A_0)\\cup(\\{1\\}\\times A_1)\\cup(\\{2\\}\\times A_2)\n\\right)\n\\]\nis a compact polytope whose integer-height sections are exactly the three prescribed slices.\n\nThe areas are\n\\[\na_0=2\\cdot\\frac12=1,\\qquad\na_1=\\left(\\frac{103}{40}+\\frac58\\right)\\frac5{16}\n=\\frac{16}{5}\\frac5{16}=1,\n\\qquad\na_2=\\frac12\\cdot\\frac18=\\frac1{16}.\n\\]\nHence\n\\[\nT=\\frac{33}{16},\n\\qquad\n\\frac T2=\\frac{33}{32},\n\\]\nso \\(a_0,a_1,a_2<T/2\\).\n\nBoth \\(A_0\\) and \\(A_2\\) are centrally symmetric about the origin, hence\n\\[\ng_0=g_2=(0,0).\n\\]\nTherefore \\(y=(1,0,0)\\), which belongs to \\(\\{1\\}\\times A_1\\). The boundary of\n\\[\nH=\\{(x,u,v):u\\le x-1\\}\n\\]\ncontains \\(y\\). Its three slice sections have areas\n\\[\n\\left|A_0\\cap\\{u\\le-1\\}\\right|=0,\n\\]\nbecause this intersection is only the edge\n\\(\\{-1\\}\\times[-1/4,1/4]\\),\n\\[\n\\left|A_1\\cap\\{u\\le0\\}\\right|\n=\n\\frac58\\cdot\\frac5{16}\n=\n\\frac{25}{128},\n\\]\nand\n\\[\n\\left|A_2\\cap\\{u\\le1\\}\\right|\n=\n|A_2|\n=\n\\frac1{16}\n=\n\\frac8{128}.\n\\]\nThus\n\\[\n\\mathcal H_2(S\\cap H)\n=\n\\frac{25}{128}+\\frac8{128}\n=\n\\frac{33}{128}.\n\\]\nOn the other hand,\n\\[\n\\frac{2T}{9}\n=\n\\frac{2}{9}\\frac{33}{16}\n=\n\\frac{11}{24},\n\\qquad\n\\frac{11}{24}-\\frac{33}{128}\n=\n\\frac{77}{384}>0.\n\\]\nSince \\(H\\) is a closed halfspace containing \\(y\\),\n\\[\nh_S(y)\\le\\mathcal H_2(S\\cap H)\n=\\frac{33}{128}\n<\\frac{2T}{9}.\n\\]\n",
+  "source_packet_sha256": "ad5723d33d23da0483edbeb3b85a55b47b5df0652e400232dc0a4d1375d40e12",
+  "statement": "Write planar coordinates as \\((u,v)\\), and define the rational rectangles\n\\[\n\\begin{aligned}\nA_0&=[-1,1]\\times[-1/4,1/4],\\\\\nA_1&=[-5/8,103/40]\\times[-5/32,5/32],\\\\\nA_2&=[-1/4,1/4]\\times[-1/16,1/16].\n\\end{aligned}\n\\]\nThese polygons form a compatible balanced triple: there is a compact polytope \\(C\\subseteq\\mathbb R^3\\) whose integer-height sections are exactly \\(\\{i\\}\\times A_i\\), and their areas satisfy \\(a_i<T/2\\) for every \\(i\\). Nevertheless, for\n\\[\ny=\\left(1,\\frac{g_0+g_2}{2}\\right),\n\\]\nthe single closed halfspace\n\\[\nH=\\{(x,u,v)\\in\\mathbb R^3:u\\le x-1\\}\n\\]\nsatisfies\n\\[\n\\mathcal H_2(S\\cap H)=\\frac{33}{128}<\\frac{2T}{9}.\n\\]\nConsequently \\(h_S(y)<2T/9\\).\n",
+  "subgoal_id": "midpoint-center-universal"
+}

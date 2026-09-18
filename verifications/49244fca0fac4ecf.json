@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the two chord-width bounds from the high-high area constraint, factors and bounds both cross terms to obtain the strict shape-budget inequality, converts the resulting depth alternative into the claimed clipped-area lower bound via planar Brunn-Minkowski, verifies the numerical comparison, and applies the accepted triangle-family estimates with the correct strictness and constants. All positivity, compactness, boundary, scaling, and specialization requirements are satisfied.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

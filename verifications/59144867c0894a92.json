@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly establishes the contact-point constructions, the convex-hull and segment-extrusion identities with all Jacobian factors, both clipped-area formulas, the Brunn--Minkowski forced-tail bound, and the final strict consequence. The degenerate case q_u=q_v and all required positivity and boundary-measure issues are handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

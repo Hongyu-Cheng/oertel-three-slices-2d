@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The profile continuity, monotonicity, endpoint limits, and threshold-ray description are proved correctly. The depth identity follows exactly from the accepted halfspace formula, the finite Helly classification and strict threshold perturbation handle all boundary and attainment issues, and the global minimal-triple argument correctly derives positive Farkas weights, preserves emptiness after shifting, realizes finite low-mass slopes, and obtains the normalized affine relation.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

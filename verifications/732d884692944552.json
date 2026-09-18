@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "Parts 1--3 and the displayed scalar arithmetic are essentially correct, but the statement is not fully well-defined and the claimed identification of the precise first missing geometric datum does not follow from the scalar calibration.",
+  "critical_errors": [
+    "The symbol k is defined as the scalar area |K| and is later redeclared as an element of N via N\\setminus\\{j\\}=\\{k,\\ell\\}. These meanings coexist in the statement, and equation (24) again uses k as the area immediately after (j,k,\\ell)=(3,1,2). Thus the quantified statement is formally ambiguous (and literally would identify |K| with an index)."
+  ],
+  "gaps": [
+    "The table proves only that the listed masses, crossings, tails, W equation, and aggregate endpoint/slab capacity inequalities have a scalar solution. It explicitly does not prove that these exact P-, Q-, and R-cell masses are individually realizable by convex polytopes in one sign arrangement, much less simultaneously realizable in a compatible common-plane triple. Consequently it cannot establish that the first missing datum is precisely a transverse three-cap coupling for Z, or that a constrained fiber-transport or mixed-area inequality is equivalent to everything still missing; other one-body or common-arrangement convex-geometric constraints may already rule out the table."
+  ],
+  "repair_hints": [
+    "Rename the area |K|, for example to \\kappa, throughout, leaving k exclusively as the complementary index.",
+    "Either weaken the final conclusion to the certified statement that the explicitly checked scalar inequalities alone do not yield a contradiction, or prove the required individual and common-arrangement realizability results and then justify why only the stated transverse coupling remains."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

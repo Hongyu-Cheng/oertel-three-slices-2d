@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The deficit decomposition, exact-cell estimate, canonical-branch lower bound, strengthened scalar bridge, and numerical threshold algebra are correct. However, the proof does not cover the s=0 case included in the quantified shape-modulus statement, and it also describes a certified lower-bound margin as though it were the actual depth margin.",
+  "critical_errors": [],
+  "gaps": [
+    "The shape-modulus assertion is quantified for s=0 and defines Omega(0)=0, but Christ's Theorem 1.1 has parameter delta in (0,infinity). The proof applies it with delta=s and gives no separate argument when s=0. In that case Delta_0=0 does imply equality in Brunn--Minkowski and hence exact homothety for the full-dimensional convex polytopes, but this equality-case implication is not established in the candidate.",
+    "Grunbaum's inequality proves only h_S((0,g_0)) >= 4M/9. Thus (4M/9)-2(M+m+k)/9 is a guaranteed lower-bound margin. The claim that the witness itself has a depth margin converging to exactly 1/6 is not justified without a matching upper bound; the proof establishes only a limiting guaranteed margin, equivalently a liminf lower bound for the actual margin."
+  ],
+  "repair_hints": [
+    "Handle s=0 separately using the equality characterization of Brunn--Minkowski: zero deficit forces A_0 and A_2 themselves to be homothetic, so one may take H_0=A_0 and H_2=A_2.",
+    "Either state (12) explicitly as the margin in the certified lower bound, or prove that the actual halfspace depth has the asserted limiting value."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

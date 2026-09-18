@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is logically complete: the affine normalization, boundary reduction, gap and cap inequalities, endpoint-threshold contradiction, rational-box audit, and limiting treatment of coincident chord endpoints all apply under the stated hypotheses and yield exactly the claimed bounds.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

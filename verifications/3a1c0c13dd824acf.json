@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The geometric data, clipped-cell areas and differentials, fixed-stratum row replacements, rank computation, release-row identity, and resulting canonical dual certificate are all exact and mutually consistent.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

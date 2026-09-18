@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The implication is valid. The closed caps cover K because the affine-row sum is pointwise -1; the two empty-full crossings give c_2=c_3=t-m; the assumed strict failure gives c_1<t; and the resulting bound k<2M-4m combines with the residual-strip inequality k>M-m to yield 3m<M. The algebra, boundary coverage, strict inequalities, and use of the stated predecessor consequences are all correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

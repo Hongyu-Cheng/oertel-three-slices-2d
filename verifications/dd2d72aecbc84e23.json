@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The positive-denominator characterization, crossing formula, containment, orientation, area scaling, and overflow equivalence are correct, as is the existence criterion on the zero-denominator branch. However, the candidate makes a false literal assertion about the status of the displayed formulas on that branch.",
+  "critical_errors": [
+    "The statement that equations (3)-(7) are all undefined when beta+2-o=0 is false. On that branch o=2, so the polynomial inequality (7) is algebraically defined and reduces to 0>0, hence it is false, not undefined. Equation (4) also contains no quotient and becomes a well-defined true containment once the later permitted choice R=P is made. Only the quotient formulas (3), (5), and (6), together with any assertions using an as-yet-unselected unique R, are undefined."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Replace the blanket claim that (3)-(7) are undefined by the precise statement that (3), (5), and (6) have zero denominators; (4) is evaluated only after choosing a degenerate-branch R; and (7), although not obtained by an equivalence that permits division at this branch, is algebraically defined and specializes to the false inequality 0>0."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap-quantile formula, homothetic scaling, endpoint convolutions, and optimizer classification are all applied correctly. The three exact profile values follow, and their displayed strict inequality is a valid counterexample to superadditivity; the zero-demand, antipodal, and positive-spanning audits are also consistent with the accepted facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

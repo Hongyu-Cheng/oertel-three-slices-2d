@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap-profile inequalities, continuity and attainment claims, all-space halfplane-depth representation, compact reflected-body minima, closed-level equivalences, tilted and horizontal halfspace decomposition, reflected-depth reduction, routing equivalence, and balanced-regime specialization are correct with the stated boundary conventions and quantifiers. The if-and-only-if is correctly restricted to certification by the explicit lower bound (9).",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

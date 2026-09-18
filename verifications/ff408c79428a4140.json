@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The listed masses give the stated totals, supports, crossings, tails, cap inequalities, overlap correction, support implication, defect identity, strengthened singleton inequalities, and W=0. The exact partial-union expansions yield 20 positive P-side pairs and 20 positive Q-side pairs; the plane-sum exclusions are inactive in every positive-source case, the 25 area-pair minima in the displayed table are correct, and the four coordinatewise maximal checks prove all 400 inequalities strictly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

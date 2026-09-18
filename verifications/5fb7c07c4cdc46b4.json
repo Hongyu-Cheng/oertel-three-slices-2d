@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The endpoint reversal preserves every literal row mass and correctly orients every strict survivor with q>1 and the larger endpoint at P2. The supplied predecessor facts then give 0<A<B, the residual area inequalities, disjoint nonempty closed incidence sets I0 and I1, and I2 empty. A single simultaneous coordinate permutation yields exactly the three possible incidence orbits. At t<=1/2, including equality and all zero-entry strata, accepted fact 806575336d04fac7 excludes the third orbit, leaving precisely the two stated survivor orbits; at t>1/2 the first alternative holds without further assertion. All hypotheses, strict and weak boundaries, and conclusions match exactly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The core contact-reduction argument through (8) is mathematically sound, but the candidate does not verify all predecessor hypotheses and its final two-routing calibration contains claims not established by the supplied fact.",
+  "critical_errors": [],
+  "gaps": [
+    "Before invoking accepted fact 65512ded3a06d971, the proof never checks its required hypothesis 0<t<a_1+m. This does follow from the residual strip (for example s>1-r gives M<a_1+m, hence t=2(M+a_1+m)/9<a_1+m), but the applicability check is absent. The analogous range hypothesis for applying d2d117bcc58a1ba0 in the 74e60bee4b401289 calibration is also not checked in the candidate.",
+    "The last calibration asserts that the two support-extreme reflected routes in accepted fact 74e60bee4b401289 are not selected from the contact sets U_q(b) after fixing the unique optimizer, and then says that the example rules out replacement by a fixed allocation. The supplied accepted fact computes neither a_*(q), b=t-a_*(q), nor the argmax sets U_q(b), and the candidate supplies no calculation or argument connecting the reflected route caps to those argmax sets. The fact only proves failure of its particular two-route witness while the true depth region is nonempty, so these stronger contact-set and fixed-allocation assertions are unsupported."
+  ],
+  "repair_hints": [
+    "Verify the allocation-range hypothesis explicitly from the residual inequalities before using 65512ded3a06d971, and verify the numerical profile-range hypothesis before using d2d117bcc58a1ba0 in the second calibration.",
+    "For the two-routing calibration, compute or otherwise characterize the actual optimizer a_*(q), the residual demand b, and U_q(b) in the relevant directions, then prove the claimed nonmembership. Separately justify any claim about all fixed allocations; the failure of the two displayed reflected routes alone does not establish it."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate correctly derives the one-sided trace inequalities from the genuine lower crossings, proves the required nonnegative separator by excluding strict coordinate domination, obtains the convex-hull area lower bound from the retained axis traces, and reaches the stated contradictions in all three rows. The sufficient density condition and strict bulging reformulation have the correct cross-coordinate coefficients and follow algebraically from the separator-triangle bound. No mathematical error or gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

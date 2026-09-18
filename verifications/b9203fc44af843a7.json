@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine-coordinate geometry, visible-edge fan decomposition, clipping fractions, transverse-area bounds and equality case, charging-edge characterization, exact example, and crossing-area identities are all correct, including the stated boundary and repeated-vertex cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

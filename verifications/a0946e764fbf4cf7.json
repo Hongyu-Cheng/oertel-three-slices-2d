@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete. The planar barycentric halfspace estimate is proved for both pieces of every line through the point, condition (2) makes its application nondegenerate, the outer-centroid allocation bound controls the full infimal convolution, and the resulting profile and three-dimensional halfspace bounds establish (3) and (4). The rational calibration has correct areas, strict compatibility slacks, residual-strip inequalities, strict failure of the predecessor area criterion, strict new-criterion margin, and a valid continuity argument for a full neighborhood.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

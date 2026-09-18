@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The proof correctly establishes that no real sigma_1 can satisfy the two cap equations for U, V, and the fixed first row of L, but it does not justify the additional conclusion excluding rational counterexamples to the unspecified full locked system.",
+  "critical_errors": [],
+  "gaps": [
+    "The supplied material never defines the full locked system or establishes that every rational counterexample satisfying it must contain the fixed row (2) together with the exact cap equations (3). Accepted fact 64760c76cadff481 characterizes counterexamples using general rows and the strict inequalities (14), not these fixed equalities. Thus the final 'In particular' conclusion is not derivable from the candidate and accepted predecessor fact alone."
+  ],
+  "repair_hints": [
+    "Supply an accepted definition or reduction showing that every solution of the full locked system necessarily includes this fixed row and equations (3); otherwise the counterexample conclusion must be omitted."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

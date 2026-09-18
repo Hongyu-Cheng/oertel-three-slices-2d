@@ -1,0 +1,20 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The one-zero support deductions, Minkowski normalization, quadratic height bound, forced-strip coefficient, and the displayed rational calculations for the explicitly enumerated gates are correct. However, the equality and sharpness audit is incomplete, the open-chamber witness is not shown from the supplied facts to satisfy the literal full-doubleton hypotheses, and the final claim of a strict survivor of all accepted scalar constraints is broader than the gates actually audited.",
+  "critical_errors": [
+    "Equations (28)--(45) do not prove the final assertion that the accepted scalar constraints plus the separator have a strict rational survivor. Accepted fact 38b9d85f6c0c57a2 also includes the general completion interval, the three-cap completion filter, and the opposite endpoint, slab, total-reservation, and weighted gates. The candidate never defines the formal slab variable s_3 and never audits those latter gates. More decisively, for the proposed table A=k-k_0=1/2000 and F_1=F_2=F_3=-7/18000, so the completion lower endpoint is max{0,(9/2)max F_i,(9/7)max(-F_i)}=1/2000=A; hence this datum is not strict for that accepted completion gate."
+  ],
+  "gaps": [
+    "The claimed equality characterization omits the active-minimum condition. Equality in (9) requires h=delta H and equality of the support and section bounds only for an endpoint attaining the relevant minimum; if H_i<H_k, no equality is required in the k height bound, and in a tie it suffices that at least one tied endpoint attain height delta H. Thus the proof's statement that every inequality used is an equality precisely under all listed endpoint conditions is overbroad. The forced-strip condition alone also omits h=delta H.",
+    "Calling (9) sharp is unsupported: the proof gives necessary equality conditions but supplies no simultaneous convex realization attaining them, so attainability or optimality of the bound is not established.",
+    "The supplied statement of accepted fact 9fdba5fffd591cda does certify a strict reverse inequality for its scalar data, but it does not state p_{ij}p_{ik}p_{jk}>0. Therefore it does not, from the allowed evidence alone, establish that the nonempty exclusion chamber intersects the literal full-doubleton hypothesis class. In addition, openness should be qualified as relative to the q_j=0 stratum and the radicand-admissible parameter domain."
+  ],
+  "repair_hints": [
+    "Either restrict the scalar conclusion to the explicitly enumerated gates and remove the broad words accepted scalar constraints and strict, or specify s_3 and audit every gate imported from accepted fact 38b9d85f6c0c57a2; change the table if strict completion slack is intended.",
+    "State equality in terms of the endpoint indices attaining H, include h=delta H, and prove an attaining realization before using sharp.",
+    "For the chamber claim, provide a strict reverse witness that explicitly satisfies all three positive p-doubleton hypotheses and state the topology relative to the one-zero stratum."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

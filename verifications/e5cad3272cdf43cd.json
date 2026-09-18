@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The explicit polygons satisfy (N1)--(N9), the transformed section calculations and argmin correspondence are correct, the pushforward marginal argument rigorously bounds every unit-dominated lift by 38, both required preservation masses exceed that bound, and the functional and two-sided tail calculations are exact.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

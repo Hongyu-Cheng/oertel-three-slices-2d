@@ -1,0 +1,18 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The algebraic core-cap and defect-only manipulations and the concrete family's exact geometry, cap values, ordering, and interval separation check out. The candidate nevertheless has an invalid predecessor invocation at the stated generality and does not supply definitions needed to audit its claimed lower-orientation condition.",
+  "critical_errors": [
+    "Accepted fact 6f6869df3d151764 assumes only that the affine functions sum to -1, whereas accepted fact 5b75ecd9ec86dbcf additionally requires every f_i to be nonconstant and the three functions to be pairwise nonparallel. The candidate imports the former setup, falsely says its hypotheses are exactly those of the latter, and applies 5b75ecd9ec86dbcf without adding or proving those hypotheses. Thus (8), and consequently the general claims (1) and (2), are not established for the stated generality. The concrete functions in (3) do satisfy the missing hypotheses, but that does not repair the preceding universal claim."
+  ],
+  "gaps": [
+    "The terms 'genuine lower orientation condition' and 'strict-low component' are not defined in the candidate or either accepted predecessor, so the monotonicity observations around a=-100 do not constitute an auditable proof of that named condition.",
+    "The sets Q_{\\{3\\}} and Q_{\\{1,2\\}} used in (15) are never defined. Their intended sign-cell meaning is inferable, and the later exact values in (16) can instead show interior cutting by checking 0<v_i<m, but the argument as written is not self-contained at this point."
+  ],
+  "repair_hints": [
+    "Explicitly assume that f_1,f_2,f_3 are nonconstant and pairwise nonparallel in the general cutoff statement, or add a separate proof covering every degenerate constant or parallel case before invoking accepted fact 5b75ecd9ec86dbcf.",
+    "Define the lower-orientation and strict-low-component predicates and the Q_S cells, then match the proved support-margin and strict cap-monotonicity statements to those definitions. Alternatively, replace the Q_S appeal for interior cutting with the explicit comparisons 0<v_i<m."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate correctly specializes the accepted first-order release lemma using the exhaustive bounded capacity-code classification. The equality and active-inequality rows, capacity differential conventions, Farkas alternative and signs, rational-certificate qualification, reduced cone criterion, event trichotomy, recode-or-stop rule, and stated invariances all follow from the supplied predecessor facts, with no mathematical error or missing case.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

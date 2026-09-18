@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is correct. Independent exact rational checks confirm the affine data, convex cyclic vertex certificates, endpoint areas, complete positive and zero-area sign-cell supports, unique active vertex level and its unequal adjacent chord-density slopes, all three one-sided density inequalities, the endpoint-cap sums and strict tail margins, the midpoint Minkowski polygon and its area, the half-plane cap area, and the final strict reverse inequality. The proof accounts for boundary assignments through the supplied exact-cell convention and uses the supplied one-sided density convention correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

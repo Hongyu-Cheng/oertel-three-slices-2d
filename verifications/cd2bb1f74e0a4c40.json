@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct. The quantile construction handles saturated full caps through the endpoint intervals, includes q=m and zero-area shifted caps, exhausts the endpoint alternatives, applies the accepted concurrent theorem with exactly matching hypotheses, and derives the exact-cell inequality by correct cell algebra.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

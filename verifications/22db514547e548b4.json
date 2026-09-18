@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete for arbitrary nonempty zero sets. The perturbation map is genuinely three-dimensional and activates all zero entries in the first two rows simultaneously while the third row remains nonzero. Column sums, q, the compensated small-endpoint centroid, midpoint compatibility, and determinant nonvanishing are preserved exactly or on a uniform sufficiently small interval. All strict centroid signs persist, and fixing g_0 exactly preserves its possible zero-coordinate and coordinate-equality degeneracies. The literal closed-cap function is upper semicontinuous at every repeated-value, threshold-hit, and constant-at-threshold degeneration, so all three strict mass bounds persist uniformly. The resulting all-nine-nonzero systems have a fixed support pattern for small positive epsilon; accepted fact 89f1aef98e9b8915 then puts that fixed pattern in the contained-support orbit, allowing one fixed relabeling for the convergent tail.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

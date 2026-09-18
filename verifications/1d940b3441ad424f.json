@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly partitions the nonnegative square-root caps into the balanced triangle-inequality case and a strictly dominant unbalanced case. The two accepted predecessor facts apply with exactly the stated hypotheses and algebraically identical definitions of the caps, cover all cyclic dominant cases, and give the claimed universal inequality and unique equality configuration.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

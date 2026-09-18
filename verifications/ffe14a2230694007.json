@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the affine triangle normalization and area formula, proves the single-corner inequality with all threshold and degenerate cases handled, takes the exact logical complements, establishes the common-core aggregate bound, and verifies the rational example.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

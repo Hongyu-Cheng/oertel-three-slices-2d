@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The clipping formulas, breakpoint enumeration, endpoint cases, and one-variable minimization correctly give G_lambda = 1/8 on the full interval. Consequently M_lambda(1/4) exceeds 11/48, monotonicity yields R_1(lambda) <= 1/4, and the accepted fixed-direction endpoint values imply the stated strictly negative Farkas-weighted bound. The common-point argument for the closed complements is valid for 0 < lambda <= 1 and at lambda = 0.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

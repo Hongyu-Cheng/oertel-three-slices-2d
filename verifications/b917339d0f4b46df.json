@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is correct. The proof establishes attainment of the planar depth maxima, realizes a compatible midpoint witness in L, applies the accepted exact middle-slice depth formula, obtains the uniform middle-cap lower bound by Brunn--Minkowski, proves the linked outer-cap contribution is at least E for every allocation, and verifies the 9/25 cutoff algebra including equality and degenerate boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

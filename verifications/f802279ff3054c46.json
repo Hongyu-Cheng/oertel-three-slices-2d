@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The containment argument is complete: for any fixed p in a nonempty P, pairing p with the two stated vertices of K forces s_1(p) into the disjoint intervals [-5,-3] and [-9,-7]. The cap budgets are also obtained by correct exact subtraction from 4A/9 using the accepted predecessor data.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

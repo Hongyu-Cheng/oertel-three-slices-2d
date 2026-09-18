@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is correct. The polygon areas and homothetic identity are valid, the affine functions have the stated linear-part properties and sum, the zero shifts give the asserted scaled low caps, the three cap-area computations are exact, and each resulting quantity is strictly less than 7/24. The relevant cuts are nondegenerate.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

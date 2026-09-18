@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The compactifying substitution and its inverse are exact on the positive face; the cap constraints, strict minor-product consequence, threshold rescaling, and all seven terms of the defect function are transformed correctly. The proof correctly shows that the common d1 term creates no additional survivor branch, identifies the minimum clipped term by the smaller minor coordinate, and derives the three exhaustive semialgebraic alternatives with all signs and clipping boundaries preserved. For a full positive-middle W=0 realization, the supplied scale and cap facts give D<tau and D>=delta, hence a strict selected survivor alternative and D A<49 z^2. The eight endpoint-pair strata in the supplied unequal-cap normal form therefore give the stated 24 necessary systems after clearing only positive denominators. Finally, eta/q tending to zero forces r_123/q tending to zero, so the cited nondegeneration fact applies exactly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

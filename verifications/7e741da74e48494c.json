@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The neighborhood condition gives a valid uniform lower bound on each middle cap after the permitted positive scaling and row and column permutations. The three U-end caps cover the simplex by the column-sum identity and the strict threshold-sum inequality, while the V-end caps are nonnegative. Averaging yields exactly the claimed positive gap, with all boundary and repeated-projection cases covered.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

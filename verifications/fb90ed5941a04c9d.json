@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The residual-domain inequalities imply the stated bounds on D0, the middle-cap covering argument yields the strict common cap budget, and both affine-coordinate triangle estimates have the correct Jacobian, strictness, and boundary handling. The endpoint contradiction, support-function reformulation, and rational chamber example are all correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

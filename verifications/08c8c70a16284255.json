@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The all-direction depth bound is proved correctly in every normal-direction case, the cap computations and quantitative margins are valid on the full parameter range, and the explicit quadrilateral, compatibility, and endpoint strict-low covers are verified by exact arithmetic. The stated middle-slice obstruction and its relation to the accepted predecessor fact match the conclusions proved.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

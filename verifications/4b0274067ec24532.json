@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically correct under the stated rectangular full-transversality and support-order hypotheses. The affine normal form and offset sums are valid, the weighted crossing equations yield identity (14), the endpoint cells force the full A_2 hull and hence the projection bounds, and the strict zero-graph span estimates lead by correct algebra to (6o), (6c), (7o), and (7c).",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The normalized centroid criterion is correctly transformed into G(r,s) >= 0 with all squaring signs justified. The proof then correctly establishes strict monotonicity in s, determines the exact signs on both lower and upper residual-strip boundaries, locates the unique interior threshold S_c(r), and handles every open and closed endpoint needed to obtain exactly the uncertified region in (4). No mathematical error or gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

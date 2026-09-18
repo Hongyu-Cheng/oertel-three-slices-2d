@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The explicit polygon geometry, area calculations, cap and gate inequalities, crossing profile, Minkowski-sum description, and midpoint-area computation are correct. However, the candidate is not self-contained under the supplied verification context: the function U is never defined, so its alleged first branch and the equality M U(1/2)=3 cannot be verified.",
+  "critical_errors": [],
+  "gaps": [
+    "Neither the candidate statement nor any accepted predecessor fact defines U or states that U(r)=1+r when r<rho. Thus the final comparison to M U(1/2) rests on an unstated result."
+  ],
+  "repair_hints": [
+    "Supply the complete definition of U, including the branch condition at rho, in the candidate or as an accepted predecessor fact."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

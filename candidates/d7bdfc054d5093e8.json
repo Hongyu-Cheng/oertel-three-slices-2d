@@ -1,0 +1,11 @@
+{
+  "author": "mp_r1_convex_slices",
+  "candidate_id": "d7bdfc054d5093e8",
+  "created_at": "2026-07-31T03:55:41.866044+00:00",
+  "depends_on": [
+    "8ad0785e5b4ae9ef"
+  ],
+  "kind": "lemma",
+  "proof": "The planar Brunn-Minkowski theorem states that for nonempty planar convex\nbodies \\(B,D\\subseteq\\mathbb R^2\\) and every \\(\\lambda\\in[0,1]\\),\n\\[\n\\bigl|(1-\\lambda)B+\\lambda D\\bigr|^{1/2}\n\\ge (1-\\lambda)|B|^{1/2}+\\lambda|D|^{1/2}.\n\\]\n\nFor necessity, let \\(A_i\\) be the height-\\(i\\) section of a realizing\npolytope. By hypothesis, each \\(A_i\\) is two-dimensional, so\n\\(a_i=|A_i|>0\\). By accepted fact `8ad0785e5b4ae9ef`,\n\\[\n\\frac{A_0+A_2}{2}\\subseteq A_1.\n\\]\nArea monotonicity and the planar Brunn-Minkowski theorem with \\(B=A_0\\),\n\\(D=A_2\\), and \\(\\lambda=1/2\\) give\n\\[\n\\sqrt{a_1}\n\\ge \\left|\\frac{A_0+A_2}{2}\\right|^{1/2}\n\\ge \\frac{\\sqrt{a_0}+\\sqrt{a_2}}{2}.\n\\]\n\nFor sufficiency, suppose \\(a_0,a_1,a_2>0\\) and\n\\(\\sqrt{a_0}+\\sqrt{a_2}\\le2\\sqrt{a_1}\\). Let \\(K=[0,1]^2\\) and define\n\\(A_i=\\sqrt{a_i}\\,K\\). Then each \\(A_i\\) is a two-dimensional convex\npolytope with area \\(a_i\\), and\n\\[\n\\frac{A_0+A_2}{2}\n=\\frac{\\sqrt{a_0}+\\sqrt{a_2}}{2}K\n\\subseteq\\sqrt{a_1}K=A_1.\n\\]\nAccepted fact `8ad0785e5b4ae9ef` therefore supplies a compact polytope whose\ninteger-height sections are exactly these \\(A_0,A_1,A_2\\), with no other\nnonempty integer-height section.\n\nThe planar Brunn-Minkowski theorem used above originates in Hermann Brunn,\n*Ueber Ovale und Eifl\u00e4chen: Inaugural-Dissertation*, Akademische\nBuchdruckerei von F. Straub, Munich, 1887, 42 pages, Bayerische\nStaatsbibliothek shelfmark Math.p. 57 mz, URN\n`urn:nbn:de:bvb:12-bsb11650764-6`,\nhttps://www.deutsche-digitale-bibliothek.de/item/6J63DGQIMCO3LHKRNUPGC47B3OQEZI7N.\n",
+  "statement": "A triple \\((a_0,a_1,a_2)\\) is realized as the planar areas of three\ntwo-dimensional convex-polytope sections at integer heights \\(0,1,2\\) of a\ncompact polytope \\(C\\subseteq\\mathbb R^3\\), with no other nonempty\ninteger-height section, if and only if\n\\[\na_0,a_1,a_2>0\n\\quad\\text{and}\\quad\n\\sqrt{a_0}+\\sqrt{a_2}\\le 2\\sqrt{a_1}.\n\\]\n"
+}

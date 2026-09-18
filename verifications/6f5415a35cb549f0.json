@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives translation equality from the accepted Brunn--Minkowski fact, uses support functions to force the common cap shape to be the stated triangle, calibrates coordinate and physical areas consistently, proves the determinant lower bound, and constructs a valid equality configuration. All hypotheses, boundary cases used in the argument, and the sharpness claim are accounted for.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

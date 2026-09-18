@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cover criterion, exact intersection-area formula including both endpoint cases, max lower bound, and equality characterization are all proved correctly with complete handling of hypotheses, inequality directions, and equality conditions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

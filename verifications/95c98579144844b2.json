@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "All cap formulas, determinant and row-sum calculations, scalar margins, budget identities, threshold comparisons, and radical branch and square computations check exactly. The alpha and radical witnesses correctly show that the cited sufficient endpoint criteria do not apply, the rectangle claim is expressly only an arithmetic separation, and the statement explicitly disclaims joint endpoint realizability and compatible U, V, sigma.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

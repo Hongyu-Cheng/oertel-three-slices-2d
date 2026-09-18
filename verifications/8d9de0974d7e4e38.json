@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The shape inequality follows from the six supporting determinant inequalities in the positive endpoint stratum and extends to coincident endpoints by the supplied truncation and continuity argument. The central-cell estimate, mixed-area bounds, small-D modulus, and Brunn--Minkowski equality classification are algebraically and logically consistent, including all stated boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

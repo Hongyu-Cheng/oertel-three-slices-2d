@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The statement follows from the supplied hypotheses and accepted predecessor facts. Compactness yields finite-slope attainment and continuous middle depth, compatibility gives zero boundary depth, and the interior maximum has three positively spanning active normals because opposite active normals contradict the strict area bound. The directional derivative formulas cover transverse chords, empty and full supporting-edge caps, point sections, and missed sections. The supporting-edge moment sets are indeed convex and every point in them is realized by an actual subsegment, so the separation argument supplies one simultaneous selection satisfying both equal outer lengths and vector moment balance. Compatibility then gives the asserted segment containment and the sharp displayed displacement bound, including the zero-length case. No mathematical error or proof gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap constraints and the accepted variable-cap bound are applied with matching hypotheses. Each component of the minimum is correctly bounded below by 15/64, the comparison with q/Phi(m,q) is strict throughout the stated ratio region, and the scalar bridge then excludes W=0. The boundary and degeneracy claims are covered by the cited accepted facts and the non-strict inequalities used in the proof.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

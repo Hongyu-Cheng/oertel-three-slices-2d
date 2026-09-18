@@ -1,0 +1,20 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The convex-hull and mixed-area calculations are largely correct, but the stated hypotheses do not justify the common-level identity needed for the charge gate, and the final scalar-escape audit uses numerical data that are not supplied.",
+  "critical_errors": [
+    "Equation (16), and hence implication (5), is imported from accepted fact 1e269d4c02c94338 without assuming that fact's finite-interior, canonical-tail, actual-counterexample, and other branch hypotheses. The candidate assumes only the affine/exact-cell setting, the Q-support, the three crossings, and W=0, and it neither defines W^star independently nor proves the coefficient decomposition under this weaker scope. Exact applicability of the cited predecessor therefore fails.",
+    "The stated assumptions do not ensure that P_emptyset is nonempty (accepted fact 0e51a47a9add571f guarantees only that its ambient sign chamber has interior). Consequently P may be empty, in which case the asserted planar mixed area V(P,C) is not defined in the standard sense. Positivity of p is available only under additional hypotheses of accepted fact 1e269d4c02c94338, which were not assumed."
+  ],
+  "gaps": [
+    "The scalar-escape paragraphs assert P^star+Q^star=51/20 and r_12=1/20000, but the displayed scalar data give only M, k, m, p, q_1, and q_2, and neither accepted predecessor supplies the missing cell values. Thus the claimed exclusion by the charge gate is unsupported from the permitted information.",
+    "The closed-versus-exact hull argument does not explicitly establish closure(E+F)=closure(E)+closure(F) for the three exact midpoint images. Closing the source cells on cutting lines alone does not directly prove the asserted target-hull closure relation without this additional bounded-set argument."
+  ],
+  "repair_hints": [
+    "Either assume the full hypotheses and notation of accepted fact 1e269d4c02c94338, including p>0, or define W^star and derive the coefficient identity directly under the intended weaker assumptions.",
+    "State all scalar cell masses needed to compute P^star+Q^star and r_12, or delete the unsupported scalar-escape audit.",
+    "Add the short density/compactness proof that each closed midpoint image is the closure of its exact midpoint image before commuting closure with the finite convex hull."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

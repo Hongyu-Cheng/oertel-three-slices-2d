@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The exact-cell decompositions, midpoint inclusions, closure replacements, and Brunn--Minkowski application are valid under the stated hypotheses. The symmetric table has source partial-union areas 58 and 1 and target partial-union area 18 for every k, while the required lower bound is strictly greater than 18, so all three inequalities are violated and the claimed nonrealizability follows.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

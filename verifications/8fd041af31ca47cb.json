@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate correctly derives the sharp middle-row constraint, excludes the quadratic large-endpoint branch, and proves positivity on the remaining mixed branch with a valid rational interval certificate. The pointwise envelope implication and the accepted boundary perturbation fact then give exactly the stated conclusions, with switch equalities and degenerate boundary strata covered.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

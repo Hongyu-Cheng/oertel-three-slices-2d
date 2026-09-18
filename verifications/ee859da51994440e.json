@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The triangle centroid-cap lemma is valid on all sign, equality, and repeated-value strata, with the claimed strict variants. The disjointness and global exclusion of I_2 follow from correct cap lower bounds, cover sums, strict row summation, and the residual arithmetic. In the singleton-singleton orbit, all centroid signs, translated-homothet cap arguments, B/9 and complementary bounds, the column-sum cover, row-budget bounds, and exact threshold-0 and threshold-1 vertex formulas are justified, including branch boundaries and repeated endpoint values. The final A/B<3/8 restriction is applied only to counterexamples and, since A<=B, matches the accepted global ratio fact.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

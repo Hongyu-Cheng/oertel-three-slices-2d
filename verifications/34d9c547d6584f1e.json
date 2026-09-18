@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically complete: it obtains the positive residual bound from the two low-mass witnesses, constructs positive-area simultaneous complements, applies midpoint containment and planar Brunn-Minkowski for the square-root estimate, and uses the pair-sum convolution bound for the product estimate. All strict inequalities, endpoint minimizations, and the final contrapositive are valid under the stated hypotheses.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

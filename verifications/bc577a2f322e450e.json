@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The support-envelope criterion is proved in both directions, with strict positivity excluding zero and infinite interval endpoints and with nonempty interior producing the two distinct exposed corner edges. Adding the central triangle does not change those edges because every positive-slope support functional is nonpositive on the triangle and vanishes there only at the relevant corner. The support-function identity, perturbation claim, corner-parameter substitutions, application of the accepted single-corner and common-core inequalities, and the explicit midpoint example are all mathematically consistent with the stated hypotheses and accepted predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

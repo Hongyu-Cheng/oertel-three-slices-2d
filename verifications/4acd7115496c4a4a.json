@@ -1,0 +1,19 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The reflected-cap reduction is largely plausible, but the proof as written has an invalid Brunn--Minkowski application and the final scalar example does not establish its claimed nonimplication because it does not address the minimum over all contact choices.",
+  "critical_errors": [
+    "The proof applies planar Brunn--Minkowski to the two cap sets before proving that the reflected cap in A_k is nonempty. Standard Brunn--Minkowski does not apply to an empty summand (and its asserted inequality is false in general when one summand is empty and the other has positive area). In the zero-demand case, the later argument in fact obtains d_l <= Q_{k,q_l}(0), so the reflected cap can indeed be empty. For positive demand, nonemptiness follows only later from (8), via d_l >= Q_{k,q_l}(v_l). Thus the stated derivation of (3) is not valid sequentially.",
+    "The data in (11) give only one selected triple of contacts with sum_l w_l > m. Condition (SRD) concerns the minimum over every allowed contact triple. A single selection above m neither shows that the minimum is at least m nor constructs contact sets and cap functions for which the displayed selection is minimizing (or is the only selection). Therefore (11), especially while explicitly not asserted geometrically realizable, does not prove that the residual scalar constraints and all separate Brunn--Minkowski rows cannot imply (SRD)."
+  ],
+  "gaps": [
+    "The assertion that r=1/4 and s=1 lies strictly in the full residual strip is not verifiable from either supplied predecessor statement, because the full defining inequalities of that strip are not supplied or reproduced."
+  ],
+  "repair_hints": [
+    "Prove the contact comparison (4), or at least d_l >= Q_{k,q_l}(v_l) for b_l>0, before invoking Brunn--Minkowski. Then apply Brunn--Minkowski only in the positive-demand case and handle b_l=0 directly using u_l=w_l=0.",
+    "To justify the claimed scalar nonimplication, provide a complete scalar countermodel for the quantified minimum, including the entire allowed contact sets and the values of w_l on all of them, with every scalar premise holding and min sum_l w_l >= m. Otherwise weaken the example's conclusion to the pointwise statement it actually demonstrates.",
+    "Supply the exact residual-strip inequalities and check the claimed numerical membership, or omit that membership claim."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

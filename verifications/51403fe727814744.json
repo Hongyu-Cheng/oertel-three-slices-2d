@@ -1,0 +1,19 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The algebra establishing the projected scalar region and the numerical checks is largely correct, but the claimed universal refutation does not follow. The displayed rows are only a point of the scalar relaxation, not an actual Alternative 1 geometric instance, and the purported reduction is not stated precisely enough to justify the assumption that it must retain the chosen cap areas.",
+  "critical_errors": [
+    "The rows in (6) are proved feasible only for the listed scalar inequalities. The candidate expressly disclaims polygonal realizability, so it has not produced an actual Alternative 1 instance. Consequently this scalar point cannot by itself refute a reduction asserted for all actual Alternative 1 configurations, nor support the claim that every proof for actual instances must work over all of (2).",
+    "The conclusion assumes without a stated theorem that the proposed reduction must replace the cell rows while keeping c_i=c_ell=43/100. Region (2) was obtained by projecting out c_i and c_ell, and the calibrated rows remain feasible in that projected scalar system if smaller cap values are chosen. Thus (7) only disproves the particular fixed-cap substitution, not an undefined universal monotone extremal reduction."
+  ],
+  "gaps": [
+    "The affine-normalization paragraph is conditional on actual bodies and transported cutting functions, but no bodies realizing (6) are constructed. It also does not rule out other geometric or non-affine reductions; saying that such a reduction would need new input is not a proof that no such reduction exists.",
+    "No precise statement of the proposed extremal reduction, including which parameters, cap areas, cutting functions, and geometric inclusions it must preserve, is supplied. Without that statement, the asserted refutation cannot be checked for an exact match."
+  ],
+  "repair_hints": [
+    "Narrow the conclusion to the valid scalar claim: the displayed inequalities alone do not justify replacing arbitrary feasible cell rows by the calibrated table while holding the cap values fixed.",
+    "To refute a reduction for actual Alternative 1 instances, first state that reduction precisely and then construct convex bodies and affine cutting functions realizing (6) together with all original compatibility and cap identities, or prove directly that every allowed reduction preserves the quantities used in (7)."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

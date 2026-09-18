@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct: the normalization preserves the hypotheses and profiles, the clipping cases are exhaustive, midpoint compatibility and bounding rectangles give the required support and width estimates for arbitrary endpoint polygons, the accepted scalar clamp lemma applies exactly, and the final strict area estimate proves the conclusion on every allowed boundary.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

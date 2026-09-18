@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The clipping formulas and all balanced-split chambers are correct, including every transition and degenerate endpoint. The monotonicity reduction to B is valid, the piecewise formulas and exact constants check out, the concavity and decreasingness arguments cover the full z interval without a boundary gap, and the strict upper and lower margins establish the claimed inequality throughout the stated closed parameter box.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

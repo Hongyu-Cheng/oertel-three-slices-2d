@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The strictness argument is correct: failure of both alternatives forces trace equality and equality in the sharp chord bound, which fixes the positive right slope of the A_0 profile; the genuine-crossing slope condition then makes the opposite A_2 positive-side capacity strictly smaller than the required tail capacity. The algebraic equivalence and all three numerical specializations are exact.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

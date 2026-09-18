@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is sequentially valid: the central-hexagon and cap-area formulas are correct, the supporting-edge and cap-disjointness inequalities follow from convexity, all subsequent determinant and analytic estimates preserve their inequality directions, and the endpoint analysis rules out every case with D at most 12/25, including equality and ratio-boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

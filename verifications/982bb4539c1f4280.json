@@ -1,0 +1,15 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The proof correctly establishes the six-face zero locus, the unique dominant coordinate, the strict minor-product bound, the two numerical witnesses, and the compact-limit constraints. However, the stated uniqueness of the relabeling permutation is false, so the candidate cannot be approved as written.",
+  "critical_errors": [
+    "The claim \"after a unique permutation\" in (8) is false. Once the unique dominant coordinate is sent to position 1, swapping positions 2 and 3 preserves both conditions in (8), so there are always two index permutations satisfying (8), not one. The proof establishes only a unique choice of dominant coordinate and does not prove, and cannot prove, uniqueness of the full permutation."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Replace \"after a unique permutation\" by a formulation that relabels the unique dominant coordinate as lambda_1 while allowing the residual swap of lambda_2 and lambda_3.",
+    "Do not describe (8) as a closed constraint in the final sentence, since both inequalities in (8) are strict."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

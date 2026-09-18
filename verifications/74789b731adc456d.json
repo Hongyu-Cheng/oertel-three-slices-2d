@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The compact normalization, Hausdorff continuity of depth and area, exact planar equality classification, uniqueness of the normalized limit, symmetric-difference convergence, and compactness argument for the modulus all apply with the stated hypotheses and quantifiers.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly reduces a strict convex-body counterexample to a polygonal one, balances the two side-cap areas without changing the third cap, proves the canonical fan point lies in the polygon interior, and applies the accepted polygon theorem with all balance, centroid-moment, scaling, and threshold hypotheses verified.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

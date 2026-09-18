@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The fixed open-chamber supports and nonzero-entry hypothesis give exactly the displayed positive parametrization. The three column-sum identities and the derived identity p-a-b=D+E+3 are correct. The middle-cap formulas remain valid under repeated positive or negative vertex values, and the predecessor fact supplies the strict bounds c_1,c_2<4/9 and c_3<t<=1/2 on this full strict-system incidence orbit. From c_1,c_2<4/9, the two polynomial calculations correctly force D>(x+y)/4 and E>(z+w)/4. The column identities then imply D+E>(a+b)/4, so with s=a+b and p=s+delta one obtains p delta>5s^2/16>ab, including the AM-GM equality boundary a=b. This is exactly equivalent to c_3>1/2 and contradicts c_3<t<=1/2. Endpoint orderings, repeated or constant endpoint projections, determinant signs, compatibility boundaries, and arbitrary independent shifts cannot affect the contradiction because all endpoint cap terms are nonnegative and no endpoint-specific estimate is used beyond the accepted predecessor consequence.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

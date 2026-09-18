@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The segment-extrusion argument, determinant-width scaling, halfplane containment, crossing comparison, sign-cell decomposition, exact area formulas, and uniform two-parameter contradiction are correct in the displayed application. However, the general statement is not well-defined for every allowed compact convex P because P_eta may be empty.",
+  "critical_errors": [
+    "No hypothesis ensures P_eta is nonempty. For example, a nonempty compact convex P can lie entirely in {r_j>eta}; then the maxima and minima in D_zeta(P_eta) do not exist, so (5) and hence the universally stated inequality (6) are undefined. The proof also applies (24) to this possibly empty set."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Require P_eta to be nonempty before defining D_zeta(P_eta) and invoking (24)."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

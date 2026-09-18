@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The transfer criterion is logically valid for both sorted allowance regions, including equality at the stated thresholds and arbitrary determinant signs. The normalization arguments preserve nonconstancy and give the claimed contradictory bounds on the sum of the shifts. The exact chamber-slice inequalities and CAD exclusion establish the uniform R0 gate, the neighborhood radius preserves all fixed-index gate and scalar-order conditions, and the complete eight-orbit boundary audit proves the asymmetric two-cap theorem and hence R1. The displayed exact calibration and strict-margin calculations are consistent.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

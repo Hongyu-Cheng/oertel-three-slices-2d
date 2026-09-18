@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The projection area factor, both endpoint areas, the exact four-vertex Minkowski polygon, its area calculation, and the containment contradiction are all correct. The matrix consequence follows because compatibility maps to the stated midpoint containment, the fixed nondegenerate endpoint forces the middle triangle to be nondegenerate, and B=1 gives equal endpoint and middle areas.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

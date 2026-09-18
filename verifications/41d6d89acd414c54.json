@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The implication and its strict-contact consequence are proved correctly. The homothetic cap estimates yield the stated support-depth bound, the lower-crossing hypotheses at the negative support endpoints yield the required positive strips of Q, and concavity of one-dimensional sections gives the coordinate depth bounds with the exact constants B_2 and B_3. Under the premise, these estimates combine to force X+Y at least -delta throughout Q. All hypotheses, equality cases, support-face degeneracies, and quantifiers are handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

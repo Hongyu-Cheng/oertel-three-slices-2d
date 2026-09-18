@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The triangle-cap implication correctly handles every sign, repetition, and equality case and yields the strict centroid-coordinate contrapositive. The accepted cross-cap bounds, reconstruction theorem, and three-eighths exclusion are applied within their stated surviving-model scope; all strict inequalities are preserved. The centroid midpoint is compatible, has the asserted negative first two coordinates, and its slice-plane coordinate sum forces the third coordinate to exceed one. The conclusion and chamber exclusion exactly match the proved scope, while the proper-cap hypothesis is harmlessly retained although the argument proves a stronger statement.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

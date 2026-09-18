@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The asymmetric two-cap theorem is correctly reduced to a complete eight-orbit fixed-cap parametrization and seven exhaustive lower-cap predicates; the stated 56 exact CAD queries were independently reproduced as False. The monotone extension, threshold-sum consequence, endpoint normalizations, cap comparisons, and final contradiction are mathematically correct and cover the claimed boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

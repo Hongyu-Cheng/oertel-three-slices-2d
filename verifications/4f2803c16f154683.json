@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The prescribed cell masses have the stated totals, all-double support, cap values, crossings, equality tails, and strict interior bounds. The defect and all-double excess identities both hold, yielding W=0. The Q-cap product and square-root bounds, overlap bound, middle-support implication, corrected e_i inequalities, and strengthened and ordinary singleton inequalities are all computed correctly, with no geometric realization claimed.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

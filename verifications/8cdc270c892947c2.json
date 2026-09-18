@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically correct and complete. The support segment supplies zero-height points across the required coordinate intervals, convexity gives the concave upper profiles, and the two cap-area bounds correctly yield pointwise profile bounds. The first-quadrant core has the stated lower area, lies under both affine bounds, and its enlargement to the nonnegative full tent gives the evaluated integral. The resulting inequality strictly implies L>2(a+b), hence delta>a+b. All parameter ranges, endpoint cases, and uses of nonnegativity are valid.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate correctly derives the scale-invariant relative defect bound from the accepted normalized singleton and halfspace-modulus estimates, including the equality boundary, and then correctly obtains the sharp-ratio lower bound on p and the stated strict and coupled scale bounds on D. All hypotheses, algebraic transformations, inequality directions, positivity conditions, and strictness claims used in the proof are justified by the supplied predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

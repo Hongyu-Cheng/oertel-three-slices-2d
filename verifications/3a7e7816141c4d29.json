@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically sound under its stated open-cell hypotheses. The endpoint and swept-area derivatives give the stated two-parameter quadratic form, and genuine minimality makes it positive semidefinite, including the zero-diagonal cases. With the additional centered, constant-width middle-chord hypotheses, the equal outer lengths and first-moment identity yield precisely the two cross inequalities and their interval consequences. The rational example's compatibility, areas, residual-strip membership, first-order identities, indefinite Hessian, and exact finite decrease all check out. The final rectangle calibration has the stated exact locally constant mass and globally minimizing cut at the specified nonmaximizing point; its symmetric-subrectangle argument and the strictly larger depth at the comparison point are valid. The predecessor facts are used within their applicable scope, and no mathematical error or proof gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

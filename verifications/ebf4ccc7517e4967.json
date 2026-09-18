@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The area lower-bound argument is coherent on the stated strict trapezoid domain, but the candidate explicitly claims coverage of both triangular-limit boundaries without including or proving those cases.",
+  "critical_errors": [],
+  "gaps": [
+    "The hypotheses require a>0 and a+bL>0, so the two triangular endpoint-width cases a=0 and a+bL=0 are excluded. Nevertheless the statement says that both triangular-limit boundaries are included. Enlarging the auxiliary minimization to r_0=0 or r_Q=0 does not extend the geometric theorem to endpoint bodies outside (1)-(2). In particular, for a=0 equation (14) no longer gives strict positivity and the point (0,-lambda a)=(0,0) is not in the open halfplane eta<sigma as asserted in the proof of (15); no replacement argument or limiting argument is supplied."
+  ],
+  "repair_hints": [
+    "Either delete the claim that the theorem includes the triangular-limit boundaries, or enlarge the hypotheses to allow the appropriate zero endpoint width and supply a direct boundary proof, including a replacement for the strict assertions used in (14)-(15)."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

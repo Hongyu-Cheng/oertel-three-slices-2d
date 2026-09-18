@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The depth formulas, equivalence, and exact calibration are otherwise consistent with the supplied predecessor facts, but the self-contained centerpoint argument contains a false linear-algebra assertion, and the claimed all-alpha depth-region result is not proved over its full stated range.",
+  "critical_errors": [
+    "The Radon step says that the five lifted vectors in R^4 are linearly independent. Five vectors in R^4 are necessarily linearly dependent, and linear independence would not provide the affine dependence used in the next sentence. Thus the stated derivation of Radon's theorem, and hence the Helly-based proof of K_{T/4} nonemptiness as written, is invalid."
+  ],
+  "gaps": [
+    "The proof of closedness and convexity of K_alpha is explicitly given only for 0<alpha<T, whereas the candidate statement claims it for every alpha>0. The cases alpha=T and alpha>T are not addressed."
+  ],
+  "repair_hints": [
+    "Replace \"linearly independent\" by \"linearly dependent\" and explicitly observe that the last coordinates force the dependence coefficients to sum to zero, yielding the required affine dependence.",
+    "Extend the intersection argument to alpha=T and separately justify that K_alpha is empty for alpha>T because every depth is at most T."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

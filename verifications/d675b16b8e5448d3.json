@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The scalar bridge follows correctly from the exact W identity, the F0 Brunn--Minkowski inequality, and the accepted scale lower bound. The root calculation, strict Q-only consequence, rho-refinement, and every stated calibration check are valid, including all conditional partial-union rows, overlap, source caps, middle caps, crossings, tails, and the limiting sharpness argument.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The mixed-area calculation is coherent for the triangular caps of the reduced A_2 normal form, but the proof never transfers that estimate to the original caps in the full realization. Therefore the physical Minkowski-sum bound and all consequences drawn from it are unproved.",
+  "critical_errors": [],
+  "gaps": [
+    "Accepted fact c49613ac26c0c4a8 represents the polygon only after an endpoint-preserving finite boundary reduction. That reduction is stated to preserve chord endpoints and the four cell areas, but it is not stated to preserve or decrease |C_1+C_2+C_3|, the pairwise mixed areas, or the quantities involving the original C_i. Nor is the reduced A_2 asserted to extend to the same full common-plane realization. The proof computes with the reduced triangular caps \\widehat C_i and then immediately asserts (5) for the physical caps C_i fixed at the start. Without a comparison theorem between the original caps and the reduced triangles, (5) does not follow, so neither (6), (7), (8), nor the residual conclusion (9)-(10) is established."
+  ],
+  "repair_hints": [
+    "Prove an explicit extremality or monotonicity lemma showing that the endpoint- and area-preserving triangular reduction cannot increase the relevant lower-bound target, in particular that the original cap Minkowski-sum area is at least that of the reduced triangles. Alternatively, restrict the claim to already-reduced A_2 geometries and separately prove that reduction preserves the full realization and every ledger quantity used afterward."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

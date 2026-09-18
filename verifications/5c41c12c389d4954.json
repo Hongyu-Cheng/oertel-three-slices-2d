@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly pairs each triangle cap with the endpoint contribution of the same halfspace, applies the accepted endpoint-payment and triangle edge-bonus lemmas with all hypotheses satisfied, and derives the stated mass bound. The strict middle-plane cover rules out the unique equality pattern in the edge-bonus lemma, and the final algebra correctly yields the closed area regime and its contradiction with strict low mass.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

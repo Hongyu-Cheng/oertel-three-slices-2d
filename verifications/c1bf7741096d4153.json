@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The statement and proof are correct relative to the supplied accepted predecessor facts. The reflected-cap identity establishes both directions of the endpoint-depth characterization for every planar point, including touching containment and supporting-line cases. Monotonicity under translation and positive balancing justify the concurrent-cut consequence. Finite tail competitors prove the active-payment bound, and the continuous radial-function calculation rigorously proves bisection of the full middle chord for every payment-m row. Under global target failure, the residual inequalities supply the hypotheses for active-triple existence; the planar three-halfplane inequality excludes two payment-m rows with the stated strict algebraic contradiction. The centered-chord predecessor then forces an off-center chord among the other two rows. The compatible triangle example has the stated fitting region, areas, target value, and uniform strict upper bound on depth throughout that region. No mathematical errors or proof gaps were found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

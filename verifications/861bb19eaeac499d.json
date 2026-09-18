@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The kernel calculation is supported by the supplied predecessor facts, and the turn differential is positive, but the exact rational value asserted in the statement is arithmetically incorrect.",
+  "critical_errors": [
+    "Equation (7) gives [theta_2-theta_1,(2,-149)] = 324147464177237/10^12, so multiplying by 50003/100000 yields 16208345651254242531/100000000000000000, not 16208345651254381711/100000000000000000 as claimed. Therefore the exact equality in the candidate statement and conclusion is false."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Replace the asserted numerator 16208345651254381711 by the exact product numerator 16208345651254242531."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

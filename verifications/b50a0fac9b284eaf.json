@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The geometric argument correctly proves that no compact convex set containing D can have the four displayed areas: the two small-cone areas force every positive-quadrant point to satisfy x+y<1, contradicting the positive-quadrant and strip areas. However, the additional conclusion about the registered fixed six-cone gluing problem is not verifiable from the supplied material.",
+  "critical_errors": [],
+  "gaps": [
+    "The registered fixed six-cone gluing problem is not defined, and no source or accepted predecessor fact establishes the proof's final assertion that every polygon feasible for that problem contains D and has the four prescribed areas. Therefore the claimed consequence does not follow from the candidate material supplied to the verifier."
+  ],
+  "repair_hints": [
+    "Supply the exact definition of the registered fixed six-cone gluing problem and a verifiable derivation that each of its feasible polygons contains D and satisfies these four area equalities."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

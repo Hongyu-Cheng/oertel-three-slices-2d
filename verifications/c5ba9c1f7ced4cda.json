@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The coordinate conversion, midpoint memberships and coordinates, strict chamber margins, determinant and area, exact R_{j\\ell} cell label, and contradiction with the stipulated middle support are all correct; the claimed scope follows from (A_0+A_2)/2 being contained in K.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

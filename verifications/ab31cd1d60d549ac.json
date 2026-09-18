@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The claimed complete capacity code omits a necessary feasibility row for rank-two point codes and does not cover empty half-plane intersections.",
+  "critical_errors": [
+    "For a rank-two carrier, a non-carrier inequality can be tight at the certified point X_0 without being a persistent structural equality. Continuation of that code then requires the intrinsic row D(-g_i(X_0))[beta] >= 0, with X_0 differentiated through the independent carrier equations. Item 4 lists only the two-dimensional vertex slacks (14) and their one-dimensional endpoint analogues, then claims these are the only capacity-code feasibility rows. Thus the validity and event classification is false for rank-two point codes."
+  ],
+  "gaps": [
+    "There is no code for P being empty, although the stated hypotheses permit it. For example, the counterclockwise square with vertices (-2,-2), (-1,-2), (-1,-1), (-2,-1) satisfies the genuine-facet input predicates; every edge lies in J_ch, so Z=W=B intersect {S,T >= 0}=empty. None of the two-dimensional, bounded rank-one, rank-two singleton, or unbounded cases represents this input, so the advertised complete finite formula and event list are incomplete."
+  ],
+  "repair_hints": [
+    "Add rank-two point-slack rows D(-g_i(X_0))[beta] >= 0 for every tight nonstructural inequality, and include them in the intrinsic-feasibility classification.",
+    "Add an exact empty-set code, for example a finite Farkas infeasibility certificate, assign area and persistent-stratum derivative zero, and list loss of the strict infeasibility margin as the corresponding recoding event."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

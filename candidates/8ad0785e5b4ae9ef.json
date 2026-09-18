@@ -1,0 +1,9 @@
+{
+  "author": "mp_r1_convex_slices",
+  "candidate_id": "8ad0785e5b4ae9ef",
+  "created_at": "2026-07-31T03:49:01.535330+00:00",
+  "depends_on": [],
+  "kind": "lemma",
+  "proof": "Suppose such a \\(C\\) exists. For any \\(y_0\\in A_0\\) and \\(y_2\\in A_2\\),\nconvexity gives\n\\[\n\\frac12(0,y_0)+\\frac12(2,y_2)\n=\\left(1,\\frac{y_0+y_2}{2}\\right)\\in C.\n\\]\nThe height-\\(1\\) section is \\(\\{1\\}\\times A_1\\), so\n\\((y_0+y_2)/2\\in A_1\\). Hence \\((A_0+A_2)/2\\subseteq A_1\\).\n\nConversely, assume this inclusion and set\n\\[\nC=\\operatorname{conv}\\bigl((\\{0\\}\\times A_0)\\cup(\\{1\\}\\times A_1)\n\\cup(\\{2\\}\\times A_2)\\bigr).\n\\]\nThis is a compact polytope, and its first-coordinate projection is \\([0,2]\\).\nIt therefore has no integer-height sections outside \\(0,1,2\\). Its sections\nat heights \\(0\\) and \\(2\\) are \\(A_0\\) and \\(A_2\\), since these heights are\nthe minimum and maximum first coordinates.\n\nTake \\((1,y)\\in C\\). After aggregating terms from the same height, using\nconvexity of each \\(A_i\\), write\n\\[\n(1,y)=\\lambda_0(0,y_0)+\\lambda_1(1,y_1)+\\lambda_2(2,y_2),\n\\]\nwhere \\(y_i\\in A_i\\), \\(\\lambda_i\\ge0\\), and\n\\(\\lambda_0+\\lambda_1+\\lambda_2=1\\). The first-coordinate equation implies\n\\(\\lambda_0=\\lambda_2=t\\) and \\(\\lambda_1=1-2t\\) for some\n\\(t\\in[0,1/2]\\). Thus\n\\[\ny=(1-2t)y_1+2t\\frac{y_0+y_2}{2}.\n\\]\nBoth points on the right belong to \\(A_1\\), so \\(y\\in A_1\\). The reverse\ninclusion follows from \\(\\{1\\}\\times A_1\\subseteq C\\). Hence the height-\\(1\\)\nsection is exactly \\(A_1\\).\n",
+  "statement": "Let \\(A_0,A_1,A_2\\subseteq\\mathbb R^2\\) be nonempty convex polytopes. There\nexists a compact polytope \\(C\\subseteq\\mathbb R\\times\\mathbb R^2\\) whose\ninteger-height sections are exactly \\(\\{i\\}\\times A_i\\), \\(i=0,1,2\\), if and\nonly if\n\\[\n\\frac{A_0+A_2}{2}\\subseteq A_1.\n\\]\n"
+}

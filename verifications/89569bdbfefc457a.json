@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The coordinate signs and cyclic convexity establish the counterclockwise orientation and strict facet containment of the origin; the homothety, support, residual-strip, high-defect, clip-area, forced-triangle, and calibrated negative-quadrant arguments all preserve the required strict inequalities and yield exactly the stated conclusions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

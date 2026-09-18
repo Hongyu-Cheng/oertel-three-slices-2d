@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "All hypotheses, coordinate and section claims, cap areas, auxiliary sets, integrals, and final arithmetic verify exactly; the rational rectangle construction has left side 261/10 and right side 811/10.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

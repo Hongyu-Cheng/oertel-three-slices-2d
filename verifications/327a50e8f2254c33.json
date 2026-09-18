@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically correct and complete. The quantile subcoupling construction realizes every mass q below the vertex-cover value, its measurable lift has marginals dominated by the endpoint measures and is concentrated on the strict affine threshold set, and the residual product coupling completes it to an admissible element of Pi_m. The constant cases, common-coupling maximum identity, simplex reformulation, and final averaged bound all follow with the stated quantifiers and without attainment assumptions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

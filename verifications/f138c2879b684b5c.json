@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is sequentially valid. The same-index graph inclusion yields eta_j >= 0 and the exact height-shift decomposition. The midpoint multiplicity identity and row inequalities give the strict four-defect budget with every term nonnegative. The centroid halfplane argument correctly makes the Grunbaum bound strict, the complementary sets satisfy the required Brunn-Minkowski inclusion, and the shared-deletion minimization is attained at deleting from the smaller body. All positivity, boundary, and strict-constant claims, including exclusion of equality in the reverse of (14), are justified.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

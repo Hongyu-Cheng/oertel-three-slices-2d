@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly reduces the desired inequality to a box maximization of Q, proves the required cap bound through the positive-semidefinite Gram matrix and the symmetric inequality in the weights, and derives all equality conditions without gaps. Boundary cases with zero caps and h=0 are also handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically sound. Irredundancy and convexity correctly force the Farkas triangle into K, the multiplicity integral yields the strengthened mass allocation bound, and the Brunn--Minkowski and disjoint-area arguments establish all stated strict inequalities with the required hypotheses.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

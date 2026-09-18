@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly reduces the exactly-two-pair strata by cyclic symmetry, derives the required geometric inequalities from convexity and cap disjointness, and carries the resulting algebra through to the stated strict scale exclusion. The all-three-pair case and all boundary conditions used in the argument are also handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

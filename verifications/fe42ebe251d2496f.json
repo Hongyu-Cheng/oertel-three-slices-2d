@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap-area formulas follow from the stated vertex-cap regimes, the summed crossing identity and strict no-half inequality yield the claimed strict lower bound, and the weighted cap estimate gives the contradictory strict upper bound throughout the stated epsilon interval, including both endpoints.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

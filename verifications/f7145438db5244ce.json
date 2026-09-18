@@ -1,0 +1,15 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The box inclusion, area bound, positivity, and equality characterization follow correctly from the explicitly assumed support conditions (1). However, the proof also purports to recover those support conditions from the accepted lower-crossing facts without supplying the hypotheses needed to instantiate either fact. Under the required exact source-applicability audit, this is a gap.",
+  "critical_errors": [],
+  "gaps": [
+    "Accepted fact 624b129b68e0fdee applies only after specifying the affine-cap data c and t, establishing a nonempty lower-crossing set I, identifying L as its infimum, and proving that the crossing is in the empty-full case. The candidate supplies none of those data for either psi_u or psi_v, and merely asserts that each normalized crossing level is 0. Thus the claimed derivation L=-max_{A_2} psi=0 is not justified by that fact.",
+    "Accepted fact eddda25c734d34bc likewise assumes the full lower-crossing setup and therefore is not applicable as cited to A_2 from the stated hypotheses alone. The existence and vertex-or-edge form of the exposed faces do follow directly from compactness, two-dimensional polygonality, and (1), but that direct argument does not validate the stated source application."
+  ],
+  "repair_hints": [
+    "Since (1) is already an explicit hypothesis, begin directly from (1) and compactness and remove the unsupported predecessor-fact provenance discussion. If the intent is instead to derive (1), state and verify complete lower-crossing hypotheses for both affine functions."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

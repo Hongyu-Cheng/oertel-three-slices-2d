@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The scalar optimization, its boundary cases, all three target-gap identities, the first-chamber exclusion, and the displayed residual certificate check out. The geometric claim is nevertheless false on its declared parameter domain because the cyclic parametrization does not require a and b to be nonnegative.",
+  "critical_errors": [
+    "Condition (3) states only p>a+b>0, which does not imply a>=0 and b>=0. The claimed middle-cap formula c=p^2/((p+a)(p+b)) therefore fails for allowed parameters. For example, p=3, a=3, b=-1 satisfies p>a+b>0 and gives c=3/4, but the row has vertex values (3,-3,1), whose closed cap at threshold 0 has area 1-9/(4*6)=5/8, not 3/4. Consequently |D_{1i}|=1-c, the Brunn--Minkowski bound (7), and the interpretation M_i=c+x_i+y_i are not established on the stated domain. The domain even permits p=2, a=-2, b=3, for which c is undefined."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "The intended one-positive-vertex chamber needs an explicit sign hypothesis such as a>0 and b>0; it cannot be inferred from p>a+b>0 or from either supplied accepted fact."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

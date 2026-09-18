@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The exact eight-orbit CAD audit returns False in every case, including all closed parameter endpoints and zero-value boundaries. The V-side normalization is valid for every putative completion and forces Q>1, while the U-side threshold-sum argument then gives an immediate contradiction. All determinant, nonconstancy, monotonicity, and boundary claims used in these deductions are justified.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

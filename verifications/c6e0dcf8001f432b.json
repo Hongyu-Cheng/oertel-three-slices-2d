@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The stated all-direction depth and quantile argument is mathematically sound, including the exact barycentric and area computations. However, the proof adds an unauditable exhaustion claim about an undefined two-parameter family and undefined later workflow stages, so the candidate has a gap under the supplied evidence.",
+  "critical_errors": [],
+  "gaps": [
+    "The final paragraph invokes a two-parameter family in `ADVANCES`, parameters R, u, and v, a determinant formula, an ordered filter, and later stages, but none of these objects or claims is defined in the candidate, an external source, or an accepted predecessor fact. Therefore the assertions that uv != 1 gives the required family properties, that the conclusion exhausts that family, and that no later stage needs auditing cannot be verified from the permitted material."
+  ],
+  "repair_hints": [
+    "Delete the unsupported final paragraph if it is not part of the mathematical claim, or supply a self-contained definition of the family and stages and prove the asserted determinant and exhaustion statements."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

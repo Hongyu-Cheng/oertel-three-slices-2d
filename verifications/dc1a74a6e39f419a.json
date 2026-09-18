@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The rational geometry, edge transversality, lack of central symmetry, compatibility inclusion, perturbation estimate, application of the accepted depth bound, and resulting covering obstruction are all correct for every rational 0 < alpha <= 1/100000.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

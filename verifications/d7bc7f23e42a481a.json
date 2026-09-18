@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The equal-quarter cell identities exhaust the area of A_2, so the three cap interiors are pairwise disjoint and the three-cap equality characterization applies exactly. It forces the global opposite-halfplane intersection to be the central medial triangle of area q_123. The affine sign-plane isomorphism then identifies this triangle as a translate of a dilation of T_1 by the factor 1-(L_1+L_2+L_3), so the area comparison with K cap T_1 proves the stated inequality. The strict bound and the contradiction with the integer calibration follow with the correct quantifiers and constants.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

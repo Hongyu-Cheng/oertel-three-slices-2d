@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The statement follows from the stated hypotheses. The proof correctly derives the area limits, handles rank-one cluster points, proves and applies the sharp centroid-cap equality case to classify all rank-two cluster points, upgrades the cluster-point classification to convergence toward the finite normalized equality class, and forces the large-end caps to vanish. Boundary, repeated-value, constant-row, and zero-row issues are handled without gaps.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

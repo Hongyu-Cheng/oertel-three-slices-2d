@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The subsequent algebra is internally consistent, but the proof relies on an essential geometric reduction that is neither supplied as an accepted predecessor fact nor proved in the candidate. The claimed bound therefore is not established from the stated hypotheses.",
+  "critical_errors": [],
+  "gaps": [
+    "The proof invokes an \"exact type-2 reduction\" to introduce the six fractions in (0,1) and to assert (3)-(5), but no such predecessor fact is supplied and no derivation is given. In particular, it is not proved that every quadrilateral satisfying the stated exact-cell incidence admits this parametrization, that the cap areas yield the three equations in (4), or that the absence of other positive cells yields all three edge-order inequalities in (5). These assertions are indispensable for every later estimate.",
+    "The exact area decomposition used in (59) is asserted rather than proved: the candidate does not establish from the stated hypotheses that extending the three cap chords makes the three regions E_12, E_23, E_13 disjoint and exhaustive in the global central triangle outside A_2, including all allowed boundary-contact degeneracies."
+  ],
+  "repair_hints": [
+    "Supply a self-contained planar derivation of the type-2 parametrization and equations (3)-(5) from the exact-cell incidence hypotheses, with strict and boundary cases handled explicitly.",
+    "Prove the planar partition underlying (59), including the location of each pairwise line intersection and the zero-gap cases."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The right-hand A0 and left-hand A2 section limits give the stated chord comparison for proper caps and, using the accepted crossing-regularity fact, for full caps exactly at upper-support contact. The two-segment convex-hull bound has the correct factor 1/2. The shifted-wedge area, cap, and chord formulas normalize to the three inequalities in (16), which imply the strict ratio bound by an exhaustive threshold split. The rational limiting argument establishes sharpness for precisely the information in (16), the numerical calibration is exact, and every use of the two accepted predecessor facts matches its hypotheses and conclusion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

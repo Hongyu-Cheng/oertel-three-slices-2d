@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The accepted predecessor supplies the stated lower bound. Under the realized all-double Q-table, the proof correctly identifies three pairwise interior-disjoint area-one-fifth corner caps at distinct vertices of the unit triangle. The edge-fraction constraints imply (1-b)(1-c) >= 1/5, the resulting barycentric inequalities exclude alpha_i <= -1 for each i, and the containing barycentric triangle is a factor-four homothetic image with area 16. Since 169/10 > 16, the claimed nonexistence follows with no mathematical gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

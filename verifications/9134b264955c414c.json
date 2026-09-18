@@ -1,0 +1,18 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The compactness and saturation arguments are largely sound, but the polygonal reduction has an unhandled geometric case, so the asserted reduction to a minimizing triangle is not proved.",
+  "critical_errors": [
+    "The parallel-support case in the one-vertex replacement is dismissed by a false claim. The preceding and following supporting bridge lines can be parallel with opposite boundary orientations while the selected boundary arc is genuinely noncollinear; monotonicity of the oriented boundary direction permits a rotation by pi. For example, horizontal lower and upper bridge segments can be joined by a rounded right-hand cap contained in a narrow sector about the positive horizontal ray. In that configuration the point U_i does not exist, and the construction of M_i and V_i does not apply. No preceding argument, including minimality, excludes this configuration."
+  ],
+  "gaps": [
+    "Before introducing nonzero boundary intersections A_i and B_i on every fan ray and decomposing the body sector by sector, the proof does not establish that positive area in all three alternate sectors forces 0 to lie in the interior of H. That lemma is also needed to justify that the later sufficiently small perturbations continue to contain 0.",
+    "The area-reducing polygon perturbations are not explicitly converted into feasible triples for the original minimization problem. The proof must verify that each perturbed polygon contains 0, that its altered vertices remain in the relevant selected sector closures, and that the convex hull of its three selected-sector intersections is the whole perturbed polygon."
+  ],
+  "repair_hints": [
+    "Handle oppositely oriented parallel adjacent supports separately, for example by constructing an admissible replacement vertex whose sector area varies continuously from the chord area to arbitrarily large area, and prove all required convexity and sector-containment properties.",
+    "Add the interior-origin lemma and, after every polygonal variation, define the corresponding sector pieces and verify feasibility and equality of their hull with the perturbed polygon."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

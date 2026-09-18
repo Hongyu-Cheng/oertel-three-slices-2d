@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically correct and complete. Scott's inequality is applied with all hypotheses supplied by the accepted predecessor fact and is rearranged correctly while retaining the u_i terms; the strict large-slice condition yields the unique dominant x_i and unique minimizing index; the centroid localization correctly uses the closed-halfplane form of Grunbaum's inequality and the exact sign-cell convention; the zero-area inactive open chambers are correctly shown to be empty; and the W=0 identity combined with the strict actual-counterexample balance gives the stated strict scalar inequality.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

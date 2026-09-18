@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "All polygon vertices, exact areas, endpoint-core and endpoint-optimization bounds, directional halfplane-depth computations including vertical limits, nesting, halfspace parameterizations, rational margins, and the capacity corollary check correctly, with no mathematical error or gap found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

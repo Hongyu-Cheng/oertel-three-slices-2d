@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The exact areas, projection chambers, radical expressions, support maxima, rational radical bounds, midpoint polygon area, and genericity computations all check. The projection-quantile implication is also mathematically true for the stated convex bodies, but the submitted proof omits the continuity/attainment fact needed for its strict quantile inequality, and its final a-fortiori exclusion invokes undefined downstream structures without any supplied implication to condition (3).",
+  "critical_errors": [],
+  "gaps": [
+    "In (11), the definition of q_i alone gives s_i <= q_i from a cap area below m. The strict inequality s_i < q_i also requires q_i to belong to the superlevel set, equivalently continuity of q mapped to |A_0 intersect {lambda_i <= q}|. This is true here because lambda_i is nonzero and every level line has planar measure zero, but the proof neither states nor proves it.",
+    "The claimed a-fortiori exclusion of every rational convex extension satisfying three genuine lower crossings, the scalar completion interval, and support-clearance inequalities is not self-contained: those notions are undefined, and no accepted predecessor fact or argument establishes that such an extension supplies the K, t, and row conditions in (3)."
+  ],
+  "repair_hints": [
+    "Before (11), prove that the cap-area function is continuous, so the infimum q_i is attained with cap area at least m.",
+    "Define the downstream extension conditions and prove that three genuine lower crossings imply both inequalities and nonemptiness assertions in (3), or omit that unsupported application."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

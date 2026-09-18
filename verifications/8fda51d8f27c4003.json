@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The linear alternative and its projected form are correctly derived, but the candidate overstates the resulting velocity inequality when optional active feasibility rows are present, and the supplied material does not define the capacity construction well enough to verify its rationality or the claimed exhaustive event list.",
+  "critical_errors": [
+    "Equation (4) is claimed for every equality-preserving velocity that points into the active contact and capacity halfspaces, even though G may also contain an appended active feasibility row Dh_beta. From (2), the inequality R xi = -lambda^T G xi <= 0 requires nonnegativity of every row of G on xi, including Dh_beta xi. Under the stated hypothesis Dh_beta xi may be negative and lambda_beta may be positive, so the displayed inequality need not hold. The hypothesis must require the velocity to point into all appended active feasibility halfspaces as well."
+  ],
+  "gaps": [
+    "Neither the candidate nor the accepted predecessor fact defines the zero-charge capacity or its visible-fan and charging construction. The proof simply asserts that all of its vertices are obtained by the listed rational intersections and that the listed determinants exhaust every code change. Consequently the claims that C is rational on each code, that D C is given by shoelace differentiation, and that the final zero-or-pole list is exhaustive cannot be checked from the permitted material."
+  ],
+  "repair_hints": [
+    "In the sentence preceding (4), require G(x)xi >= 0, equivalently that xi point into every active halfspace represented by a row of G, including each appended feasibility row.",
+    "State the exact fixed-code formula for the zero-charge capacity and enumerate the predicates and denominators defining its visible-fan and charging code, or add these properties as explicit hypotheses and restrict the event conclusion accordingly."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

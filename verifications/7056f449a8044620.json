@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct under the supplied accepted predecessor facts. The slope-sublevel classification handles all boundary cases, the M-matrix argument validly proves simultaneous containment of the central triangle, and the subsequent exact-cell, packing, mixed-area, exclusion, and equality consequences follow with the stated constants.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

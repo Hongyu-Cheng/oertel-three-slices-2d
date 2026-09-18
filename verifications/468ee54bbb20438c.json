@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives h_{B_0}(f_ell)>0 for all three indices from the strict endpoint support inequalities and the full-midpoint support identity. Substituting these strict support conclusions into the accepted rank-two corner-admissibility equivalence leaves exactly the nonempty-interior condition on I_i for every cyclic corner, so the stated residual failure mode follows without a gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

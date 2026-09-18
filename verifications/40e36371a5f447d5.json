@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The contained-support parametrization matches the three support sets, the row-sum and first-column identities are correct, and all three literal middle-cap formulas are applied in their proper sign regimes. The contradiction proving max{c1,c2}+c3 >= 8/9 has valid strict inequalities and coefficient comparisons: both xi/eta identities are correct with positive denominators, the bounds against 1/D have the stated directions, and the final lower and upper bounds on p are incompatible. The strict row bounds then contradict this middle-only inequality even at B=1. The argument does not require generic endpoint projections, and accepted fact 6986d9aa136ba907 applies to every zero-middle-entry stratum and preserves all hypotheses needed to compose with the open-chamber exclusion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

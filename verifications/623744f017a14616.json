@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate correctly filters the accepted all-nonzero support-orbit catalogs by the invariant requirement that every I1 row have singleton positive support, yielding exactly the stated 12, 3, and 7 representatives. Its boundary catalog is a valid finite necessary over-index: every actual zero-entry system satisfies the retained partition, cover, negativity, singleton-I1, mean-boundary, cap, determinant, and continuous feasibility conditions, and no sufficiency or stratum-nonemptiness claim is made.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

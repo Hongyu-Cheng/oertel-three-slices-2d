@@ -1,0 +1,19 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The one-face geometric derivation of (9)--(16) is sound, and the polygonal example is numerically consistent, but the candidate as a whole is not a complete valid statement: the crossing specialization depends on undefined data and an undefined crossing condition, the claimed exact necessity of items 1--5 is false as written, and the parallel-limit assertion is neither formally stated nor proved.",
+  "critical_errors": [
+    "The claim that items 1--5 are exactly the hypotheses needed for a contradiction is false as stated. If Z_Delta=0 or A+C=0, the right-hand side of (22) is zero, but a strict reversal of (22) still gives a contradiction whenever its left-hand side is negative. Any intended exclusion via a scalar interval gate is not an assumption here and that gate is not defined."
+  ],
+  "gaps": [
+    "The quantities M, m, u_i, and v_i, the phrase \"the three crossings,\" and the notions of endpoint model, dominant all-double endpoint model, and scalar interval gate are not defined. In particular, the crossing equation used in the proof is not supplied as a hypothesis, so (18)--(22) and the subsequent applicability claims cannot be verified from the candidate and accepted facts.",
+    "The final alpha=0 or beta=0 assertion is not a quantified mathematical statement and is not established by the one-sentence argument. When alpha=0, S=alpha s is identically zero, so the proof's claim about motion arbitrarily far in the S-direction is not meaningful in the stated coordinates; no explicit family is given to prove the asserted impossibility of every positive two-cap estimate."
+  ],
+  "repair_hints": [
+    "Define all crossing data and state the crossing equalities explicitly before deriving (18).",
+    "State the scalar interval-gate consequence as an explicit hypothesis before claiming that positivity of Z_Delta and A+C is necessary for a contradiction.",
+    "Either remove the parallel-limit impossibility claim or formulate it precisely and prove it with an explicit family in nonsingular original coordinates."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

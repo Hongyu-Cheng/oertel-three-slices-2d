@@ -1,0 +1,18 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The explicit polygon, area, containment, crossing, and deficit computations are internally consistent, but the final necessity-and-sufficiency and minimality conclusion is not established because condition (LG) is never defined and no meaning of smallest scalar invariant is specified.",
+  "critical_errors": [
+    "Condition (LG) is never defined anywhere in the statement or proof. Consequently, the assertion that (LG) is necessary and sufficient for the localized inequality is not a checkable mathematical claim."
+  ],
+  "gaps": [
+    "The identity |Y'|=|S cap Y'|+|Y' setminus S| yields an equivalent rearranged inequality only after the proposed condition (LG) is explicitly stated. The proof does not state that condition.",
+    "Even if (LG) were intended to be the direct rearrangement of the localized inequality, equivalence alone does not prove that it is the logically smallest scalar replacement invariant. No class of admissible invariants, comparison relation, or minimality argument is provided."
+  ],
+  "repair_hints": [
+    "State (LG) explicitly, including every quantity and quantifier, and then perform the algebra showing its equivalence to T_tau+5U_sigma >= 16|Y'| after retaining |S cap Y'|.",
+    "Define the precise ordering under which one scalar invariant can be smaller or weaker than another and supply a proof of the claimed minimality, or omit that minimality claim."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

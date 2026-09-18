@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The statement follows from the exact clipped-cap infimum, the compatibility constraints, and the residual lower inequality. The endpoint allocation formula is correct in every clipped and unclipped regime, the derived inequality for the baseline allocation is strict, and the threshold-sum condition supplies a row whose middle cap plus optimized endpoint mass strictly exceeds the claimed bound. Boundary cases for nonpositive thresholds, nonpositive baseline length, saturation, and equality at cap supports are covered.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

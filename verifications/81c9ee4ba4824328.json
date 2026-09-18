@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The zero-surplus identities yield almost-everywhere unique endpoint and middle labels; the vanishing top caps give the pointwise top inequalities; the midpoint identity, Fubini, and positive-area overlap of midpoint translates force one lower label almost everywhere; and the middle cutting lines cannot cross the interior, forcing the same single label throughout the middle body.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

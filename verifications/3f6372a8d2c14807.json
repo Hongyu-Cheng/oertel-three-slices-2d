@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The universal containment follows from convexity of the common three-slice body and the accepted un-clipped endpoint-hull inclusion. The combined physical-to-coordinate Jacobian is 4 Delta, so area monotonicity gives the claimed total-area row. The numerical endpoint datum agrees exactly with the accepted hull datum; all eleven scaled vertices, all eleven shoelace determinants, their sum 396534245, the reduced area 79306849/400000, kappa, and both positive overflow fractions are arithmetically correct. No mathematical error or gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The supporting-line certificates establish the claimed convex-hull boundaries, the quadrant decompositions and all stated areas are exact, and the Minkowski-sum merge gives the displayed vertices and area. The hypotheses of both accepted predecessor facts are satisfied. After the stated diagonal normalization, the axis traces, unique extremal points, exclusion of the northeast corner, and strict transverse-support inequalities are all correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The normalization is unique, the centroid-cap equality and three-cover classifications are correct, the compactness and escaping-offset arguments are valid, strict coverage passes correctly to weak closed coverage, and the asserted parameter, local Hausdorff, and compact cap convergence conclusions follow.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

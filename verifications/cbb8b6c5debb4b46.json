@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine area scale is correct, both triangle areas and all six strict cap areas agree with exact polygon computations, closed caps have the same areas because only boundary line segments are added, the shift sum is -1, and the stated maximum and strict comparison with 4A/9 are exact.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

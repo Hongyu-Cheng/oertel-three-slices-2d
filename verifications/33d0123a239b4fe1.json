@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine normalization, cap-area identities, edge-order constraints, bounds on t, a, z, and m, complementary-halfplane triangle area, and final scale-invariant contradiction are mathematically correct under the supplied accepted predecessor facts. The parallelogram and admissible boundary cases are handled consistently.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

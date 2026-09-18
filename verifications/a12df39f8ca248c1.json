@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The scalar algebra in the scale estimate is exact; every cited predecessor applies under the stated actual dominant all-double and total-collapse hypotheses; Scott's planar union estimate applies to the three two-dimensional convex bodies with index 1 as the accepted unique minimizer; the sign-cell union identity is correct modulo null cutting lines; and the strict conclusion follows from the strict scale bound together with Theta > 0.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

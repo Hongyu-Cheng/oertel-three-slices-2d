@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The implication is proved correctly: the strict area imbalance yields a point of K in the open southeast quadrant, convexity then forces the origin into K, and the exposed-face hypothesis places the full triangle conv{u,p,0}, up to its zero-area base, in (K\\B) intersected with {x<=0}. The explicit construction satisfies every lemma hypothesis, the two axis intercepts lie in the stated minimizing segment, and all exact rational identities and comparison directions check.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

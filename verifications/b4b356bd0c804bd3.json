@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The triangle depth lemma is valid, the displayed barycentric coordinates and area margin are exact, and the depth bound plus continuity yields the claimed strict quantile inequality for every nonzero linear form. Summing over any zero-sum triple proves the stated budget obstruction with no gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives joint continuity of the cap-area functions, applies the accepted slice-depth formula on fixed compact parameter sets, obtains continuity of M and Psi and the exact decomposition (1), establishes the finite right derivative of the Minkowski-interpolation area, and exhaustively derives the three active-set right-derivative identities. All hypotheses, strict-inequality persistence arguments, and liminf manipulations are valid, including endpoint and switching-maximizer cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

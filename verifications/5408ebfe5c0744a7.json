@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The pairwise ledger argument itself is mathematically sound, but the proof contains an explicit false assertion that the three centroid caps form a partition up to null boundary pieces.",
+  "critical_errors": [
+    "The proof calls C_1, C_2, C_3 a partition up to null boundary pieces, but it has just computed that every pairwise intersection C_i\\cap C_j has area a_1/9>0. Thus these caps are a cover with positive-area overlaps, not a partition even modulo null sets."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Delete the partition assertion or replace it with the accurate statement that the three caps cover A_1 and have the displayed positive-area pairwise overlaps. This sentence is not used by the subsequent ledger argument."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

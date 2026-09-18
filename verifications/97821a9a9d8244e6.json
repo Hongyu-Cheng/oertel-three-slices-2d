@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete. The support-slope construction covers both positive-offset and common-origin cases, the outer coefficients and cap bounds handle all coefficient signs without division gaps, the defect and polygon/chord calculations are valid including the stated degeneracies, the rational tuple satisfies the scalar relaxation exactly, and the envelope inequality correctly excludes that tuple without claiming sufficiency.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

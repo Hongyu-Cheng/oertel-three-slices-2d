@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct. The relative symmetric-difference hypothesis yields the stated absolute area bound; the corner-triangle argument places the full level window strictly inside every support interval; the coarea normalization and triangle-section formula are exact; the concavity estimate (18) follows in both sign cases with the claimed constant; and all numerical bounds through the final 1/100 estimate check exactly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

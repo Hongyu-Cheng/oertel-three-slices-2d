@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the lower-crossing inequalities and retained-gap bound from the accepted normalized witnesses, establishes the rectangular mass-variation formula with the correct signs, applies it consistently to the exact rational realization, and proves the central-point obstruction to any strict-low-mass cover. All stated arithmetic, coverage, boundary, and quantifier-dependent claims are supported by the supplied predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

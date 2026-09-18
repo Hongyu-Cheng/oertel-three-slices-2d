@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The displayed algebra and sign certificate are consistent for the four orders implicitly used by the proof, but the candidate statement refers to four strict orders in `ADVANCES` without supplying them. Under the required stateless audit, the theorem's actual order hypotheses and the proof's exact coverage therefore cannot be checked.",
+  "critical_errors": [],
+  "gaps": [
+    "The four strict orders referenced as being listed in `ADVANCES` are neither stated in the candidate nor supplied as an external source or accepted predecessor fact. The proof assumes the left clipping point is before the kink and, in the interior-right-clipping cases, that the kink is before beta; without the missing list, these assumptions and the exact match between the proved cells and the stated cells are unverifiable."
+  ],
+  "repair_hints": [
+    "State the four strict orders explicitly in the candidate statement, rather than referring to `ADVANCES`; if the intended orders are alpha<t<lambda<beta<1, alpha<lambda<t<beta<1, alpha<t<lambda<1 with beta=1, and alpha<lambda<t<1 with beta=1, write exactly those hypotheses."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

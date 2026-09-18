@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate correctly identifies the zero-charge region and its physical area, gives exact exhaustive fixed codes for every bounded half-plane intersection dimension and the empty case, derives the required area and capacity differentials, and supplies valid intrinsic feasibility, boundedness, recoding, and invariance conditions. In particular, the rank-two singleton slack differential includes the moving carrier point and has the correct sign. No mathematical error or gap was found under the supplied predecessor hypotheses.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

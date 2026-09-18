@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The strict budget follows exactly by summing the row inequalities, decomposing the middle-cap total, and using the supplied nonnegativity facts. The scalar consequences are algebraically correct. The three strip-area formulas follow from the accepted triangle-cap formulas in all threshold chambers, agree on chamber boundaries, cover the only possible repeated-value cases, and are strictly positive; hence Gamma at least delta contradicts the strict budget.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

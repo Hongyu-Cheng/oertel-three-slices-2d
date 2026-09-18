@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly converts the derivative hypotheses into strict lower bounds on the two axis-chord widths, uses the exact support to force the inner chord endpoints to be at least one, and derives valid positive lower bounds for the endpoint, Q, and Minkowski-middle contributions. The sign-cell coefficients, convex containments, segment-addition area identity, southwest-triangle construction, exact arithmetic, and final gate algebra all check out, including cutting-line, equality, and degenerate boundary conventions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

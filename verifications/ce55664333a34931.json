@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The derivation of the stated open-interval nonexistence result is valid, but the final endpoint assessment is mathematically false. At the threshold, the strict bounds already obtained still give a contradiction.",
+  "critical_errors": [
+    "The claim that the error budget no longer yields a contradiction at epsilon = epsilon_*(d) is false. When (45) is an equality, the strict upper bound (44) gives 3 Q_epsilon < 8d^2+6, while the strict lower bound (42) gives 3 Q_epsilon > 8d^2+6. Thus the same argument also excludes the endpoint."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Delete the false endpoint sentence, or replace it by the correct observation that the strict inequalities (42) and (44) also exclude epsilon = epsilon_*(d). The stated result with a strict upper bound then follows unchanged."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

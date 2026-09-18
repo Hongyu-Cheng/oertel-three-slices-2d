@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The cap-area parametrization follows from the strict vertex-side hypotheses, the centroid conditions correctly force the barycentric ordering, both cases excluding lambda_1<1/3 are valid, the argument excluding lambda_1>=1/2 is valid, and the final area lower bound yields the claimed inequality.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

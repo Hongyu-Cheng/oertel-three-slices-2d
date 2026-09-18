@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is logically complete. The accepted certificate applies to the polytopal case, the balanced terminal-measure decomposition and carrier estimates yield the required strict averaged contradiction, and the monotone polytope approximation preserves both the area hypothesis and the nonstrict depth conclusion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

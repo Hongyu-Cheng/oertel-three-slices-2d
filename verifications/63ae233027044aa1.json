@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The general chord-profile inequality, its boundary cases, and the algebra leading to (5) are mathematically sound, but the canonical specialization is not derivable from the self-contained data supplied in the candidate.",
+  "critical_errors": [],
+  "gaps": [
+    "The sets or cells P_j, P_0, P_ell, and P_{kell}, and the phrase \"A_0 cell\", are never defined in the candidate. In particular, the proof assumes without a stated hypothesis or accepted predecessor fact that P_0 is the all-positive sign cell and that the portions of A below p_j=0, p_k=0, and p_ell=0 have physical areas a, d, and c+d, respectively. Those area identities are essential for substituting into (1), so (4j)-(4l), and hence the claimed canonical specialization, do not follow from the stated assumptions alone."
+  ],
+  "repair_hints": [
+    "State the sign-cell definition of every P_I and explicitly assume that these four cells are the only positive-area cells of A; then derive the three below-zero area decompositions, noting that coordinate-hyperplane boundaries have zero planar area because the coordinate Jacobian is nonzero."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete. The midpoint cap transfer follows from the slice inclusion and planar Brunn--Minkowski, the endpoint-region argument handles both individual and total zero-demand conventions correctly, the centroid specialization yields the stated lower bound for every horizontal and nonhorizontal halfspace, and the algebraic normalization and residual-band intersection are exact, including all boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

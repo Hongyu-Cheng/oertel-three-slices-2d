@@ -1,0 +1,15 @@
+{
+  "advances": "The scalar inequalities do not imply the proposed lower bound. The rational sextuple below satisfies every scalar hypothesis strictly where strictness is required, but violates the conclusion. This refutes only the scalar shortcut: the sextuple is not asserted to arise from compatible sections and caps in one common plane, so it is not a counterexample to the locked geometric theorem.\n",
+  "author": "mp_r73_centroid_bm_shortcut_audit",
+  "candidate_id": "a7902cdbe6483b59",
+  "candidate_schema": 2,
+  "created_at": "2026-08-01T15:47:10.867106+00:00",
+  "depends_on": [],
+  "external_sources": "none\n",
+  "kind": "counterexample",
+  "packet_file": ".math-prover/packets/a7902cdbe6483b59.md",
+  "proof": "All six assigned numbers are positive. The endpoint caps are nonempty and non-full because\n\\(A-p=\\frac1{10000}>0\\) and \\(B-q=\\frac{49}{50}>0\\). The middle cap is also nonempty and non-full because\n\\(K-r=\\frac{49}{180}>0\\). Thus \\(0<p<A\\), \\(0<q<B\\), and \\(0<r<K\\).\n\nSince \\(99<100\\), positivity gives \\(\\sqrt{99}<10\\). Hence\n\\[\n\\frac{(\\sqrt A+\\sqrt B)^2}{4}\n=\\frac{(1+\\sqrt{99})^2}{400}\n=\\frac{50+\\sqrt{99}}{200}\n<\\frac3{10}\n<\\frac{49}{100}=K.\n\\]\nAlso,\n\\[\n\\frac{4K}{9}=\\frac{4}{9}\\frac{49}{100}=\\frac{49}{225}=r.\n\\]\n\nFor the chosen endpoint caps, the same exact radical bound gives\n\\[\n(\\sqrt p+\\sqrt q)^2\n=\\frac{(\\sqrt{99}+10)^2}{10000}\n=\\frac{199+20\\sqrt{99}}{10000}\n<\\frac{399}{10000}\n<\\frac1{25}\n<\\frac{196}{225}=4r,\n\\]\nwhere the last rational comparison is \\(225<4900\\).\n\nFor the complementary endpoint caps,\n\\[\nA-p=\\frac1{10000},\\qquad B-q=\\frac{49}{50},\\qquad K-r=\\frac{49}{180}.\n\\]\nThe rational comparison \\(2\\cdot140^2=39200<39601=199^2\\) implies\n\\(\\sqrt2<\\frac{199}{140}\\). Therefore\n\\[\n(\\sqrt{A-p}+\\sqrt{B-q})^2\n=\\left(\\frac1{100}+\\frac{7\\sqrt2}{10}\\right)^2\n=\\frac{9801+140\\sqrt2}{10000}\n<1\n<\\frac{49}{45}=4(K-r).\n\\]\n\nFinally,\n\\[\np+q+r\n=\\frac{199}{10000}+\\frac{49}{225}\n=\\frac{21391}{90000},\n\\qquad\n\\frac{2(A+B+K)}9\n=\\frac{149}{450}\n=\\frac{29800}{90000}.\n\\]\nSince \\(21391<29800\\), the target bound fails strictly. This completes the exact counterexample to the scalar implication, without making any geometric realizability claim.\n",
+  "source_packet_sha256": "a1e87f092fceefb4a3f06943a2dafa41f298910f571bd98e577a7679fbb0fd2a",
+  "statement": "Set \\(A=\\frac1{100}\\), \\(B=\\frac{99}{100}\\), \\(K=\\frac{49}{100}\\), \\(p=\\frac{99}{10000}\\), \\(q=\\frac1{100}\\), and \\(r=\\frac{49}{225}\\). Then \\(A,B,K>0\\), \\(0<p<A\\), \\(0<q<B\\), and \\(0<r<K\\). Moreover,\n\\(K\\ge\\frac{(\\sqrt A+\\sqrt B)^2}{4}\\), \\(r\\ge\\frac{4K}{9}\\), \\((\\sqrt p+\\sqrt q)^2\\le4r\\), and \\((\\sqrt{A-p}+\\sqrt{B-q})^2\\le4(K-r)\\), whereas\n\\(p+q+r<\\frac{2(A+B+K)}9\\).\nConsequently, the stated scalar implication is false.\n",
+  "subgoal_id": "centroid-middle-bm-shortcut-audit"
+}

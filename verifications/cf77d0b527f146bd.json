@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The planar maximal-section argument is valid for every direction, including flat maxima and support endpoints. Both quadratic reductions have the stated ratio orientation and strict root intervals. The retained hull agrees with the predecessor hull up to a null boundary, has only the R_1, R_2, and R_{12} cells off the cutting lines, and therefore satisfies the stated multiplicity identity. The quantitative bridge, compatibility inclusion, crossing allowances, and two-rail identity are applied with their required hypotheses. All strict inequalities and boundary cases, including alpha=1, equality at the closing thresholds, and positive discriminants, are handled correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

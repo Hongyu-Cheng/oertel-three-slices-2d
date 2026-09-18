@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically sound. The John normalization, compactness and cell-area limits, coefficient-support analysis, exact application of the planar Grünbaum equality characterization, limiting triangle-cell calculation, and high-occupancy contradiction all follow with the stated hypotheses and accepted predecessor facts. Boundary sets have zero area, degeneracies are excluded, and the conclusion matches the candidate statement.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

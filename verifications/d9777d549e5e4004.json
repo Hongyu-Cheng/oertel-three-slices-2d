@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The two strict row inequalities give a total endpoint-cap budget below 1/9; the area-ratio hypotheses give uniform positive lower bounds for both endpoint complements. In barycentric coordinates, the two centroid-level halfplanes cut out exactly the stated quadrilateral of normalized area less than 1/3. Exact midpoint compatibility and planar Brunn--Minkowski then force that same common negative-coordinate region to have area greater than 49/144, yielding a valid contradiction. All strict inequalities, boundary conventions, nondegeneracy requirements, and the final stratum claim are handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

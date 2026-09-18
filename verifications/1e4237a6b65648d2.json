@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The halfspace argument correctly reduces every nonhorizontal halfspace through (1,g_1) to a middle centroid cap of area at least 4a_1/9 and an endpoint contribution of at least d=2(M+m-a_1)/9, using the reflected point in A_2 and the stated barycentric-depth condition in the only case not covered by the A_0 centroid. Horizontal halfspaces are also above the target by the strict residual inequalities. The rational example, its compatibility, residual membership, reflected barycentric coordinates, strict criterion margin, strict failures of the three predecessor criteria, and openness claims are all verified by the displayed exact calculations and continuity.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

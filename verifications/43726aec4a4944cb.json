@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The endpoint first-moment and empty-cell estimates are valid, but the proof's numerical bridge to the claimed lower bound uses an inequality on k that is neither assumed nor derived.",
+  "critical_errors": [
+    "Equation (38) does not follow from (3) and (36). The inequality M<1+k is equivalent to k>M-1, whereas h<4(M+1)/9 is equivalent to k<M+1. Equation (36) only bounds M by 1+epsilon and supplies no upper bound on k. Thus (38) is unsupported, so the deduction epsilon>1/13 in (39), and consequently (11), (12), and the claimed uniform positive separation, are not proved."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Supply a valid upper bound on k before comparing the lower and upper estimates for h. One possible route to check is to sum the three crossing equalities and use the accepted facts Q_empty=R_empty=empty: these imply sum_i v_i>=1 and sum_i c_i>=k, hence 3h>=1+k and k<=2M-1. Combined with (36), this yields a valid bound strong enough to revisit (39)."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

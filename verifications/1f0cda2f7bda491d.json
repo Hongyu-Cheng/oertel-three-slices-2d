@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is self-contained and correct. The cone containments give the stated crossing areas, the symmetric triangle cap ratios and normalization are exact, the minimization in h is valid in both z regimes, and the strict inequality a>z yields the strict conclusion M>m+k. No external K_{R,g} applicability claim remains.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

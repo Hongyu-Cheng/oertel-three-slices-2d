@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap formula is exact on all three branches and at both transitions; strict failure correctly forces both side parameters above 1 and hence -1<c<1. The centroid argument, sheared long-edge containment, separate root-exterior leakage bounds, and both h-range contradictions are logically valid with the stated strictness. All support, cap-transition, zero-area boundary, and h=1/5 cases are retained.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

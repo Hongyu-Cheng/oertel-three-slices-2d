@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically sound. The first two row inequalities yield the stated quantitative separation and hence the strict bound d/(p+d)<Q(c); the parameter-uniform allocation estimate is verified over the full compact parameter domain with correct endpoint and interior-minimum analyses; and the linear-branch hypotheses (LL), including equality and d=e, convert this bound into G_eta(x)>0. The cited per-instance contrapositive then directly forces the endpoint contribution to be at least eta, so adding the middle contribution c=t-eta contradicts the third strict row inequality. All denominators, radicals, inverse-capacity arguments, and boundary cases used in the proof are valid under the stated chamber constraints.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine-coordinate parametrizations, convexity and nondegeneracy of both polygons, induced Euclidean areas, all six strict cap areas, the shift sum, the ratio inequality, and the final exact comparison are all correct and fully justified.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

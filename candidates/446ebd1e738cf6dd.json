@@ -1,0 +1,17 @@
+{
+  "advances": "Reduces the locked target to finding \\(c\\in A_1\\) such that \\(\\Phi(c)\\ge 4T/9\\): every such \\(c\\) gives \\((1,c)\\in S\\) with \\(h_S((1,c))\\ge 2T/9\\).\n",
+  "author": "mp_r6_symmetric_bridge",
+  "candidate_id": "446ebd1e738cf6dd",
+  "candidate_schema": 2,
+  "created_at": "2026-07-31T05:49:12.991532+00:00",
+  "depends_on": [
+    "400272f6de6c67bb"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/446ebd1e738cf6dd.md",
+  "proof": "Fix \\(c\\in A_1\\), put \\(y=(1,c)\\), and let \\(R(w)=2c-w\\). Define\n\\[\nB_1=A_1\\cap R(A_1),\\qquad\nB_2=A_2\\cap R(A_0),\\qquad\nB_0=R(B_2).\n\\]\nThese sets are compact, hence Borel measurable. Moreover,\n\\[\nB_1\\subseteq A_1,\\qquad\nB_2\\subseteq A_2,\\qquad\nB_0\\subseteq R(R(A_0))=A_0,\n\\]\nwhere the last inclusion follows from \\(B_2\\subseteq R(A_0)\\). Also,\n\\[\nR(B_1)=R(A_1)\\cap A_1=B_1,\\qquad\nR(B_0)=B_2,\n\\]\nand planar area is preserved by \\(R\\), so \\(|B_0|=|B_2|\\).\n\nSet\n\\[\nB=(\\{0\\}\\times B_0)\\cup(\\{1\\}\\times B_1)\n  \\cup(\\{2\\}\\times B_2)\\subseteq S\n\\]\nand let \\(\\nu(E)=\\mathcal H_2(B\\cap E)\\). This is a finite Borel measure. Central inversion about \\(y\\),\n\\[\nJ(x,w)=2y-(x,w)=(2-x,R(w)),\n\\]\nexchanges the outer components of \\(B\\) and preserves its middle component. Thus \\(J(B)=B\\), and the isometry invariance of \\(\\mathcal H_2\\) gives \\(\\nu(J(E))=\\nu(E)\\) for every Borel set \\(E\\). Additivity across the three disjoint slices gives\n\\[\n\\nu(\\mathbb R^3)\n=|B_0|+|B_1|+|B_2|\n=|B_1|+2|B_2|\n=\\Phi(c).\n\\]\n\nLet \\(K\\) be any proper closed halfspace whose boundary contains \\(y\\). For some nonzero linear functional \\(\\ell\\),\n\\[\nK=\\{p:\\ell(p-y)\\le0\\}.\n\\]\nSince \\(J(p)-y=-(p-y)\\),\n\\[\nJ(K)=\\{p:\\ell(p-y)\\ge0\\},\n\\]\nso \\(K\\cup J(K)=\\mathbb R^3\\) and \\(K\\cap J(K)=\\partial K\\). By \\(J\\)-invariance and finite-measure inclusion-exclusion,\n\\[\n2\\nu(K)\n=\\nu(K)+\\nu(J(K))\n=\\nu(\\mathbb R^3)+\\nu(\\partial K)\n=\\Phi(c)+\\nu(\\partial K)\n\\ge\\Phi(c).\n\\]\nThis identity makes no zero-boundary-mass assumption. In particular, when \\(\\partial K=\\{x=1\\}\\), it may contain the entire middle component \\(\\{1\\}\\times B_1\\).\n\nBecause \\(B\\subseteq S\\),\n\\[\n\\mathcal H_2(S\\cap K)\\ge\\nu(K)\\ge\\frac{\\Phi(c)}2.\n\\]\nFor an arbitrary proper closed halfspace \\(H\\) containing \\(y\\), accepted fact `400272f6de6c67bb` supplies such a boundary-through-\\(y\\) halfspace \\(K\\subseteq H\\). Hence\n\\[\n\\mathcal H_2(S\\cap H)\\ge\\mathcal H_2(S\\cap K)\n\\ge\\frac{\\Phi(c)}2.\n\\]\nIf the whole space is admitted as a degenerate halfspace, it also satisfies the bound: \\(|B_1|\\le a_1\\), while \\(|B_2|\\le a_0\\) and \\(|B_2|\\le a_2\\), so \\(\\Phi(c)\\le T\\). Taking the infimum over all closed halfspaces containing \\(y\\) proves the lemma. The stated consequence follows immediately from \\(\\Phi(c)\\ge4T/9\\).\n",
+  "source_packet_sha256": "0d738c283080dd02b7ec0a1beec23abc2e002cc2f5898a5a1ded214eca34904e",
+  "statement": "Let \\(S\\) arise from any compatible convex-polytopal triple \\((A_0,A_1,A_2)\\) in the locked problem. For every \\(c\\in A_1\\), define\n\\[\n\\Phi(c)=\\left|A_1\\cap(2c-A_1)\\right|\n+2\\left|A_2\\cap(2c-A_0)\\right|.\n\\]\nThen\n\\[\nh_S((1,c))\\ge \\frac{\\Phi(c)}2.\n\\]\nConsequently, if \\(\\Phi(c)\\ge 4T/9\\), then \\((1,c)\\in S\\) and\n\\[\nh_S((1,c))\\ge \\frac{2T}{9}.\n\\]\n",
+  "subgoal_id": "symmetric-overlap-bridge"
+}

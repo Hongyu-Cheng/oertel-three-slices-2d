@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the six convex-order inequalities, combines them with the exact formula for D and the cap-disjointness constraints, obtains the cap-triangle area bound, and reduces the assumed range to an impossible scalar inequality. All strictness, positivity, endpoint, and cyclic-relabeling arguments are justified by the stated hypotheses.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

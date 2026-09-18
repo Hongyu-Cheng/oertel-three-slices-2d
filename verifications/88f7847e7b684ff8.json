@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the piecewise strict defect bounds from the crossings, tails, F0 inequality, and positive-middle inequality; the coordinatewise concavity argument yields the stated homogeneous cap-slack minimum and equality characterization; the strengthened scalar bridge and cap lower bound give the claimed closed strip exclusion; and the symmetric rational witness and all strict comparisons are exact. All stated hypotheses, positivity conditions, endpoint strata, and equality boundaries are handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

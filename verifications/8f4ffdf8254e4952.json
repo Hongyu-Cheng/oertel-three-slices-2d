@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete under the stated accepted predecessor facts and genuine-lower-crossing assumption. The opposite-singleton projection argument yields the full interval needed for the two-rail insertion; all coordinate and area-Jacobian factors are consistent; the relative trace inclusions follow from a valid interior-point perturbation and exact support; the retained-area identities make no independence claim; and the right first variation at a genuine lower crossing gives the stated chord inequality.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

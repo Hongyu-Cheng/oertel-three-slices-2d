@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The convex-slice argument correctly bounds the main and tail portions of the Q_jk area, converts those bounds into the stated lower bounds on the left width slope, and then applies the negative-U cap-area estimate to obtain every positive-part inequality. The A, B, and C endpoint-order cases are exhaustive under the inherited literal strata, the zero-offset cases are handled separately without unsafe division, and all cleared denominators are strictly positive on their stated branches.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct under the stated hypotheses and supplied predecessor facts. The exact incidence decomposition yields the deficit identity with all four classes of remainder terms nonnegative; mixed-area additivity and planar Brunn--Minkowski give the common-core bound and its consequences; and the triangle-cap area, Minkowski-sum, quantitative interval, and affine common-plane compatibility calculations are correct, including the stated strict and boundary conditions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

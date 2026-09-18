@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The homothetic-copy area bounds are valid, their numerical consequences are sufficient, and the resulting inequalities contradict the negation of the claimed support-width bound. The pentagon specialization satisfies every hypothesis of the convex-body implication and yields the stated contradiction.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

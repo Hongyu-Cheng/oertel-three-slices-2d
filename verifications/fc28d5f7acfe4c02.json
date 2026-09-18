@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The determinant and compatibility equivalences, all cap-formula strata, the profile/Helly/Farkas construction and normalization, the converse low-mass cover, and the three-slice reconstruction are correct. The endpoint-exclusion argument, however, omits the vertex-degenerate case in its stated cap construction.",
+  "critical_errors": [],
+  "gaps": [
+    "In the endpoint triangle bound, when the endpoint point is a vertex its sorted barycentric coordinates are beta=gamma=0 and delta=1. The two proposed edge points at fractions 2 beta and 2 gamma then coincide at that vertex, so \"the line through them\" is undefined and the claimed cap is not constructed. Thus the proof as written does not cover every endpoint point."
+  ],
+  "repair_hints": [
+    "Handle beta=gamma=0 separately by taking any supporting line through the vertex whose closed cap intersects the triangle only in that vertex (or a boundary face), hence has area zero; retain the existing construction for all other barycentric-coordinate cases."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

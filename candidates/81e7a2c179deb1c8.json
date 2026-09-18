@@ -1,0 +1,18 @@
+{
+  "advances": "The balanced and unbalanced accepted facts exhaust all possible triples\n\\((\\sqrt{A_1},\\sqrt{A_2},\\sqrt{A_3})\\). Together they prove the full\nround-043 inequality and its unique equality case.\n",
+  "author": "/root/mp_r43_triangle_cevian",
+  "candidate_id": "81e7a2c179deb1c8",
+  "candidate_schema": 2,
+  "created_at": "2026-08-01T01:13:48.478826+00:00",
+  "depends_on": [
+    "b798e4964b158052",
+    "e3e665e2576b37cc"
+  ],
+  "external_sources": "none\n",
+  "kind": "theorem",
+  "packet_file": ".math-prover/packets/81e7a2c179deb1c8.md",
+  "proof": "The endpoint bounds give \\(A_i\\ge0\\), as recorded in both accepted\npredecessor facts. Hence the three nonnegative numbers\n\\[\n\\sqrt{A_1},\\qquad \\sqrt{A_2},\\qquad \\sqrt{A_3}\n\\]\nfall into exactly one of the following exhaustive cases.\n\nFirst, suppose they satisfy all three triangle inequalities. Accepted fact\n`b798e4964b158052` then gives the required inequality for every\n\\(0\\le d_i\\le A_i\\). It also proves that equality in this case holds exactly\nwhen\n\\[\n\\alpha=\\beta=\\gamma=\\frac13,\\qquad\n\\rho=\\sigma=\\tau=1,\\qquad\nd_1=d_2=d_3=\\frac29.\n\\]\n\nOtherwise, one triangle inequality fails. After a cyclic relabeling, this\nmeans\n\\[\n\\sqrt{A_1}>\\sqrt{A_2}+\\sqrt{A_3}.\n\\]\nAccepted fact `e3e665e2576b37cc` applies to the weakly dominant condition\n\\(\\sqrt{A_1}\\ge\\sqrt{A_2}+\\sqrt{A_3}\\) and gives, for every\n\\(0\\le d_i\\le A_i\\),\n\\[\nb>\n\\sqrt{d_1d_2}+\\sqrt{d_2d_3}+\\sqrt{d_3d_1}\n-\\frac12(d_1+d_2+d_3).\n\\]\nThe same accepted fact contains the two cyclic analogues, so this covers\nwhichever root is dominant. In particular, equality is impossible in every\nunbalanced case.\n\nThe two cases are exhaustive. The balanced case supplies the stated\nequality configuration, and the unbalanced case is strict. This proves both\nthe universal inequality and the claimed unique equality case.\n",
+  "source_packet_sha256": "e8a0fb534bbea171b98f60badb9ecf5503ef54ca728203ca506b5e6f32b4914d",
+  "statement": "Let\n\\[\n\\alpha,\\beta,\\gamma,\\rho,\\sigma,\\tau>0,\\qquad\n\\alpha+\\beta+\\gamma=1,\n\\]\nand assume\n\\[\n\\frac{\\alpha}{\\alpha+\\gamma}\\le \\rho\\le1+\\frac{\\gamma}{\\beta},\n\\qquad\n\\frac{\\alpha}{\\alpha+\\beta}\\le \\sigma\\le1+\\frac{\\beta}{\\gamma},\n\\qquad\n\\frac{\\beta}{\\alpha+\\beta}\\le \\tau\\le1+\\frac{\\alpha}{\\gamma},\n\\]\n\\[\n\\sigma+\\tau\\ge1,\\qquad\n\\frac1\\sigma+\\frac1\\rho\\ge1,\\qquad\n\\rho+\\frac1\\tau\\ge1.\n\\]\nDefine\n\\[\nA_1=2\\beta\\gamma+\\beta^2(1-\\rho)+\\gamma^2(1-\\sigma),\n\\]\n\\[\nA_2=2\\gamma\\alpha+\\gamma^2(1-\\tau)\n     +\\alpha^2\\left(1-\\frac1\\rho\\right),\n\\]\n\\[\nA_3=2\\alpha\\beta+\\alpha^2\\left(1-\\frac1\\sigma\\right)\n     +\\beta^2\\left(1-\\frac1\\tau\\right),\n\\]\nand\n\\[\nb=\\gamma^2(\\sigma+\\tau-1)\n  +\\alpha^2\\left(\\frac1\\sigma+\\frac1\\rho-1\\right)\n  +\\beta^2\\left(\\rho+\\frac1\\tau-1\\right).\n\\]\nThen \\(A_i\\ge0\\), and every \\(0\\le d_i\\le A_i\\) satisfies\n\\[\nb\\ge\n\\sqrt{d_1d_2}+\\sqrt{d_2d_3}+\\sqrt{d_3d_1}\n-\\frac12(d_1+d_2+d_3).\n\\]\nEquality holds if and only if\n\\[\n\\alpha=\\beta=\\gamma=\\frac13,\\qquad\n\\rho=\\sigma=\\tau=1,\\qquad\nd_1=d_2=d_3=\\frac29.\n\\]\n",
+  "subgoal_id": "canonical-concurrent-triangle-fan"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The triangle depth-core estimate handles both sides of every boundary-through-point line and gives the exact centroid depth 4A/9. Compatibility implies A2 is contained in the Minkowski erosion K, so the assumed barycentric margin gives the required reflected depth route; the eta and balanced-regime algebra yields exactly 2T/9. In the rotated-triangle family, the barycentric minima, erosion slack, all nine entries of the coordinate table, all endpoint lower bounds, the strict Gamma and rho bounds, and the exact area-capacity calculation are correct. The contracted copy of K supplies a compatible nondegenerate A2 of every prescribed area, and the convex hull has exactly the three stated integer slices. Continuity gives the claimed open neighborhood. The area inequalities and nonparallel edge directions place the family outside the cited large-slice, hybrid, edge-budget, homothetic, and Minkowski-equality cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

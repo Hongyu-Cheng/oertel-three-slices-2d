@@ -1,0 +1,17 @@
+{
+  "advances": "The requested common-middle extension does not exist. In fact, midpoint containment, the bound \\(k<75\\), and the first middle-cap equation are already incompatible, independently of rationality, convexity, and the other two cap equations. This gives a genuine all-polygon obstruction rather than failure of a polygonal template.\n",
+  "author": "r106_support_epp_middle_extension",
+  "candidate_id": "c8630da29dcdf16b",
+  "candidate_schema": 2,
+  "created_at": "2026-08-15T23:41:27.495155+00:00",
+  "depends_on": [
+    "33eb057e70ac0f43"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/c8630da29dcdf16b.md",
+  "proof": "Accepted fact `33eb057e70ac0f43` certifies for these exact triangles that\n\\[\n|B|=\\left|\\frac{P+Q}{2}\\right|=\\frac{277}{4}.\n\\]\nEvery point of \\(P\\) has \\(u\\ge\\varepsilon\\), and every point of \\(Q\\) has \\(u\\ge-\\gamma\\). Since \\(\\varepsilon=\\gamma\\), every midpoint of a point of \\(P\\) and a point of \\(Q\\) has \\(u\\ge0\\). Hence\n\\[\nB\\subseteq\\{u\\ge0\\}.\n\\]\n\nSuppose that \\(k\\) and \\(R\\) satisfy the stated area and containment conditions. Since \\(B\\subseteq R\\),\n\\[\nk=|R|\\ge |B|=\\frac{277}{4}.\n\\]\nThe line \\(\\{u=0\\}\\) has planar area zero. Therefore \\(B\\subseteq\\{u\\ge0\\}\\) and \\(B\\subseteq R\\) imply\n\\[\n\\begin{aligned}\n|R\\cap\\{u\\le0\\}|\n&=|R\\cap\\{u<0\\}|\\\\\n&\\le |R\\setminus B|\\\\\n&=k-\\frac{277}{4}\\\\\n&<75-\\frac{277}{4}\n=\\frac{23}{4}.\n\\end{aligned}\n\\]\nOn the other hand, \\(k\\ge277/4\\) gives\n\\[\n\\begin{aligned}\nt-d_2\n&=\\frac{2(75+k)}9-\\frac{1999}{40000}\\\\\n&\\ge\n\\frac{2(75+277/4)}9-\\frac{1999}{40000}\\\\\n&=\\frac{11522009}{360000}\\\\\n&=\\frac{23}{4}+\\frac{9452009}{360000}\n>\\frac{23}{4}.\n\\end{aligned}\n\\]\nThus \\(|R\\cap\\{u\\le0\\}|<23/4<t-d_2\\), contradicting the first required cap equation. Consequently no such \\(k\\) and \\(R\\) exist. The argument applies, more strongly, to every measurable planar set \\(R\\) containing \\(B\\) with \\(|R|=k<75\\).\n",
+  "source_packet_sha256": "6d1eeddc4d85144c3864d11c5b389818a17a17509d00e8bca8f5e77c91cb7e59",
+  "statement": "Use the area-preserving coordinates\n\\[\nu=y,\\qquad v=x+y,\\qquad x=v-u.\n\\]\nLet\n\\[\n\\varepsilon=\\gamma=\\frac1{4040},\\qquad\n\\alpha=\\frac{2000}{201},\\qquad\n\\beta=\\frac{404}{201},\\qquad\nw=\\frac{25}{101},\n\\]\nand define\n\\[\nP=\\operatorname{conv}\\left\\{\n(\\varepsilon,\\alpha),\\\n(\\varepsilon,\\alpha-100),\\\n(\\varepsilon+1,\\alpha-100)\n\\right\\},\n\\]\n\\[\nQ=\\operatorname{conv}\\left\\{\n(-\\gamma,-\\beta),\\\n(w-\\gamma,-\\beta),\\\n(-\\gamma,202-\\beta)\n\\right\\}.\n\\]\nPut\n\\[\nB=\\frac{P+Q}{2},\\qquad\nM=50,\\qquad m=25,\\qquad\na=\\frac{79}{4},\\qquad\nd_2=\\frac{1999}{40000}.\n\\]\nThere do not exist a rational number \\(k\\) and a compact two-dimensional rational convex polygon \\(R\\) such that\n\\[\n50\\left(\\frac14+\\frac{\\sqrt2}{2}\\right)<k<75,\n\\qquad |R|=k,\n\\qquad B\\subseteq R,\n\\]\nand, on defining\n\\[\nt=\\frac{2(M+m+k)}9=\\frac{2(75+k)}9,\n\\qquad d=a+k-t,\n\\]\nall three equations\n\\[\n|R\\cap\\{u\\le0\\}|=t-d_2,\n\\qquad\n|R\\cap\\{v\\ge0\\}|=t-m,\n\\qquad\n|R\\cap\\{v-u\\ge1\\}|=d\n\\]\nhold.\n",
+  "subgoal_id": "support-epp-fixed-endpoint-middle-extension"
+}

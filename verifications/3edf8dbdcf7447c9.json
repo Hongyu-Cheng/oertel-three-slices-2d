@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap parametrizations cover all support-incidence and boundary cases, the seven violation predicates exhaust the possible sign patterns of the sum, and all 42 resulting exact real semialgebraic systems are infeasible. The fixed-matrix arithmetic is exact, and the subsequent threshold argument correctly proves the universal capacity bound and contradicts the strict endpoint rows.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

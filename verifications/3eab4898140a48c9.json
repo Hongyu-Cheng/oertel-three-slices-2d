@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is sequentially valid. The weighted coefficient tables and the p>0 argument are exact; both Brunn--Minkowski and quantitative-bridge applications satisfy their stated hypotheses; the two relabeled ledgers retain every negative term; the minimax symmetry reduction and concavity endpoint argument yield the claimed strict ratio bound; and the final bridge estimate gives Delta>2 with correct strictness and algebra.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

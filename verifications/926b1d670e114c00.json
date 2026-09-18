@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The exact clipping formulas, one-dimensional minimizations, threshold equations, monotonicity argument, weighted radical bound, and final Farkas feasibility criterion are correct; the stated values of R_1, R_2, and R_3 and the noncoverage consequence follow without a gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

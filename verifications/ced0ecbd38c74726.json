@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The pair-hull identity is proved correctly, including boundary and lower-dimensional cases. The positive-area inequality follows with exact hypotheses from the accepted triangle reduction, parameterization, and parameter inequality, while the zero-area branch is covered by the accepted predecessor fact. The necessity and sufficiency arguments for equality, as well as sharpness for arbitrary fan-line directions, are logically complete.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

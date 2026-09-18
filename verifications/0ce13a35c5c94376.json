@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The support partition gives the stated area identities, compatibility and the normalized coordinates give the H_D containment and f_3 sign, mixed-area monotonicity yields the exact 1/4 bulge increment, and the third-crossing and active-row arguments preserve all strict inequalities. The Bonnesen bound is applied to the correct retained bodies. Independent exact-rational clipping confirms the calibration's four positive cells, all stated cell and body areas, equal support values and mixed areas, the area ratio, and equality in the bulge increment.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

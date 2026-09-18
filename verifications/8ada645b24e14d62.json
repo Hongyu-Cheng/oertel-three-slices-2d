@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The base-edge support calculation, affine scaling, Minkowski bound, three-summand mixed-area expansion, equality implication, and endpoint-stratum coverage are all valid under the supplied hypotheses and accepted predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

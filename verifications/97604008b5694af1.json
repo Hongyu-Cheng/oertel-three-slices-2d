@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically correct and complete: the normalized formulas are exact, the two cases for the affine-ray coefficient exhaust the parameter range, the pointwise dual inequalities hold on both ray chambers including the shared boundary, the constant term is nonnegative, and the resulting strict contradiction with (8) is valid.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

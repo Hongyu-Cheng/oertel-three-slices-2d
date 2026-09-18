@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The exact rational datum satisfies the stated zero and equality branches, every inherited finite-system row, the sharpened dominance cap and strict maximum order, and all six residual inequalities. The displayed arithmetic, signs, and boundary assignments are consistent.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

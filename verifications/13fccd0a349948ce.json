@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The accepted predecessor maps exactly to the stated coordinates and cap definitions. The area, cap, midpoint, recentering, and projection endpoint computations are exact, and preservation of the two exterior sections at x=0 and x=8 forces their full convex hull, hence the section at L=19/20 contains [-4,4] and cannot equal {0}.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

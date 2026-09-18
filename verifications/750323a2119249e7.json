@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically complete. The centroid decomposition yields the stated positive dominant margin, Grünbaum and Brunn--Minkowski apply to the verified two-dimensional compact convex bodies, the clipped transverse support parameters correctly cover interior, tangent, and exterior cuts, and the feasibility plus Bonferroni argument gives the claimed exact R_23 charge and its crossing and budget consequences.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly verifies the two normalized cap constraints, establishes strict lower bounds above 17/81 for every component of delta, proves tau(R) is strictly smaller than 17/81, and applies the accepted closure fact with all stated boundary strata preserved.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

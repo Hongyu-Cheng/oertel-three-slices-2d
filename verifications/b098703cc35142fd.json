@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap-profile rigidity argument correctly recovers each support function and hence the convex body. The shear examples exactly preserve area, exhibit failure of independent compatibility, preserve compatibility under a common shear, and demonstrate failure of fixed cap preservation while retaining quadrilateral combinatorics. The conclusions drawn from the accepted predecessor facts are appropriately limited to identifying the missing coordinated-deformation theorem.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,20 @@
+{
+  "advances": "Closes the registered strict-rational-realizability subgoal. The accepted\nnormal form has exactly four endpoint-incidence cases, according to whether\nzero, one, two, or three cyclic endpoint pairs vanish, and the three accepted\nendpoint-stratum lemmas exclude all four cases at the necessary scale. This\ncomposition makes no claim about the original theorem beyond the full\ncommon-plane \\(A_0,A_2,K\\) strict-table realization addressed here.\n",
+  "author": "/root/mp_r51_q_triangle_bound",
+  "candidate_id": "886ee6eb34994436",
+  "candidate_schema": 2,
+  "created_at": "2026-08-01T05:27:36.315865+00:00",
+  "depends_on": [
+    "064c82c25ed3dde1",
+    "4cdcb422d6f20e28",
+    "be4033c5411ca728",
+    "eef70ce3abe7606e"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/886ee6eb34994436.md",
+  "proof": "Suppose such a realization exists. Accepted fact `eef70ce3abe7606e` supplies\nits fifteen-variable normal-form tuple. In particular, the tuple satisfies\n\\[\nD\\le\\frac4{169},\n\\tag{1}\n\\]\nand, for each of the three cyclic endpoint pairs\n\\[\n(x_{12},x_{21}),\\qquad\n(x_{23},x_{32}),\\qquad\n(x_{31},x_{13}),\n\\tag{2}\n\\]\ncondition (2a) of that fact says that either both entries vanish or both are\npositive.\n\nLet \\(m\\) be the number of pairs in (2) whose two entries vanish. Then\n\\[\nm\\in\\{0,1,2,3\\},\n\\tag{3}\n\\]\nand these four cases are exhaustive.\n\nIf \\(m=0\\), all six endpoint parameters are positive, so accepted fact\n`4cdcb422d6f20e28` gives\n\\[\nD>\\frac4{169}.\n\\]\nIf \\(m=1\\), accepted fact `064c82c25ed3dde1` gives the same strict\ninequality. If \\(m=2\\) or \\(m=3\\), accepted fact `be4033c5411ca728`\nagain gives\n\\[\nD>\\frac4{169}.\n\\]\nEvery possible value of \\(m\\) therefore contradicts (1). Hence the assumed\nfull common-plane \\(A_0,A_2,K\\) realization does not exist.\n",
+  "source_packet_sha256": "58371d47dd5f2cdddb2068acf56cfa8ea0a1e31c3a57d90d28f5a2d24246232a",
+  "statement": "There is no full common-plane \\(A_0,A_2,K\\) realization of the strict rational\ntable in the polytopal setting of accepted fact `eef70ce3abe7606e`.\n",
+  "subgoal_id": "canonical-all-double-strict-rational-realizability"
+}

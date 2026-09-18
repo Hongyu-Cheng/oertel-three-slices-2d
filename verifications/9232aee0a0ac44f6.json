@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The derivations are mathematically consistent under the apparent intended definition of the cap functions, but the candidate never defines those functions. Since neither accepted predecessor fact defines them, equations (2), (3), and (5)-(20) are not statements or arguments determined by the supplied material.",
+  "critical_errors": [],
+  "gaps": [
+    "The symbols G_i^u(c) are never defined in the candidate or in either accepted predecessor fact. Their intended identification with |A_i intersect {w: <u,w> <= c}| is essential to every claimed continuity, complementarity, compact-support, and halfspace-mass identity."
+  ],
+  "repair_hints": [
+    "Explicitly define G_i^u(c)=|A_i intersect {w in R^2: <u,w> <= c}| before using it; then the displayed proof supplies the needed arguments."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

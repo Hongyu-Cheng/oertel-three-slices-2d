@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The section-location, perspective-containment, hull-area, and rational-arithmetic arguments check out, but the proof does not establish the three chord-concavity inequalities (13j)-(13l). Because those inequalities are part of the claimed necessary package and no predecessor fact supplies them, this is a material gap.",
+  "critical_errors": [],
+  "gaps": [
+    "The paragraph for (13j)-(13l) merely asserts that a right supergradient of an unnamed chord profile gives the displayed generic inequality. It never defines that profile, proves its concavity in the chosen unit-Jacobian coordinates, relates B to its integral over a coordinate strip of width delta, bounds the full below-line area U using the supporting affine function, or derives the factor 1/4. Thus the generic inequality, and hence (13j)-(13l), does not follow from the supplied proof."
+  ],
+  "repair_hints": [
+    "Give a self-contained chord-profile lemma. For each direction, specify a transverse coordinate of Jacobian magnitude one, let f(s) be the corresponding section length with f(0)=lambda, prove f is concave, and choose a supergradient g at zero. Show that B is at most the integral of f over 0<s<delta. When B>lambda delta, derive g at least 2(B-lambda delta)/delta^2, then use nonnegativity and f(s) at most lambda+gs on the negative side to obtain U at most lambda^2/(2g). Finally identify the negative-side areas as Delta a, Delta d, and Delta(c+d)."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

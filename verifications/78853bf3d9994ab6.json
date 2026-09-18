@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The clipping formulas and monotonicity arguments are correct on the full parameter interval, the accepted endpoint values are applied with the correct nonnegative Farkas weights, and the explicit common point in the closed complements proves the stated non-covering consequence.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

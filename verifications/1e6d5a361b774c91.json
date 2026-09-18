@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The chamber-exclusion perturbations, chord-closure argument, convex-hull area bound, strict calibration comparison, and subtraction of the two crossing equations are all valid under the stated hypotheses and yield the claimed contradiction.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

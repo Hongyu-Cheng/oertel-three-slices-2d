@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly identifies the three ambient chambers through the affine isomorphism, derives the exact area-scaling factors, uses the accepted middle-cell lemma under its satisfied positivity hypothesis, and obtains the stated lower bounds from the realized empty-cell area. All hypotheses, strict-boundary conventions, and conclusions are handled without a mathematical gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

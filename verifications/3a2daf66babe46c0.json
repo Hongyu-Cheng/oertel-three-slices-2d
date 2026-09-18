@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The clipping-point construction and piecewise formula for the integrand are correct in all endpoint cases. The four kink-order regions exhaust the parameter space, and the three accepted predecessor facts apply exactly to the resulting endpoint and boundary cases, including the common boundary t=lambda. The final algebraic conversion from I+9J<0 to p<4/9 and from 5J+8R-3I>0 to the two strict conclusions is correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

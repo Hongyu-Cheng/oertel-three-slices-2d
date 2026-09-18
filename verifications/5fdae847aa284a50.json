@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is sequentially valid. The normalized common-apex hull yields the stated chord and area bounds; the two cap triangles give the complementary determinant bound, producing the exact constant in (1). The two-direction cap estimate, predecessor aspect transfer, trace identities, and final strict numerical comparison then establish both inequalities in (2), including all zero-offset and flat-support cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

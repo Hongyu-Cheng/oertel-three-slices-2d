@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The chamber-support arguments, chord-length Jacobians, both rational polygon clipping and area certificates, the common-plane coordinate map, retained traces, nondegenerate separator, and strict bulging arithmetic all check exactly. The conclusion is correctly limited to the stated row-local nonimplication.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

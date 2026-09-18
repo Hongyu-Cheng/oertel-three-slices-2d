@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The cell decompositions, Brunn-Minkowski arguments, centroid cap estimate, and final one-variable minimization are correct conditional on the two inequalities in (29). However, the supplied statement and accepted predecessor fact do not state the exact residual-strip hypotheses needed to verify both inequalities in (29), so the proof is not statelessly complete.",
+  "critical_errors": [],
+  "gaps": [
+    "The proof invokes 1<m+M and M<1+m in (29) as consequences of an undefined inherited strict residual strip. The candidate's displayed hypotheses (1) give only q>1, 0<m<=M, and 1+m<2M, and accepted fact 09393c6edf1fc4e2 does not state the full residual-strip definition or both inequalities in its conclusion. These extra inequalities are essential for (30), especially d<m, which is then used in (32), (37), and (39). Their exact applicability therefore cannot be verified from the allowed material."
+  ],
+  "repair_hints": [
+    "State 1<m+M and M<1+m explicitly among the candidate hypotheses, or supply and cite the exact residual-strip definition and derive them before (30)."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,18 @@
+{
+  "advances": "Every full/full-tail system is infeasible, independently of its word class. This eliminates exactly \\(3\\cdot34928=104784\\) systems and leaves \\(367248\\) systems in the reduced list.\n",
+  "author": "mp_r35_affine_ff",
+  "candidate_id": "b23633f36a9edcd1",
+  "candidate_schema": 2,
+  "created_at": "2026-07-31T21:19:53.851428+00:00",
+  "depends_on": [
+    "46afc7eb815ffc5b",
+    "b046e3066136e781"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/b23633f36a9edcd1.md",
+  "proof": "Fix such a system and suppose it is feasible. By the full-tail equations in accepted fact `b046e3066136e781`,\n\\[\nb=m,\\qquad d=k.\n\\]\nThe same system contains\n\\[\n9t=2(1+m+k),\\qquad\n\\Omega=2t-b-d,\\qquad\n\\Omega\\ge0.\n\\]\nConsequently,\n\\[\n0\\le\\Omega\n=2t-m-k\n=\\frac{4(1+m+k)-9(m+k)}9\n=\\frac{4-5(m+k)}9,\n\\]\nso\n\\[\nm+k\\le\\frac45. \\tag{1}\n\\]\n\nOn the other hand, every residual-strip branch forces \\(m+k>1\\). Indeed, \\(m=q^2\\). If \\(\\eta=0\\), then\n\\[\nk>1-q^2,\n\\]\nhence\n\\[\nm+k=q^2+k>1.\n\\]\nIf \\(\\eta=1\\) or \\(\\eta=2\\), then\n\\[\n5q>3,\\qquad\n2k>3q^2+2q-1.\n\\]\nSince \\(q>0\\),\n\\[\n\\begin{aligned}\n2(m+k)\n&=2q^2+2k\\\\\n&>5q^2+2q-1\\\\\n&=2+(5q-3)(q+1)\\\\\n&>2.\n\\end{aligned}\n\\]\nThus \\(m+k>1\\) in these branches as well, contradicting (1).\n\nThe contradiction uses no condition on \\(\\sigma\\), so it eliminates every full/full word class. Accepted fact `46afc7eb815ffc5b` counts \\(34928\\) such classes for each of the three values of \\(\\eta\\). Therefore exactly\n\\[\n3\\cdot34928=104784\n\\]\nsystems are removed.\n",
+  "source_packet_sha256": "5fe2da3f7d87ad4e3879064b1e8265f0df0d457f0bb47d2f5f386728f0267c80",
+  "statement": "Use the system family \\(\\mathcal S_{\\eta,\\tau_Q,\\tau_R,\\sigma}\\) of accepted fact `b046e3066136e781`, with the reduced word list and counts of accepted fact `46afc7eb815ffc5b`.\n\nFor every \\(\\eta\\in\\{0,1,2\\}\\) and every allowed label vector\n\\[\n\\sigma_P\\in\\mathcal A,\\qquad\n\\sigma_Q,\\sigma_R\\in\\mathcal B,\n\\]\nthe system\n\\[\n\\mathcal S_{\\eta,\\mathrm F,\\mathrm F,\\sigma}\n\\]\nis infeasible.\n",
+  "subgoal_id": "canonical-affine-full-full-row"
+}

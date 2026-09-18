@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The geometric areas and cap values, the crossing-derived cap formulas, the strict identification of c_3 as the minimum, the application of the accepted three-cap inequality, and all ensuing rational arithmetic and interval comparisons are correct. The hypotheses of the accepted inequality hold, including nonempty interior of K because K contains the positive-area set B.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

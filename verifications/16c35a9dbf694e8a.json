@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The homothetic-cap formulas, clamped-profile minimization, payment inequality, and final index argument are correct under the stated compatibility and strict residual hypotheses. The boundary cases and rational nonempty example also check.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

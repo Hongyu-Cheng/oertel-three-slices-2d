@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is correct and complete. The cap quantiles and closed depth-region representation are justified at all boundary thresholds; containment is converted exactly to an infinite closed-halfplane system; compact anchoring, the finite intersection property, and planar Helly validly reduce infeasibility to at most three halfplanes; the stated Farkas alternative has the correct strict sign; positive homogeneity absorbs the nonnegative multipliers; and a two-direction certificate is padded to a nonzero zero-sum triple without changing its positive total.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

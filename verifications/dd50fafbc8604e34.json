@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The coordinate transformation, polygon areas and convexity, parameter bounds, cap computations, both quantified shifted profiles, exact Minkowski-sum clipping, and final strict rational inequality are all correct. Boundary lines have area zero, and the profile arguments cover every required negative shift and a nonempty interval of positive shifts without degenerate exceptions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

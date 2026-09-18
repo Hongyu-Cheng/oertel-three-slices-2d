@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The proof contains a false inequality in the key derivation of the shape bound (2), so the candidate is not valid as written.",
+  "critical_errors": [
+    "After (15), the bounds X <= 1+sigma_1-1/Z and Y <= 1+sigma_2-1/Z', together with XY >= 1, imply only (1+sigma_1-1/Z)(1+sigma_2-1/Z') >= 1, not >= 2 as claimed. Indeed, in the stated equality configuration X=X'=Y=Y'=Z=Z'=1 and sigma_1=sigma_2=sigma_3=1, so the displayed product equals 1. Thus the written derivation of (16), and hence of (2), uses a false assertion."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Replace the false product step by X+Y >= 2 from XY >= 1, X' >= 1/Z from X'Z >= 1, and Y' >= 1/Z' from Y'Z' >= 1. Then sigma_1+sigma_2 = X+X'+Y+Y'-2 >= 1/Z+1/Z' >= 4/(Z+Z') = 4/(1+sigma_3)."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

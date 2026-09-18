@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the endpoint-ratio slope lower bounds, the Q_N area lower bound on the terminal width slope, and the resulting positive-part cap inequalities on both the positive-offset and literal zero-offset strata. The branch conditions are exhaustive, all cleared denominators are positive on their stated strata, and the inherited rational point is correctly shown to lie strictly in the selected new branch.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

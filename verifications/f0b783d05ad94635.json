@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The two-interval lemma, its two coordinate applications, and the numerical violation are internally correct, but the candidate is not complete as a stateless proof of every claim in its statement.",
+  "critical_errors": [],
+  "gaps": [
+    "The cells P_j, P_0, P_l, and P_{kl} are never defined by sign conditions. Consequently, from the supplied material alone one cannot verify the two crucial application claims that A intersected with {p_k <= 0} has area exactly d and that A intersected with {X <= 0} has area exactly a.",
+    "The statement claims that (7) and (9) are not consequences of the separate chord bounds retaining only (a,b,J) or (d,b,K), but those bounds are not stated and the proof supplies neither a logical-independence argument nor examples satisfying the separate bounds while violating the completion inequalities. The concluding assertion that this is the first boundary-completion equation failed is likewise unsupported by the supplied material."
+  ],
+  "repair_hints": [
+    "Define every cell by its coordinate sign pattern, then explicitly deduce the two halfspace-area identities used in the applications.",
+    "State the exact separate chord bounds and prove the claimed non-consequence for each completion inequality, for example with fully checked witness data; also justify or delete the unsupported ordering claim."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

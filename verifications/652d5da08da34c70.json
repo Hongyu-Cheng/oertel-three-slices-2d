@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically complete. The southwest-incidence dichotomy and supporting-line argument are valid, the two cap inequalities have the correct scale and direction, and their algebraic elimination is exact. The shoelace, anchor, and chord formulas hold on all stated degenerate strata. The derivation of the common lower bounds for G/W and F/H, the resulting chord-ratio estimate, and the cap-based bound on L are correct and yield exactly 5000/291. No converse realization claim is used.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

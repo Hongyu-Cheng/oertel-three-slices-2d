@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly establishes the nonconstant affine duality, computes all constant cases, proves the independent-row infimum equivalence, and handles the zero-constant discrepancy under the strict balanced inequalities. All hypotheses, strict versus closed inequalities, empty-complement cases, nonattainment issues, and the possible constant-row configurations are covered without a mathematical gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

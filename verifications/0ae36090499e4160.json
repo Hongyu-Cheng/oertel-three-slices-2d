@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The clipping identity follows exactly from the sectionwise half-line formulas and the weighted crossing equations. Under transversality the clipping corrections vanish, the normalized-section midpoint inclusion gives the stated lower bound for kappa, and the outer and central span estimates and subsequent coefficient algebra correctly yield the two necessary inequalities, including all strictness and boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

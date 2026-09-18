@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The fan-interval overlap forces q123>0 and the correct lower radical branch; the concave-tail derivative argument remains valid for a positive-length terminal support face; the W=0 coefficient and support-width bounds are correctly applied; and the exact two-parameter face parameterization, singleton discriminants, radical estimate, and exhaustive rational case split all check exactly. The stated exclusion is correctly limited to the positive two-parameter face.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

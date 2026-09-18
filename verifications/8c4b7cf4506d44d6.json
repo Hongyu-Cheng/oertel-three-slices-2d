@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is a valid composition of the supplied accepted facts. The split at B=1 is exhaustive; for B>1 the linear-linear and at-least-one-quadratic switch conditions form an exhaustive weak-inequality cover, including all equality and d=e cases, and the cited facts yield the required contradiction to the strict third-row bound. The boundary perturbation fact then transfers the established open-chamber exclusion to every nonempty zero-entry stratum while preserving all required hypotheses.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

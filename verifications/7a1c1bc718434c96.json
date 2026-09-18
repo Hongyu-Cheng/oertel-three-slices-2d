@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap-area computations, linear cap-scale constraint, summed crossing identity, and strict inequality contradiction are all valid under the stated hypotheses, with boundary-null sets handled correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

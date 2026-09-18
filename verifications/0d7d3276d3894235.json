@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The planar inequality and its application to the all-zero selected-section case are correct. The collinear endpoint cases force two opposite sector pairs to have equal areas. In the strict case, the constructed triangle has the stated sectorwise comparisons, preserves the three bisected chords, and its barycentric formulas imply the required inequality. The selected-section convention correctly reduces outer contributions to the four payment patterns, the all-zero pattern is excluded by the two-dimensional midpoint body, and the remaining patterns are excluded using the supplied predecessor facts and the stated algebra. All hypotheses, strict inequalities, and boundary cases used in these arguments have been checked; no mathematical errors or gaps were found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

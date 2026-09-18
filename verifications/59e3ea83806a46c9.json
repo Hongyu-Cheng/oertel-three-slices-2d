@@ -1,0 +1,18 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The release identity itself is correct, but the claimed canonical equality system is incomplete. The edge from q_0 to q_1 passes through the cut-cut point (1,1), yielding a nonzero structural equality row or, if undeclared, an immediate clipping-stratum event.",
+  "critical_errors": [
+    "Let H=[q_0-(1,1),q_1-(1,1)]. Here q_0-(1,1)=(1/100,-1/100) and q_1-(1,1)=(-1/100,1/100), so H=0: the A_2 edge q_0q_1 passes exactly through the intersection of the cuts f_1=1 and f_2=1. Accepted fact ac38e37c661e844b requires such an edge-through-cut-intersection zero either to be declared persistent and included in E_can or to be treated as an immediate boundary event. The candidate does neither, so (13)-(15) are not the asserted canonical system.",
+    "The omitted row is nonzero: for the displayed orientation, DH has q_{0x}=q_{0y}=q_{1x}=q_{1y}=1/100 and all other entries zero. It is independent of the rows in (14); adjoining it raises the exact rank from 11 to 12. Hence both the claimed complete equality list and the claimed rank are false."
+  ],
+  "gaps": [
+    "The proof asserts completeness of the canonical row list without checking the edge-through-cut-intersection predicates required by the accepted zero classification. The displayed Q_13 and Q_123 rows are only fixed-H tangent representatives: relative to the ordinary clipping derivatives they differ by -DH/4 and (401/1208)DH, respectively, which cannot justify omitting DH."
+  ],
+  "repair_hints": [
+    "Declare H=0 as a persistent clipping-stratum equality, add DH to E_can, and recompute the row count and rank; the corrected rank is 12. Alternatively, replace the realization by one with this determinant strict and re-audit every chamber code and derivative.",
+    "After adding DH, explicitly explain the chosen fixed-stratum extensions for DQ_13 and DQ_123 and then restate the dual certificate. The elementary relation R=-2DP_empty may survive this correction, but the present statement and proof do not."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The numerical cap calculations after the proposed three-fan lemma are consistent, but the lemma is not proved by the supplied localization argument, and the advertised stronger conclusion using only the lower strip bound is not established.",
+  "critical_errors": [
+    "The claimed stronger conclusion says that s>1-r, D contained in K, and the three strict low-mass inequalities alone yield a contradiction, but equation (20) explicitly uses the omitted upper Regime A bound s<1+r to infer widehat c_j>s/4. No replacement derivation from the stated weaker hypotheses is given."
+  ],
+  "gaps": [
+    "The proof of the sharp three-fan cap lemma jumps from the six sector-membership columns to a global extremal classification. It does not justify that convex boundary sliver variations can be assigned independently with both signs while preserving convexity, total area, q, and b_1-b_2; it does not display the asserted Gaussian elimination; and it does not prove that a minimizer must have b_1=b_2 or that every nontriangular or boundary configuration reduces to the listed cases.",
+    "Even after asserting triangular support, the claim that the stationary triangle can, using only interchange of X and Y and a common homothety, be written as conv{(-1,r),(r,-1),(k,k)} is not derived. A general triangle with one vertex in each of sectors 1, 3, and 5 has additional asymmetric degrees of freedom, so equations (7)-(10) audit only the asserted symmetric family and do not complete the lemma."
+  ],
+  "repair_hints": [
+    "Supply a rigorous localization or extremal theorem proving the three-fan cap lemma for every compact two-dimensional convex body, including a justified reduction to all extremizers and a complete treatment of asymmetric and boundary cases.",
+    "Either delete the lower-strip-only strengthening or prove it without using s<1+r; the current main Regime A contradiction may still use both strip endpoints."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

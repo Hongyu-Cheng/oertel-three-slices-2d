@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The residual strip strictly implies B<1+A; the column-sum and height-sum identities force the three closed endpoint halfplanes to cover the affine plane; planar Grünbaum applies to the nondegenerate endpoint triangle at its centroid; and the exact one-positive zero-cap formula in the chamber p,a,b>0, p>a+b yields a strict cap fraction above 4/9. These bounds combine in one row to give the claimed strict gap, and the reasoning is invariant under the stated row permutations, common column permutations, and positive scalings.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

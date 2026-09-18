@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The contact triangle and axis-intercept subtriangle are correctly contained in D, the coordinate-to-physical area conversion uses the Jacobian J in the correct direction, and the resulting bounds (1) and (2) are valid including all boundary cases. The rational substitutions, global and localized contradictions, exact-cell nonnegativity interval, and separate forced-wing capacity interval are all arithmetically and logically correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

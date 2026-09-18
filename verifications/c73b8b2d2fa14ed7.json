@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct under the supplied predecessor hypotheses. The closure and finite-hull identities handle empty and boundary cases, the two-body Minkowski identity and cellwise charge calculation establish the two gates, and the affine normalization and D-family computations are consistent, including the boundary value D=28.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

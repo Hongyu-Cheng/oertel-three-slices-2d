@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the strict pointwise cap bound from the concurrent-cap inequality, passes it to arbitrary sequences without requiring geometric convergence, and establishes the claimed Regime B contradiction by a valid exhaustive split in r. The algebraic identities, derivative signs, strict inequalities, denominator positivity, and rank-one limiting discussion are consistent with the stated hypotheses and accepted facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

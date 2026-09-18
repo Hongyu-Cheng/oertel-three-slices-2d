@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The endpoint sign decompositions, actual-lower-crossing argument, exact endpoint, mixed-area, hull-cell, gate, and row-2 arithmetic all check. The general predecessor applies under the inherited canonical hypotheses, while the separator-normal predecessor is correctly distinguished and not invoked because these endpoint polygons lie outside its restrictive class. Compatibility places the averaged hull in K, and the verified row-2 hull cap strictly exceeds the crossing-based upper bound.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

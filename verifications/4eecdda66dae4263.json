@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete. The optimized affine-transversal formulation and depth-region equivalence follow exactly from the supplied slice-depth fact, the square-root-only endpoint optimization is valid, the triangle depth formula is proved for all incidences including boundary cases, and every calculation and applicability condition in the residual example checks out.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

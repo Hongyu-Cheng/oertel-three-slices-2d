@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The hybrid depth argument is complete and correct. The tilted-halfspace bound, centerpoint construction inside A_1, horizontal-halfspace check, normalized residual region, piecewise breakpoints and boundary conventions, area-level realizability, hybrid overlap strip, and sharpness-family placement all follow with the stated quantifiers and strictness.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

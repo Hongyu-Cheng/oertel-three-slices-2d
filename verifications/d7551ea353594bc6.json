@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The rational rectangles satisfy the exact Minkowski-average identity and every stated area, residual, affine-function, cap, tail, and support-profile hypothesis. The computed profile values give 1/8 < 71/240, so the universal inequality (J) is genuinely violated by 41/240. The two profile-infimum claims, the emptiness of I_l, and the lower bound for every row-aligned containing triangle also follow with the stated strict inequalities. No mathematical error or proof gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

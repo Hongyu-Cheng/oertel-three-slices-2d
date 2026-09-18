@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The polygon area and exact chord formulas follow from the stated mixed order, including all boundary strata. The proof then validly combines the accepted cap capacities with the polygon area bound to control the horizontal aspect ratio, bounds the vertical aspect ratio in both branches, applies the accepted common-apex result exactly where needed, and transfers the conclusion under coordinate exchange.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The two predecessor facts apply under the stated hypotheses. Substituting m=q(1+R) into the strict scalar bridge gives D<tau(R), while the cap bound gives D>=delta, yielding the first contradiction including equality. On the closed rational box, the predecessor gives D>=2/5 and the elementary estimate tau(R)<49/225<2/5 yields the second contradiction. The cited predecessor statements also cover the claimed coincident-endpoint and ratio-boundary cases, and the remaining zero-area cutting-line conventions do not alter either area inequality.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

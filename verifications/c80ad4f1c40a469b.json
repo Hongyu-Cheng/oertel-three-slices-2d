@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly applies the accepted singleton-cell consequence to identify the central triangle inside K, derives the three ambient triangles as affine images of the standard simplex, obtains the exact quadratic area scalings, and proves the claimed lower bound. The normalized-coordinate area calculation and all positivity, boundary, and degeneracy claims also match the hypotheses and conclusions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

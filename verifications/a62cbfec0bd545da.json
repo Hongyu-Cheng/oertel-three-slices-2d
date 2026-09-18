@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The support-ratio estimate and shifted-cap decrement follow rigorously from the supplied predecessor facts. The proof correctly derives a uniform lower bound on the two negative-vertex ratios, transfers middle-row width through endpoint compatibility and the nonsingular endpoint matrix, and controls the resulting top-slice width by the centroid displacement; all strict inequalities, determinant signs, cap multiplicities, and open-versus-closed boundary cases are handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

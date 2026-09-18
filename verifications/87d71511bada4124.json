@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is a valid exact counterexample: the positivity and strict cap conditions hold, every antecedent inequality is established by correct exact comparisons, and the asserted lower bound is violated strictly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

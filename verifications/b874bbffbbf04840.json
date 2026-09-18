@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The weighted-median selection and affine-graph halfspace restriction correctly prove the per-slice and D/2 bounds. The explicit three-slice construction, exact depth and area computations, and exclusions of all three predecessor certificates are valid, including boundary, endpoint, zero-weight, and degenerate-halfspace cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap-cover argument, the derivation of all three inequalities in (1), and the Brunn--Minkowski complement-allocation proof of (2) are correct, including strictness and zero-entry boundary strata. The two rational calibrations satisfy the stated determinant, column-sum, sign, cap, residual-strip, ratio, margin, and reversible radical-squaring checks exactly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

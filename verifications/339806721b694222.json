@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is sequentially complete. The mixed-integer and ordinary Helly reductions use the correct subfamily cardinalities; minimal planar infeasibility yields strictly positive Farkas multipliers and, in the surviving six-index branch, two disjoint triples with rank-two planar normals; the affine certificates give the claimed exact open-versus-closed section thresholds, including equality cases. The private-point, area, triangular-complement, midpoint, shifted-profile, and upper-leakage arguments preserve all required strict inequalities and boundary conventions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The added nonemptiness hypothesis makes the determinant extrema well-defined and validates the segment-extrusion identity, including lower-dimensional cases. The midpoint halfplane containment, area scaling, determinant-width term, and exclusion criterion are correct. In the two-parameter application, the sign-cell areas, exact clipping data, nonemptiness witness, section integral, determinant extrema, and uniform crossing comparison are all consistent and establish the claimed contradiction.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

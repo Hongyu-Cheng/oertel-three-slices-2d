@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the exact Regime A interval and projection, the Regime B parametrization and exact ratio projection, the redundancy of the product inequality, and both rational witness audits from the supplied predecessor facts. All strict and weak endpoints, sign conditions, quantifiers, and boundary cases match the candidate statement.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The coordinate inversion and Jacobian scaling, opposite-cell witnesses, lower orientations, strict endpoint three-cap gates, critical-length split, prospective-K bound, scalar defects, sign comparisons, and exact exhaustion of the rational family are all correct. Every cited predecessor fact is applied within its stated hypotheses, including the strict slice-balance boundary case.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

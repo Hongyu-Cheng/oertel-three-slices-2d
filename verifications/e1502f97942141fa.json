@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The pairwise ledger follows from the empty common-upper cases and planar Brunn--Minkowski in the nonempty case, with all boundary and zero-area cases handled correctly. The proposed scalar tuple satisfies the residual strip, all projected constraints, the endpoint-family scalar disjunction, and violates the target bound; the averaging lower bound proves its claimed exact projected optimum. The final common-upper calculation correctly shows why the tuple fails the stronger unprojected system.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

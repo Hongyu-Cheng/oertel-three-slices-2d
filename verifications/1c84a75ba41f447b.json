@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The explicit fit-condition and chord-area calculations are consistent, but the central claim that the displayed point satisfies the complete finite system is not established from the supplied predecessor facts. The proof also contradicts its own endpoint-cap table by calling every endpoint-cap residual positive when two displayed residuals are zero.",
+  "critical_errors": [
+    "After (21)-(22), the proof states that every endpoint-cap residual E is positive, but rows 3 and 4 of (21) explicitly give E=0. At most nonnegativity is shown for those rows."
+  ],
+  "gaps": [
+    "The candidate claims membership in the complete finite system of accepted fact 18e8f69f5a782c16, but many indispensable constraints are never stated in the supplied facts. The audit merely reports alleged slacks for externally numbered rows such as (10a)-(12b), (19a)-(19f), the endpoint-cap rows, separator rows, cyclic four-section rows, endpoint-triangle rows, lens rows, and dominance-shadow rows. Without the missing formulas, hypotheses, and inequality directions, those numbers cannot be checked and do not prove that the point satisfies the asserted complete system."
+  ],
+  "repair_hints": [
+    "State the full inherited finite system in the candidate or supply the predecessor facts containing every referenced row, then derive each claimed slack from its actual left- and right-hand sides.",
+    "Replace the false strict-positivity assertion after (22) by the exact branch conclusion required when Theta=0, provided the inherited endpoint-cap condition permits equality."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

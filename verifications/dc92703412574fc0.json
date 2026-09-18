@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine-cell identities, convex constructions, exact polygon areas and cell tables, inclusion B subseteq K, strictly positive gate coordinates, vertex-deletion claim, and all three crossing equalities are mutually consistent and correct. The accepted predecessor fact applies with the stated exact cell convention and realized nonnegative added-area vector.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

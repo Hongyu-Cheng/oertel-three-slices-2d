@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The fixed-area cap lemma, the exact triangle-capacity computation, and their application to both stochastic endpoint triangles are correct. The strict cap estimates force threshold lower bounds that contradict the exact allocation identity via Cauchy--Schwarz. All quantified determinant signs, asymmetric stochastic matrices, zero-entry boundary strata, and real allocations are covered.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The large-M scalar construction is valid for every admissible ratio tuple: the cell totals and marginals, crossings, tails, W=0 identity, strict no-half-slice conditions, complete active 19-row conditional Brunn--Minkowski system, overlap inequality, rational choice, and rational scaling all check exactly. The auxiliary limiting calibrations and concrete rational audit are also consistent.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

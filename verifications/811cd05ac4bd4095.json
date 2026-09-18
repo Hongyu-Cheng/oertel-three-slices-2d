@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly shows that every closed halfspace containing (1,0) contains the center in the middle slice and in at least one endpoint slice. Central symmetry then gives at least half the area of K and at least half the area of an endpoint body, whose area is at least that of A_0. All quantifiers, boundary cases, and the stated consequence are handled correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

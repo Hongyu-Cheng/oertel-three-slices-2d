@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The displayed crossing hypothesis is multiplicative, but the proof and accepted fact use an additive crossing identity. As written, the empty A_0-caps make every left-hand side in (1) zero while the right-hand side is strictly positive, so no such K exists; the subsequent application of the additive predecessor fact is invalid.",
+  "critical_errors": [
+    "Equation (1) in the candidate statement is a product of the three cap areas, whereas accepted fact 6f6869df3d151764 requires their sum. The proof silently replaces the stated product equality by that additive equality, so equations (7)-(9), the scalar interval (8), and the rest of the contradiction argument do not follow from the stated hypotheses."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Resolve the mismatch in (1). If multiplication is intended, the result is vacuous and should be proved immediately from the empty A_0-caps and the positive right-hand side. If addition is intended, state the plus signs explicitly and re-audit the resulting claim."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly reduces the desired inequalities to A < 0 implying K > 0, handles both clipping alternatives and the alpha = 0 boundary, removes early curvature without changing K or the clipping data, and applies the accepted pointwise dual with the required strict budget. The final passage from q(lambda) to q(r) is also valid.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

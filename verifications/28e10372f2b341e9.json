@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically sound. The nonzero support criteria, boundary mean criteria, orbit counts and representative lists, row-cap formulas, and nonsingularity argument are valid. In the zero-entry section, the weak-sign catalog is correctly scoped only as a finite exhaustive over-index: column cover, (30), and (31) are necessary tests, while all exact mean, cap, endpoint, column-sum, and determinant constraints remain imposed on each stratum. The statement expressly permits empty or singular indexed patterns before the determinant condition and asserts no converse, sufficiency, or pattern-level nonemptiness, so no residual overclaim remains.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

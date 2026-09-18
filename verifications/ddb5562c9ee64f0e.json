@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The boxed transverse-charge and budget inequalities are proved, but the final claimed robustness under transverse translation is not correct as stated, so the candidate is not error-free.",
+  "critical_errors": [
+    "The final paragraph asserts that changing the support extrema by translating P therefore changes theta_i. This is false because theta_i is clipped to [0,1]: while S_1 remains wholly in {f_i <= 0}, or wholly in {f_i >= 0}, the support extrema can change under a nonzero translation while theta_i stays 1, or respectively 0."
+  ],
+  "gaps": [
+    "The four transverse support intervals alone do not make (28) numerically unchanged across arbitrary convex realizations, because |S_1| and |N_i| depend on the bodies' shapes. A literal translation of a fixed P preserves these areas, but the paragraph does not restrict its second assertion to that case."
+  ],
+  "repair_hints": [
+    "Delete the final paragraph, or restrict it to literal translations of a fixed P and state only that the recorded endpoints change unless the translation is annihilated by both transverse linear parts. Do not claim that the clipped theta_i must change or that the intervals determine the areas across all realizations."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

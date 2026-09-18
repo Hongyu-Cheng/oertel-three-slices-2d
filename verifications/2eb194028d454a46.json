@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The polygon descriptions, area formulas, parameter implications, noncentral-symmetry and nonhomothety arguments, compatibility inclusion, strict area and ratio inequalities, erosion quantile directions, outer-triangle all-direction depth bound including horizontal halfspaces, deleted-area comparison, and all stated rational margins are correct. The accepted predecessor facts are applied with their required hypotheses and conclusions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct. The chamber identity, opposite-ray equivalence and sufficient anchor, hull-cap inclusion, and third-support triangle all handle their boundary cases. For the profile inequality, the lower boundary is convex, the strip deficit is a nonnegative concave function whose integral is controlled by E_f, the endpoint and left-derivative estimates are valid, and the left derivative supplies the required global supporting line on the positive-u side. The rational counterexample and both applications to the accepted midpoint body were checked exactly, including the support face, anchor points, triangle area, target ordering, scalar-interval bounds, and completion-cell sums.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

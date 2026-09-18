@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the deficit ranges, applies the accepted trimmed three-cap lemma to the sorted cap areas, verifies the scalar identity and resulting inequality, and translates the strict residual bound into the claimed tail-equality exclusions. All hypotheses and boundary cases used in the argument are supplied by the statement or accepted predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

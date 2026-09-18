@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The sector incidences, the twelve-type classification, the cap formulas, the BDF argument and factorization, and the translation limit are consistent. However, eleven of the twelve generic types are proved only by undisclosed polynomial expansions. Support sizes and assertions that all omitted coefficients are positive are not self-contained exact certificates, so the central algebraic cases cannot be audited from the candidate.",
+  "critical_errors": [],
+  "gaps": [
+    "For the nine types in (11), the proof never displays any remainder R or the collected identities in (10). The sector dictionary and cap formulas make the coefficients computable, but they do not establish that the stated P_1 and P_2 leave a remainder with the claimed support and positive coefficients. The support counts 67, 50, 92, 36, 95, 91, 39, 42, and 155, together with a claimed smallest coefficient, do not encode the missing coefficients or certify the identities.",
+    "The ADD case omits R_ADD entirely. The assertions that it has 38 positive-coefficient monomials and that the only negative term before the indicated completion of a square is -2abcdef are unsupported without the full expansion or an equivalent exact derivation, so (12) does not prove the ADD case.",
+    "The BCF case omits the exact numerator after substitutions (18)-(20). Merely stating the denominator (22), a 4230-monomial positive remainder, and the three terms forming s^4t^2(1-ht)^2 does not verify that clearing denominators in (21) yields (23), nor that every other collected coefficient is positive. No explicit coefficient list, concise algebraic decomposition, or reproducible exact certificate is supplied."
+  ],
+  "repair_hints": [
+    "Provide, for every type in (11), an explicit exact identity whose remainder is displayed as a sum of monomials with coefficients, or include a fully specified machine-checkable exact certificate that reproduces and checks every coefficient from (5)-(10).",
+    "Replace the omitted R_ADD and R_BCF assertions by explicit exact decompositions into nonnegative terms, or supply complete reproducible symbolic certificates including the substitutions, cleared denominator, collected numerator, support, and coefficient-sign checks."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

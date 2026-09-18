@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The rational assignment satisfies the stated residual-strip conditions, strict sorted survivor gate, positivity and range conditions, and both cap/complement inequalities. The computations of p, q, C, and B_i are exact and give C=1<4+2sqrt(5)=max{B_2,B_3}, so the listed scalar constraints do not force the numerical premise.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

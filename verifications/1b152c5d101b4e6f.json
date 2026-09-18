@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives all projection-cap formulas, determinant and compatibility identities, the profile characterization of middle-slice depth, the finite Helly-Farkas certificate and its conversion to the matrix inequalities, and the converse reconstruction with strict endpoint exclusion. The hypotheses, strict inequalities, repeated-value and constant-row cases, determinant signs, and two- and three-halfplane cases are handled without a mathematical gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

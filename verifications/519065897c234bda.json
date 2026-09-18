@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete. The chamber-support arguments establish the full-section locations; the perspective and convex-hull calculations give the stated necessary inequalities; the boundary-completion lemma correctly uses concavity of planar chord length; the offset elimination, both boundary branches, the exact calibration, and the final conditional separator checkpoint are all verified with the required hypotheses and boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

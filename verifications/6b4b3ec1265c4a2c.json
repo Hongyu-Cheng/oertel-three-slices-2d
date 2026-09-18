@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly identifies the central cell and three caps, applies the closed-box cap bound on all endpoint strata to obtain D >= 2/5, converts this to the required upper bound on the ambient Q-triangle, and invokes the scalar bridge with all of its hypotheses present. The exact comparison Phi(m,q) > 5q/2 is valid throughout the closed ratio box, including every boundary point, and contradicts the bridge's strict lower requirement. The stated branch exclusion and the containment of the smaller requested box follow.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

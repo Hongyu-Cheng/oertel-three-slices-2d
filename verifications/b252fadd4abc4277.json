@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The common-row affine normalization, triangular cap formulas, common-support lower bounds, support-contact inequality, and application of accepted fact 4e176b68a1636efc are all correct. Their combination yields the stated strict contradiction without any omitted boundary case.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

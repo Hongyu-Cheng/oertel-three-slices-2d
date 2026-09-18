@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically complete. Corollary 8 of the cited paper specializes at n=k=2 to K=conv(-z/2+D,z), with D a nondegenerate segment parallel to the centroidal cutting line, so the equality rigidity and cap orientation are exact. The Hausdorff-continuity, John normalization, height shear, uniform bounds, degenerate endpoint limit, and triangle limits are all justified. The limiting-certificate argument correctly uses the whole-plane cover and the 4/9 cap bound to force every limiting halfplane through the centroid, excludes one- or two-cap neighborhood covers and repetitions, and hence obtains exactly the three centroidal edge-parallel vertex caps. The rectangle example has the stated area, containment, compatibility, and nondegenerate segment limit.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

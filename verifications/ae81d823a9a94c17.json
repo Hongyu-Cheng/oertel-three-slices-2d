@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The fixed-vertex negative sublevel is compact after the diameter-degeneration analysis, boundary-origin limits are excluded, the attained negative minimizer has only the stated active constraints, and the supplied transverse and endpoint predecessor facts exclude every possible fan incidence. The hypotheses and boundary cases match the claimed polygonal conclusion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

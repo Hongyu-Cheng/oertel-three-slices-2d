@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The endpoint substitutions, pairwise sums, eleven-vertex hull, turn determinants, three exact clips, shoelace area, physical-area scaling, and strict budget overflow are all correct and apply exactly under the accepted predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

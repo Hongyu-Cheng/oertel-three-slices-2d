@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly computes the three support orbits under exactly the permitted row and column interchanges, applies the crossed-support and equal-support exclusions to their exact representatives, and leaves precisely the contained-support orbit. The allowed interchanges preserve J_3={1}, and every zero-entry boundary stratum remains outside all three open-chamber predecessor facts used in the composition.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

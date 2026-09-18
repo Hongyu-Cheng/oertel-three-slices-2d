@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is a valid composition of the supplied accepted facts. Fact 9414163c0331b8f2 proves every quantified instance of (N), with identical formulas, cap floors, cap order, strict pair condition, and weak base-hit conditions. Fact cddd2c95c0ff12e3 then gives the full triangle assertion. Fact c4077ad10a0441a5 covers the complementary pair-sum cases and transfers the triangle assertion to every required convex body while preserving its right-hand side and increasing its singleton area. This is exactly the universal planar premise of fact 30d5406c9459a845. Equality cases, common area normalization, interiority, and the direction of the singleton comparison introduce no errors or gaps.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": true,
+  "target_match_explanation": "The candidate statement and conclusion coincide with the locked universal claim: every compact polytope with precisely the three specified nonempty two-dimensional integer slices has one point in S whose depth, defined using all closed halfspaces containing that point, is at least 2T/9. All auxiliary planar conditions are established universally before invoking the accepted final implication; no additional condition on the original polytope or slices is imposed."
+}

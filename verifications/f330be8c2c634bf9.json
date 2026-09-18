@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The substantive cap calculations and endpoint-payment argument are internally consistent, but the candidate is not fully valid as written: its two preliminary cap facts omit necessary nondegeneracy hypotheses, and the asserted h_S bound is not connected to the newly defined mass by any supplied definition of h_S.",
+  "critical_errors": [
+    "Formula (1) is asserted for all ordered vertex values a <= b <= c, but it is undefined when a = b because its denominator contains b-a. Formula (2) is likewise undefined when the affine function is constant, since then M-m = 0. These are genuine unhandled degenerate cases in claims stated without qualification."
+  ],
+  "gaps": [
+    "The symbol h_S is never defined, and the proof never states an identity relating h_S((1,z_c)) to the infimum of the unnormalized mass mu(H) over closed halfspaces containing (1,z_c). With no external sources or accepted predecessor facts, the final halfspace-mass calculation therefore does not formally establish the first displayed assertion."
+  ],
+  "repair_hints": [
+    "State formula (1) only under a < b <= c, or separately handle tied minimum vertex values, and state (2) under M > m with the constant case handled separately.",
+    "Define h_S explicitly using the same unnormalized three-slice mass mu, or supply an accepted predecessor fact giving that definition and normalization."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

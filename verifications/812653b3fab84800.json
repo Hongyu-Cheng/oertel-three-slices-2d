@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine transformation, both cap computations, the concavity bounds, the area integration, and the final contradiction are all valid under the stated strict sign and convexity hypotheses. Boundary cases E<0, E=0, and E>0 are handled without affecting the vertical-section argument, and no mathematical error or proof gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

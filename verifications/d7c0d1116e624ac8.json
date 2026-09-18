@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The argument is correct: the planar centroid halfplane bound gives the required lower cap area whenever a centroid coordinate is nonnegative; the strict row-3 support contacts force p_3=0 and k_3=mu, which makes c_3 nonnegative impossible; and the remaining conclusions follow directly from c_1+c_2+c_3=1 and the strict paired-cap inequalities.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

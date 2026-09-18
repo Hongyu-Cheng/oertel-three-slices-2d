@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The all-nonzero support classification is correctly scoped as a middle sign-and-mean reduction rather than a classification of endpoint-compatible survivors: the criteria (11)-(12), the 31/18/18 orbit counts, the displayed representatives, and the one-positive, two-positive, and zero-entry cap formulas check out. However, the claimed exact weak-sign boundary classification has an unclosed nonsingularity gap.",
+  "critical_errors": [],
+  "gaps": [
+    "For all-nonzero cells, the proof separately ensures det L != 0 by observing that each cell is relatively open in an affine space on which the determinant polynomial is nonzero; it gives a corresponding argument on each mean-equality hyperplane. For a weak-sign cell, fixing one or more entries to zero changes the ambient affine subspace, and the identity-matrix argument no longer applies. The final paragraph proves only sign and row-sum feasibility by transfers with the zero positions fixed. It never proves that the determinant polynomial is nonzero on every such zero-pattern affine stratum, nor constructs a nonsingular matrix in each stratum. A nonempty relative sign-and-mean cell can in principle be contained in det L = 0. Consequently the assertions that (30)-(31) are exact weak-sign counterparts and that (29)-(32) give exact boundary strata for systems satisfying (1) are not established."
+  ],
+  "repair_hints": [
+    "For every weak-sign pattern admitted by (30), by the O12 interior cover test, or by (31), prove a uniform nonsingularity lemma or give an exhaustive finite check showing that the determinant is not identically zero on the affine subspace defined by the column sums, prescribed zeros, and any mean equality. Then the relative-open polynomial argument can be applied within that subspace. Alternatively, state explicitly that the weak-sign data are only a necessary over-index and retain det L != 0 as an additional condition, rather than calling the criteria exact."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

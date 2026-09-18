@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The directional mixed-area inequality is proved correctly by equal-width slicing and homogeneity, and its application to P and C uses valid width, monotonicity, and positivity arguments. The hull and charge bounds, all three tail consequences, and both closing implications follow with the stated strictness from the accepted predecessor facts. Boundary, degeneracy, and affine-invariance issues are handled correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

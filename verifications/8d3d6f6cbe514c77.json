@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The slope-to-infimal-convolution change of variables, support-function closure identity and equality characterization, strict cap argument, and simultaneous-zero criterion are all proved correctly, including the one-dimensional span and full-dimensional endpoint cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

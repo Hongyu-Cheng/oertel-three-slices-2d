@@ -1,0 +1,15 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The endpoint cell areas and supports, strict tail values, midpoint polygons, nonagon and section-width formula, R-cell areas, weighted charge identities, compatibility inclusion H subseteq K, and the D >= 18 area threshold all check out. The candidate is nevertheless not gap-free: its claimed application of the crossing predecessor has the wrong scope, and its proof asserts false exact-cell inclusions after replacing source cells by their closures.",
+  "critical_errors": [
+    "The statement that, whenever only h=c_i+Phi_i(L_i) is imposed, L_i is an actual lower crossing \"in the sense of\" accepted fact 624b129b68e0fdee is not justified. That fact also assumes c_i >= 0, 0 < h < M, c_i+m >= h, and M=|A_0| >= m=|A_2|. Here M<m for every D=18,...,27, so those parameters are outside the accepted fact's scope. In fact, for rows 1 and 2 and D=18,...,24, Phi_i(0)=7D+17 >= M, making h<M impossible when c_i>=0. The directly proved infimum identity remains valid, but it does not establish the claimed predecessor-fact applicability on the stated range or under the stated unrestricted quantifier.",
+    "The proof incorrectly says accepted fact 0e51a47a9add571f gives U_1 subseteq R_1 and U_2 subseteq R_2. That fact applies to the exact half-open cells, whereas U_1 and U_2 were defined from their closures. For example, U_1 contains (-(D+3)/2,-1), where f_3=0, so this point is in exact cell R_{13}, not R_1; it also contains (-(D+9)/4,-(D+9)/4), where f_2=0, so that point is in R_{12}. Only the relative interior, or the inclusion up to null boundary sets, has type R_1. This false assertion is not needed for the later valid argument H subseteq K, but it is still a mathematical error in the submitted proof."
+  ],
+  "gaps": [
+    "For row 3, the displayed quadratic formula for Phi_3(L_3+epsilon)-Phi_3(L_3) is established only for -1 <= epsilon <= 1, but the proof then asserts negativity throughout 0 < epsilon < 4(C-1)/(C+2), whose upper endpoint exceeds 1 for D >= 18. The asserted negativity is true after a further cap-regime calculation, and the infimum conclusion already follows from the proved interval 0 < epsilon < 1, but the broader assertion is unsupported as written."
+  ],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

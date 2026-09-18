@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete. The clipped one-dimensional cap profiles yield the stated attained minima in all empty, partial, full, and equality cases; the normalized rectangle corner-cut profile and its slope infimum give the claimed universal diagonal lower bound; the residual-domain scalar inequality is algebraically correct and strictly positive on both residual branches; and these facts combine with the strict q-tail condition to exclude simultaneous nonemptiness of I_i and I_l. All hypotheses, strict endpoints, and degenerate axis-touching cases are handled.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically correct and complete. The coarea-based one-sided quadratic expansion has the stated signs, the infimum argument forces lexicographic negativity and excludes a local plateau, the support-edge and support-vertex cases follow from the corresponding one-sided chord pieces, and the rectangular specialization correctly forces h_0<h_2. The section orders then give Delta_beta>Delta_alpha and hence g_0>c_0, while the k- and ell-crossing identities give c_0=g_0+y with y>0, yielding the required contradiction.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

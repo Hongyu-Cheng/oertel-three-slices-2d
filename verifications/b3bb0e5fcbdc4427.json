@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate correctly identifies the only remaining eligible unmarked vertex, gives the complete canonical equality-row blocks for the fixed rational stratum, and verifies the stated exact ranks. The signed fixed-code identity Delta_2 = 2|P_empty| differentiates to the displayed release row, so the multiplier -2 on the P_empty area row is an exact dual equality stress. The accepted realization supplies the claimed strict nonincidences, absence of active containment and intrinsic-capacity slacks, and zero capacity differential, so zero inequality multipliers are valid.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

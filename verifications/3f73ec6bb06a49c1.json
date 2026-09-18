@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The contradiction argument is valid. The residual-area fact yields the required pinch band for every normalized counterexample. Facts f882a944b9fbef55, 33f64ca8c4f58f43, and 8261fac79ed77a4f explicitly apply to arbitrary finite-stage convex-polytopal slices and to an arbitrary certificate chosen once at each index; they impose triangularity only on compactified limits and preserve the same certificate sequence through subsequences and row permutations. Their eventual estimates concern the identical permutation-invariant deficit and contradict each other. Finally, the negation of the claimed existence supplies counterexamples with ratios below 1/n, while exclusion of every such sequence gives a positive uniform lower bound on counterexample ratios, including the vacuous case of no counterexamples.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

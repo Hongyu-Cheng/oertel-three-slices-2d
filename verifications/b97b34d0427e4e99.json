@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The displayed vertices, active edge pairs, chord spans, one-sided slopes, density normalization, exact pair arithmetic, breakpoint radius, quadratic sign estimates, and infimum argument are all correct and establish that none of the three nominal equalities is a genuine lower crossing.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

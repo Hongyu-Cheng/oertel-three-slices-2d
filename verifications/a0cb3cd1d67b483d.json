@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The four-cell transfer is exact, preserves the total mass and all three cap sums, and leaves every cap-sum or row-total condition unchanged. All affected forced-cell capacities and opposite inequalities are preserved, the stated exact certificates for the tightened 13- and 23-capacities are correct, and the symbolic midpoint-separator constraints apply under the retained strict cell-positivity hypotheses. The support and height parameters satisfy all stated side conditions, the five rational margins are exact and positive, and the candidate correctly limits its conclusion to scalar feasibility without asserting convex endpoint or Minkowski-average realizability.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

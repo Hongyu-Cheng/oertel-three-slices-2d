@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The statement follows from the candidate proof. The area identities, monotone deformation, concurrent-cell formulas, and the three cardinality cases for the eligible set are valid, with strict and boundary inequalities handled correctly. The exact four-case real-quantifier-elimination certificate in (45) was independently reproduced with the stated result.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

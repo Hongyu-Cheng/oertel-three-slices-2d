@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The construction satisfies all sign-plane and polytope hypotheses. The chamber geometry gives exactly the asserted positive Q-support and the area calculations yield p_emptyset=q_1=q_2=1. The accepted positivity lemma applies, while the midpoint strip and R_12 chamber inequalities give the stated vanishing upper bound. The width formula, affine invariance, and the deductions for F and B all follow with the stated quantifiers and include the relevant boundary cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

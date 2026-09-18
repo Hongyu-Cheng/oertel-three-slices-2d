@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly establishes joint continuity of the endpoint-normalized cap quantiles, joint continuity and strict demand monotonicity of the finite outer extension, and the unique continuous optimizer and value map, including all zero-demand and capacity endpoints.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The argument correctly handles positive, zero, capacity, and nonunique contact cases; establishes the reflected-cap area bound and midpoint inclusion with all required nonemptiness checks; applies planar Brunn--Minkowski correctly; proves reflected-halfplane coverage and the area inequality; and derives the stated conditional implication from (SRD) without claiming (SRD).",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The normalization, capacity formulas and strict inversion, contradiction argument, finite minimizer reduction, supremum passage, contained-chamber specialization, and exact complementary obstruction are mathematically correct and complete, including the empty and lower-dimensional capacity cases, d=e, w=0, and all stated rational arithmetic and signs.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

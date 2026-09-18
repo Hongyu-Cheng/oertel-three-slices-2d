@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The incidence/deficit identity, mixed-area lower bound, and the standalone Minkowski-sum calculation are correct, but the stated triangle-cap parameter family is not always an A2-shape specialization of the common-plane normal form.",
+  "critical_errors": [
+    "Conditions (10) allow configurations incompatible with the common-plane affine hypotheses. In standard coordinates the cap-base central halfplanes are x/r+y/s>=1, (1-x-y)/r+y/s>=1, and y<=1-w. Positive rescalings of their defining affine functions can have linear parts summing to zero only if s<2r. At s=2r the first two base lines are parallel, and for s>2r the common central halfplane intersection is unbounded. Both contradict the bounded global Q-triangle and pairwise-nonparallel hypotheses of accepted fact c49613ac26c0c4a8. For example y=3/2 gives r=2w/3 and s=3w/2, satisfies every condition in (10), but has s>2r. Thus the unqualified assertion that this whole triangle-cap geometry is a specialization of the complete normal form is false."
+  ],
+  "gaps": [
+    "The proof never constructs compatible affine cutting functions or checks the normal-form feasibility constraints for the triangle-cap family; disjoint cap interiors and the area calculation alone do not establish common-plane compatibility."
+  ],
+  "repair_hints": [
+    "If the family is meant to consist of actual common-plane A2 geometries, add s<2r, equivalently y<sqrt(2), and explicitly rescale the three cap-base affine functions so that their sum is constant. Otherwise state (12)-(14) only as a standalone geometric calculation and remove the claim that every parameter choice in (10) is a normal-form specialization."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

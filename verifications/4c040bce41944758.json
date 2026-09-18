@@ -1,0 +1,19 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The cap and defect calculations and the numerical obstruction are largely consistent, but the support-polygon portion uses essential relations between P and the newly introduced coordinates W,H,X,Y that are never stated or proved. Consequently several claimed inequalities, including the proposed general envelope constraint, do not follow from the candidate as written.",
+  "critical_errors": [
+    "The candidate introduces W,H,X,Y only through the displayed definition of K and coordinate-order assumptions. It never states that (W,Y),(X,H) belong to P or that W=max_P x and H=max_P y. Thus neither K subseteq P nor P subseteq [0,W] times [0,H] follows from the stated hypotheses. The former is required for (13) and (13a), and the latter is required for the general inequality (22). The proof establishes (22) only for the special tuple (20), where the two outer inequalities themselves imply the needed triangle containment."
+  ],
+  "gaps": [
+    "The maximum-chord proof says that the section at y=0 has length 1 throughout the Y<b branch. Under the displayed coordinate assumptions, the allowed boundary case Y=0 instead gives section length W-a=G_x, which can exceed 1; the coordinate-swapped issue occurs when X=0. This sentence is valid only after adding the unstated fact that the corresponding point lies in P and the full axis trace ends at A or B.",
+    "The final assertion that the simultaneous inner/outer envelope is exactly the missing condition is stronger than what is shown. The calculation only proves that this envelope excludes the single tuple (20); it does not prove that adjoining (22) suffices to derive (19) or that no other actual-body constraints remain."
+  ],
+  "repair_hints": [
+    "Explicitly define (W,Y),(X,H) as points of P attaining the coordinate maxima W=max_P x and H=max_P y, then derive K subseteq P and P subseteq [0,W] times [0,H] before using (13), (13a), and (22).",
+    "Handle Y=0 and X=0 separately in the section-length proof, using membership in P and the exact full traces to obtain W=A and H=B in those cases.",
+    "Replace the unsupported uniqueness or sufficiency wording about the missing condition by the proved statement that (22) rules out tuple (20), unless a separate sufficiency argument is supplied."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

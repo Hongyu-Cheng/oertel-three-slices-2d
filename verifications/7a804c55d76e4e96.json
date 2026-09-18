@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct. The cap-area continuity argument gives exact attainment at area m, which makes the stated global Lipschitz estimate for q valid; the support-function estimate for beta is also valid. The zero-sum perturbation preserves the sum, can be chosen arbitrarily small while making the first two forms independent, and independence plus zero sum forces all three forms to be nonzero and pairwise nonparallel. The specialized two-direction perturbation has the claimed determinants and retains strict positivity by positive homogeneity and continuity. The final common scaling is valid.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

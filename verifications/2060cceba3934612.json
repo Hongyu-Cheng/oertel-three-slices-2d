@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The geometric, cap, residual-strip, row, budget, active-cell capacity, and Minkowski-area calculations are correct, including the endpoint cases. The compatibility containment and area-ratio argument validly rules out every B=1 completion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

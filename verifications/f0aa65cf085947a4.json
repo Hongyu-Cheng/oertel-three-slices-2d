@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly establishes the cap-distribution and quantile properties, the exact max-plus formula for the generalized inverse of the infimal convolution including endpoint cases, the attained inverse formula for Phi with the distinct zero-demand conventions and required factor 1/2, and the stated triangle calibration. All hypotheses, domains, boundary cases, and extended-value conventions are handled consistently.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

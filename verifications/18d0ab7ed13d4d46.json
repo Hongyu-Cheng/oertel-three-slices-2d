@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap-area continuity and quantile-attainment arguments are valid, including support-face cases. Choosing a maximizer of the support functional on A_2 and applying the strict depth hypothesis to the corresponding lower halfplane correctly yields q(lambda) + beta(lambda) < lambda(z). Summing over a zero-sum triple gives the claimed strict negative bound and hence incompatibility with the accepted predecessor inequality. No mathematical errors or gaps were found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

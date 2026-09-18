@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete: zero-area endpoint caps force A into D; midpoint containment then places A in the exact predecessor-certified region F; if one side of D were missed, the boundary-vertex hypothesis confines A to the corresponding four-endpoint hull; and each such hull has exact area strictly below M. The deletion and degeneracy discussion correctly preserves the convex set and covers boundary-contact limits.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

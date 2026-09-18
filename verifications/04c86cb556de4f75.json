@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The repaired hypothesis p,a,b>0 together with p>a+b supplies the exact strict sign domain used by the one-positive-vertex cap formula and by the proof of 4/9<c<1. The endpoint-cover argument, all constant and nonconstant cap boundary cases, the Brunn--Minkowski inclusion, every scalar chamber optimum and shared boundary, all three target-gap identities, the restriction to the triangular domain, removal of the first chamber there, and the exact nonempty-residual calibration all check without error.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

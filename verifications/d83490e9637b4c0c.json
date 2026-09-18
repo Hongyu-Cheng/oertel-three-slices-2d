@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The chamber coordinates, concave profiles, support-width bounds at v=0, left-derivative supporting-line estimate, positive-set endpoint argument, forced Q123 overlap, tail-area bounds, midpoint width reductions, exact rational margins, and all equality, projection-endpoint, simultaneous-termination, and null-boundary cases are correct. The two tail alternatives are exhaustive and each yields the claimed contradiction.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

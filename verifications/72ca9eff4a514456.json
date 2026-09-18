@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The counterexample arithmetic, compatibility, threshold conversions, cap areas, full masses, payment failure, and scope are correct; in particular it violates the residual balance M<a_1+m and is not claimed to refute the residual assertion. The common slope normalization gives the stated endpoint threshold sums. The closed endpoint caps cover at R=1 or Q=1, while strict middle coverage forces B<1, so all three branches of L(sigma), including their boundary cases, follow. The reflected central triangle has area a_1(R-1)^2 or a_1(Q-1)^2 as used. The lower-pinch activation and target algebra are exact, and the one-sided neighborhoods are nonempty. The sharpness example has compatible slices, the stated zero and full endpoint caps, sum e_i=1/12, and equality in the sigma>1 branch; it is correctly scoped as a common-frame example rather than a low-mass residual certificate.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

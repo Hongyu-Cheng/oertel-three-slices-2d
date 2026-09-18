@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate proof is complete and correct. It derives the threshold range from the strict residual strip, handles every allocation endpoint and the actual zero-demand conventions, proves the cap-area identity, obtains the covering and area inequalities from positive spanning, establishes the strict larger-slice contact signature, and correctly connects the conditional contact bridge and both calibrating examples to the accepted predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The supplied accepted facts establish that the displayed strictly convex rational decagons are actual endpoint realizations for the same complete survivor. The exact half-sum certificate in accepted fact c62d0f82fa9272a6 shows that its only nonempty strict cells are R_j, R_jk, R_N, and R_kl, whose prescribed budgets are positive, while R_k, R_l, and R_jl are empty. The all-positive cell is impossible because the three middle coordinates sum to -1. Thus this legal endpoint pair has zero area in every prescribed zero-budget midpoint cell and is an exact counterexample to the stated universal claim.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

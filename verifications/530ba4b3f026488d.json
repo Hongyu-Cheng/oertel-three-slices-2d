@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The chain-cover duality, the constant-function table, and the independent-infimum equivalence are proved correctly, but the final derivation of (7) omits the exceptional zero-constant case.",
+  "critical_errors": [],
+  "gaps": [
+    "If some row has f_i identically zero, (5) proves the left-hand side of (7), but it does not prove the right-hand side because that row has b_i+tau(E_{f_i})=a_1, which need not be at least 2T/9 under strict balance. The final paragraph incorrectly treats every nonpositive constant row as having already established the full equivalence, and no argument is supplied showing that another row makes the right-hand side true."
+  ],
+  "repair_hints": [
+    "Handle the zero-constant case separately. If f_1 is identically zero, then f_2+f_3=-1 implies B_2 union B_3=A_1 and E_{f_2} union E_{f_3}=A_0 times A_2. Hence b_2+b_3 is at least a_1. Also, combining arbitrary vertex covers of E_{f_2} and E_{f_3} gives a vertex cover of the full product, so tau(E_{f_2})+tau(E_{f_3}) is at least m. Therefore one of b_2+tau(E_{f_2}) and b_3+tau(E_{f_3}) is at least (a_1+m)/2, which is greater than T/4 and hence greater than 2T/9."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

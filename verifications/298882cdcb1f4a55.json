@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The proposed fixed-code predicates do not determine the orientation of the selected support cycle, so the shoelace expression can be the negative of physical area and the resulting capacity differential need not be correct.",
+  "critical_errors": [
+    "Conditions (12)--(14) are invariant under reversing the cyclic list of selected supports and therefore do not imply the claimed counterclockwise order. For example, take B=[-1,1]^2 in the (S,T)-coordinates, so W=[0,1]^2. List the four supports of W in the order left, top, right, bottom. Then (11) gives the clockwise vertices (0,0),(0,1),(1,1),(1,0), and all of (12)--(14) hold, but the sum in (17) is -2 and (17) gives -gamma instead of the physical area gamma. Hence (17), and consequently (21)--(22) when such a code is used, are not certified by the stated predicates."
+  ],
+  "gaps": [
+    "In the proof of (21), the displayed derivative of shoelace writes [dot p_nu,p_{nu+1}][p_nu,dot p_{nu+1}] as a product rather than the required sum. As written, that equality is false and does not derive (21)."
+  ],
+  "repair_hints": [
+    "Add an explicit orientation predicate, such as positivity of the signed shoelace sum or of a certified turn, and include its possible failure in the validity/event bookkeeping; alternatively canonically reverse every valid support cycle before applying (17).",
+    "Replace the product in the differentiated shoelace display by a plus sign."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

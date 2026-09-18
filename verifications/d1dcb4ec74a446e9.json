@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The explicit rectangle, area, cap, width-profile, endpoint-profile, and row-triangle computations are correct, but the candidate's conclusions involving named results and the symbols mu_l and I_l are not self-contained and cannot be verified from the sole accepted predecessor fact.",
+  "critical_errors": [],
+  "gaps": [
+    "The candidate asserts inf_a mu_l(a)=c_l+inf_a Phi_l(a) and hence I_l is empty, but neither mu_l nor I_l is defined in the candidate or in accepted fact 15bb2c1680a0254e. Thus equation (15) and the claimed emptiness of I_l do not follow from the supplied material.",
+    "The claim that the rectangles are an exact counterexample to the displayed conclusion of tail-middle-cap-width-coupling cannot be audited because that result's statement and hypotheses are not supplied as an external source or accepted predecessor fact. Verifying the numerical failure in (12) does not establish that all hypotheses of the named result hold.",
+    "The assertions that all affine requirements of canonical-tail-exclusion hold, that the q-tail is in its required canonical branch, and that the construction does not refute canonical tail exclusion likewise depend on an unsupplied statement and definitions."
+  ],
+  "repair_hints": [
+    "Supply the exact statements and hypotheses of tail-middle-cap-width-coupling and canonical-tail-exclusion, together with definitions of mu_j(a) and I_j, as accepted predecessor material or within the candidate."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

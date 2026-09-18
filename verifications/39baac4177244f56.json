@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The polygon, sector-area arithmetic, and intended necessary inequality check out, but the proof contains a false displayed radial-integration identity: it writes two integrals as a product while the next line evaluates their sum. Under the required zero-error standard, the candidate cannot be approved as written.",
+  "critical_errors": [
+    "In the display for 2n, the two definite integrals are juxtaposed with no plus sign, so the right-hand side is their product. The following expression is instead the value of their sum. These quantities are not equal, and even have different homogeneity in the u_i, so the displayed identity as written is false and the subsequent derivation of S is not justified by the candidate text."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Replace the juxtaposition of the two radial integrals by an explicit plus sign, then retain the subsequent evaluation of that sum. Also relabel the two numerical sides in the final comparison: 25600 is the right-hand side of the necessary inequality and 114688 is its left-hand side."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The S/D families cover every nonconstant cap at the two prescribed levels up to positive scaling and vertex permutation, including zero-vertex and repeated-value endpoints, and the eight ordered support-incidence orbits are complete. The seven sign predicates exactly exhaust strict violations of the lower-cap bound. An independent exact rational Resolve audit of all 56 displayed semialgebraic systems, with closed parameter endpoints and lambda > 0, returned False in every case. The threshold argument correctly proves the monotone form. For the matrix application, nondegeneracy together with column sums one makes every row nonconstant, the row-sum identity gives the threshold-1 cap of the remaining row, and nonnegativity of the endpoint terms contradicts its strict inequality. The specialized scalar arithmetic and resulting exclusion are consistent.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

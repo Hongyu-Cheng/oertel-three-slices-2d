@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The conditional implication is correct. A global counterexample satisfies the supplied residual area conditions and attained active-family hypotheses. The endpoint payments obey 0 <= e_j <= m, and the accepted fan inequality forces e_1 + e_2 < m. The closed opposite trims have positive area and their midpoint sum lies in the required singleton region, so Brunn-Minkowski gives the stated lower bound. The subsequent algebra establishes n > h and M + n > 9c_1/4 + h, yielding a strictly larger lower bound than the assumed planar upper bound. All hypotheses and measure identifications match; cap ties, zero payments, extreme payment splits, and h = 0 introduce no gap. The proof establishes only the stated conditional result.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

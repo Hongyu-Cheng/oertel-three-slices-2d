@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The clipping formulas and all boundary cases on 1 <= lambda <= 2 are correct. They imply the stated uniform endpoint bound, and the accepted values of R_2 and R_3 then give the strict negative Farkas-weighted sum and the claimed noncoverage conclusion without a gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

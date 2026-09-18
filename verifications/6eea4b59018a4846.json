@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The proper-cap and full-cap support-contact cases both yield the required one-sided section limits; the infimum-crossing sequence validly forces each limiting section length to be at least D; the convex perpendicular-segment lemma holds in all intersection and nonintersection cases, including endpoint contact; and the resulting bound m >= M contradicts the strict residual-domain inequality m/M < rho < 1.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

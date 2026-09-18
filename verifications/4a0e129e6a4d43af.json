@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete. Exact rational recomputation confirms the polygon orientations and areas, all endpoint and midpoint cap areas, projection densities and their negative differences, transversality determinants, exact-cell masses, strict three-cap residuals, completion defects, scalar interval, convex cutoff, and all stated margins. The cited accepted facts are applied with their hypotheses satisfied, and the statement carefully makes no existence claim for a compatible convex completion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

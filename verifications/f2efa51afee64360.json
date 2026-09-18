@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The cap computations and the rational calibration are consistent, but the main proof does not establish the asserted depth at the specified point z.",
+  "critical_errors": [
+    "The proof assumes that failure of h_S((1,z)) >= 2T/9 yields the normalized strict three-row Helly certificate from accepted fact d2d117bcc58a1ba0. That fact supplies such a certificate only under a global counterexample, namely when the entire depth region D_t is empty. Failure at the single point z says only z is not in D_t and does not imply D_t is empty. The resulting contradiction therefore proves at most that some depth-t point exists, not that (1,z) has depth at least t."
+  ],
+  "gaps": [
+    "No argument is given for every individual closed halfspace containing (1,z), which is what the definition of h_S((1,z)) requires; in particular, the three-row global-cover argument cannot substitute for that pointwise verification."
+  ],
+  "repair_hints": [
+    "A valid proof of the stated pointwise conclusion would need to analyze an arbitrary halfspace containing (1,z), reduce a nonhorizontal one to a boundary through (1,z), and apply the middle cap bound together with the actual paired endpoint thresholds; horizontal halfspaces must also be checked separately."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

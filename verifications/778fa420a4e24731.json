@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The cap lemma covers all barycentric regimes including endpoint fractions, its three applications use the correct non-cut vertex coordinates, and the exclusions for beta or gamma above one half are valid. In the remaining regimes, the lower bounds, concavity calculation, and monotonicity domain for F are correct, with equality forcing exactly the stated symmetric barycentric data and all three unique interior cap minima. The affine reconstruction gives precisely the claimed vertices. The sector integrations, Jacobian, balance quantities, equality identity, ray-boundary endpoint analysis, and centroid-moment calculation all check exactly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

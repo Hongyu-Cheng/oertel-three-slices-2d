@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly transfers the strict-low certificate through the accepted affine compactification, derives the paired endpoint thresholds, uses vanishing endpoint mass to pin the large-endpoint thresholds, and proves a uniform two-cap cover of the point-or-segment limit by an exact barycentric area comparison. The uniform margin and subsequence contradiction establish the eventual pointwise double cover for the original sequence, and the final strict residual inequality is algebraically correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

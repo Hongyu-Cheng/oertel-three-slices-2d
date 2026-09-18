@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The rational parallelogram construction satisfies the containment and strict residual-area hypotheses. The cap areas, endpoint-profile minima, and width quantities are computed correctly, and they give an exact instance in which the antecedent holds while E+p_i+p_ell=37/126<8/27=D_0.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

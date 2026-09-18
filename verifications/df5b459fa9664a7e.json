@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The centroid-cap estimate is correct on every nonconstant and repeated-value stratum, the translated endpoint caps give a valid measurable vertex cover, and the explicitly constructed diagonal coupling satisfies the required unequal-area marginals. The common-coupling duality therefore yields u_i+v_i at least 4m/9, which combines with b_i at least 4/9 and M<1+m to exceed the exact strict-row threshold. The support-disjointness and cardinality conclusions follow correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct: the equilibrium relation constructs the reference triangle, the sign-split homothety argument proves the area and mixed-area identities including the zero case, the cap and exterior decompositions and compatibility containments are exact, and the explicit rational example and profile calibration agree with the accepted predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

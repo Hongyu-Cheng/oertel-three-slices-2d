@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The covering identity and multiplicity integral are correct. If equality held, all pairwise clip intersections would have area zero; positive area of the x-clip and y-clip then yields interior points lying exclusively in those clips, and convexity forces a positive-area region in their intersection, a contradiction. The numerical clip areas sum exactly to the prescribed area of K, so the claimed simultaneous calibration is impossible.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

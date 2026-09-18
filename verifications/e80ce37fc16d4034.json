@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The trimmed three-cap lemma is valid, including p=0 and support-face cases: the continuous trim leaves area q-D+p, each covering halfplane cuts the trimmed body in area at most p, and the planar centroid inequality yields 4(q-D+p)<=9p. The halfplane cover follows exactly from f1+f2+f3=-1, the empty-full identities give the admissible parameter p=t-m, and the contact-tail condition gives C>=p. The scalar identities and rearrangement are exact. Accepted fact 15bb2c1680a0254e supplies M<m+k via its strict residual inequality s>1-r after identifying a1=k, so the final contradiction is valid.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

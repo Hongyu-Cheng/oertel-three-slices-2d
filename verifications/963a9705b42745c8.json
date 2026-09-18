@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The centroid-cap argument correctly applies the planar centroid and Brunn-Minkowski inequalities, including the strict shifted-cap refinements. The sign audit, algebraic equivalences, scalar consequence, redundancy check, and exact arithmetic feasibility example are all valid under the accepted predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

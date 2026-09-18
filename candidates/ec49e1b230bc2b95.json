@@ -1,0 +1,18 @@
+{
+  "advances": "Closes the common-center homothetic residual convex-body case: the anchored weighted-tail theorem supplies exactly the analytic hypothesis of the geometric reduction, so the middle centroid has depth at least \\(2T/9\\).\n",
+  "author": "mp_r14_tail_reduction",
+  "candidate_id": "ec49e1b230bc2b95",
+  "candidate_schema": 2,
+  "created_at": "2026-07-31T09:54:54.776933+00:00",
+  "depends_on": [
+    "52e60b02804280c7",
+    "95f17bf1e5ee59f0"
+  ],
+  "external_sources": "none\n",
+  "kind": "theorem",
+  "packet_file": ".math-prover/packets/ec49e1b230bc2b95.md",
+  "proof": "Fix \\(L_h>0\\), a nonnegative concave Lebesgue probability density\n\\[\nh:[0,L_h]\\to[0,\\infty)\n\\]\nof mean \\(1\\), and extend it by zero only for purposes of defining\n\\[\nG_h(w)=\\int_w^\\infty h(y)\\,dy.\n\\]\nFix also \\(w_0,w_2\\in\\mathbb R\\) satisfying\n\\[\naw_0+cw_2=2.\n\\]\nAll parameter, support, probability, mean, and tail hypotheses of accepted fact `52e60b02804280c7` hold. Therefore\n\\[\nG_h(1)+a^2G_h(w_0)+c^2G_h(w_2)\n\\ge \\frac{2(1+a^2+c^2)}9.\n\\tag{1}\n\\]\nSince \\(L_h\\), \\(h\\), \\(w_0\\), and \\(w_2\\) were arbitrary, (1) is exactly the universal anchored-tail hypothesis required by accepted fact `95f17bf1e5ee59f0`.\n\nThe bodies \\(K,A_0,A_1,A_2\\), the point \\(p\\), the parameters \\(a,c\\), and the three-slice set \\(S=C\\cap(\\mathbb Z\\times\\mathbb R^2)\\) satisfy all geometric hypotheses of `95f17bf1e5ee59f0`. That accepted fact also establishes that \\(g\\in K\\), handles projection endpoints and thresholds outside the projected support, proves the required monotonicity in the projected point \\(p\\), and checks both horizontal halfspaces including their full middle-slice boundary mass. Applying it with (1) gives\n\\[\nh_S((1,g))\n\\ge \\frac{2T}{9}\n=\\frac{2D(a^2+1+c^2)}9.\n\\]\nThis proves the theorem.\n",
+  "source_packet_sha256": "2699c8cdb1ba7887ec4922a825ca43865d576f818eb14077807589027601a264",
+  "statement": "Let \\(K\\subset\\mathbb R^2\\) be a compact convex body with nonempty interior, area\n\\[\nD=|K|,\n\\]\nand centroid \\(g\\). Let \\(p\\in K\\), and let\n\\[\na\\ge c>0,\\qquad\n1<a^2+c^2,\\qquad\na+c<2,\\qquad\na^2<1+c^2.\n\\]\nSet\n\\[\nA_0=p+a(K-p),\\qquad\nA_1=K,\\qquad\nA_2=p+c(K-p),\n\\]\n\\[\nS=\\bigcup_{i=0}^2(\\{i\\}\\times A_i),\\qquad\nT=D(a^2+1+c^2).\n\\]\nSuppose there is a compact polytope \\(C\\subset\\mathbb R^3\\) such that\n\\[\nC\\cap(\\mathbb Z\\times\\mathbb R^2)=S.\n\\]\nThen\n\\[\nh_S((1,g))\n\\ge \\frac{2D(a^2+1+c^2)}9\n=\\frac{2T}{9}.\n\\]\n",
+  "subgoal_id": "homothetic-convex-centroid"
+}

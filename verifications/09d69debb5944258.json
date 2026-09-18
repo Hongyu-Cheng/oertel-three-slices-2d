@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and establishes the stated implication. An exact rational search of 21,250 small and near-boundary instances found no counterexample, including 3,040 instances satisfying the original hypotheses and 3,380 satisfying their closed relaxation. More decisively, executing the supplied certificate unchanged in Python 3.13.12 verifies the polynomial identity coefficient by coefficient, every asserted matrix factorization and positive pivot, and all nine displayed dimension and pivot-floor records. The centered substitution and all polynomial definitions match the statement. Every generator is nonnegative under the hypotheses, including the possible equalities C=0, L=0, and t^2=2. The positive definite Gram matrices therefore make every summand nonnegative, so the exact identity implies G>=0 without any additional assumption or boundary exclusion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

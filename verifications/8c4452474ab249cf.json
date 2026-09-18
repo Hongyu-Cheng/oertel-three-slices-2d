@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly reduces the exactly-one-pair stratum to the two sign cases for t. All coordinate identities, determinant inequalities, area bounds, monotonic relaxations, and strict inequalities are valid, and the t<0 branch matches every hypothesis of accepted fact 298f2b7fba57e5ae exactly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

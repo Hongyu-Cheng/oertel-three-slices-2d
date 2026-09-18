@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine-coordinate argument is valid: positive singleton areas provide strict sign representatives whose column matrix is a nonsingular M-matrix, so every reference vertex is a convex combination of those representatives and the reference triangle lies in K. The ray endpoints and their chords define three halfplane caps with pairwise disjoint interiors; the singleton and adjacent-doubleton area formulas give z_i at least e_i. The cited three-cap inequalities apply, and their passage from z_i to e_i is monotone because the disjoint caps have total area at most k. The separate zero-singleton and t=0 arguments cover all remaining cases. The calibration gives e_i=67/60 and contradicts the square-root bound exactly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

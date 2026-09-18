@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The pointwise dual certificate is valid. Positivity of the a_* coefficients makes (7) force D>0; the stated exact normalizations and Bernstein-coefficient arguments establish (10) and (11), including t=x, t=lambda, and the possible equality in (11); and their weighted sum gives the strict contradiction (12). The same argument directly covers zero weights and coincident atoms on the stated closure.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

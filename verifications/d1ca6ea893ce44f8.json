@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The relative Bonnesen inequality is proved with the stated mixed-area normalization and is applied correctly in both directions. The root estimates, homothetic containments, chord and width bounds, quadrant-sign argument, and southwest-anchor area estimate all follow with the required strictness and without missing boundary or degenerate cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

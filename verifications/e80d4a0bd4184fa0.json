@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the cap geometry and area parametrization, establishes the global central-polygon decomposition including every zero-gap case, proves all three exterior-triangle bounds, and obtains the stated strict area bound and contradiction.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

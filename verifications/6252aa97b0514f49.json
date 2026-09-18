@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The boundary-section and hull arguments are sound, but the asserted scalar and one-direction-at-a-time calibration is false: its sharp A0 trace equalities, equal A0/A2 traces, genuine-lower-crossing slope condition, and prescribed A2 cap complements are incompatible already in each single direction.",
+  "critical_errors": [
+    "For each i, (20) attains equality in the sharp chord bound (15). With u_i=(a,d,c+d), the proof of accepted fact 6a9cc7c11e208bba then forces the right slope g_i of the A0 coordinate chord profile to equal lambda_i^2/(2 Delta u_i)>0. Equality lambda_0i=lambda_2i and the genuine-lower-crossing alternative force the left A2 coordinate slope h_i<-g_i. Concavity of the A2 chord profile therefore bounds its coordinate area on q_i>0 by lambda_i^2/(-2h_i)<lambda_i^2/(2g_i)=Delta u_i, so necessarily m-v_i<u_i. In the proposed table, (m-v_j,m-v_k,m-v_l)=(1,3,4) while (u_j,u_k,u_l)=(1,1,3), violating this strict inequality in all three directions. Formally assigning each slope sum the value -1 does not produce an admissible chord profile."
+  ],
+  "gaps": [
+    "The proof cites sharpness from 6a9cc7c11e208bba only for the A0-side profile and never checks the prescribed A2 complement area against the slope required by eddda25c734d34bc. Hence it does not establish the claimed one-direction-at-a-time profile calibration, and the statement that only a joint two-dimensional realization condition remains is false."
+  ],
+  "repair_hints": [
+    "A replacement equality-trace calibration must at least satisfy m-v_i<u_i in every direction when the A0 sharp chord bound is attained. Explicitly construct compatible concave A0 and A2 chord profiles, including their one-sided slopes and both side areas, before claiming that only simultaneous two-dimensional realization is unresolved."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

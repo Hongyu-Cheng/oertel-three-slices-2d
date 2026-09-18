@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The upper-half Brunn--Minkowski argument, exact-cell coefficient ledger, and application of the accepted quantitative bridge are all correct, with boundary sets handled by measure-zero cutting lines and the final strict inequality supplied by the strict bridge bound.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

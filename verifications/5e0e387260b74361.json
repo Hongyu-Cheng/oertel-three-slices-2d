@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The cyclic chamber gives three identical middle-cap values strictly above 4/9, the small-end cover contributes at least 1/4 in aggregate, and averaging yields the claimed strict gap above 1/36. The projective tube membership condition is exactly the common-intersection condition for the three closed scaling intervals, including all permutation orbits and the equality boundary. The rational example and all displayed exact arithmetic check.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

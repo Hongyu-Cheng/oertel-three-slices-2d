@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cyclic profile bound follows correctly from the full central triangle, convexity, the two singleton-area lower bounds, and the resulting rectangle bound for each doubleton cell. The explicit triangle has the stated coordinate areas and inverse Jacobian, so it realizes the entire P-table exactly. Independent rational checks confirm the repaired row totals, cap sums, crossings, tails, W=0, all four residual tests, both completion filters, all nine radical capacities, and every opposite inequality. The candidate also correctly restricts its geometric realization claim to the P-table and leaves the Q- and midpoint-table realizability tests open.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

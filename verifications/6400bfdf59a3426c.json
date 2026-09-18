@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The cap-incidence classification is justified, but the claimed impossibility in every full area-one strict-table realization is not established from the supplied predecessor facts.",
+  "critical_errors": [
+    "The proof applies accepted facts f64276364335ecd5 and 3396e5df0b84518c as unconditional exclusions. Their stated exclusions apply only to realizations satisfying the scale conclusion of accepted fact b1eaab0ae37367d1, whereas the candidate neither assumes that scale conclusion nor supplies a fact showing that every full area-one realization of the strict rational table satisfies it."
+  ],
+  "gaps": [
+    "No supplied definition or predecessor fact connects the phrase \"full area-one realization of the strict rational table\" to the lower bound on |\\mathcal T_Q| required by the two incidence-specific accepted facts."
+  ],
+  "repair_hints": [
+    "Supply accepted fact b1eaab0ae37367d1 and verify that its hypotheses follow from the stated full strict-table realization, or explicitly include its scale conclusion among the hypotheses."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

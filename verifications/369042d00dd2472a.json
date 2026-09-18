@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically complete. The probability normalization, closed-event inclusion, hybrid-depth bound, line-null measure argument, planar Helly construction, boundary-sensitive centerpoint argument, use of both accepted facts, exact horizontal terms, and final numerical comparison are all correct under the locked hypotheses.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The chord endpoints and convexity force the stated triangle in A_0, the fixed A_2 chord supplies q^*, every generated midpoint satisfies the three strict sign conditions, and the affine area scaling and exact arithmetic yield the claimed uniform lower bound.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

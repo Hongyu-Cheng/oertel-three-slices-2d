@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The division-free quadrant lemma is correct on every order, tie, and zero stratum; its applications give exactly the four stated endpoint-chord rows under the stipulated definition, including the claimed boundary interpretations. The displayed rational point satisfies the inherited identities, strict branch conditions, trace and common-plane bounds, endpoint systems, global slope-cap branch, and all four new rows by exact substitution.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the three threshold-sum bounds, reduces every surviving strict system to the stated normalized branch using the residual-strip inequalities, excludes singular L via the accepted two-row exclusion and the one-row full-cap case, and verifies the affine coordinate model, slice planes, compatibility, area ratios, and cap identities without gaps.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

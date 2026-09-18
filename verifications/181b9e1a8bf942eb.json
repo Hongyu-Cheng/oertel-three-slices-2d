@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the six-face zero locus, applies the accepted cap constraints and equality characterization, proves the unique-dominant and strict minor-product consequences, verifies both exact witnesses, and passes all closed constraints to compact positive limits without a gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

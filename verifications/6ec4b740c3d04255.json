@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The bounded two-dimensional, interval, singleton, and empty formulas are largely justified, but the claimed exhaustive fixed-code classification is incomplete for unbounded intersections.",
+  "critical_errors": [],
+  "gaps": [
+    "The statement never actually defines the promised fixed affine-dimension codes for unbounded systems. Equation (39) certifies a nonzero recession direction only under a separate nonemptiness hypothesis; it does not certify nonemptiness or distinguish a full-dimensional unbounded polygon from a rank-one ray or line. The bounded rank-one code (28)-(30) requires both a lower and an upper bound and therefore cannot serve as the missing ray or line code. Likewise, no finite full-dimensional feasibility certificate is supplied for the unbounded two-dimensional branch. Consequently the assertions that the listed codes and predicates are exhaustive, and that all capacity-code feasibility rows and recoding events have been listed, are not proved."
+  ],
+  "repair_hints": [
+    "Give explicit finite codes for an unbounded ray, an unbounded line, and a full-dimensional unbounded intersection: include a feasible-point or endpoint certificate, fixed affine-rank predicates, a chosen recession ray with all required signs, all tight-slack rows, and the corresponding strict versus structural event predicates. Alternatively, restrict the theorem and its exhaustiveness claim to bounded Z and W."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

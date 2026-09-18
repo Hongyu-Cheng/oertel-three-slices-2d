@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly reduces arbitrary containing halfspaces to parallel halfspaces through the point, uses the exact central symmetry of the zeroth-slice rectangle to obtain the universal half-area lower bound, and supplies a valid halfspace that excludes the other two slices. All endpoint, area, exclusion, and final rational comparisons are exact, and the conclusion is confined to the stated realization.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

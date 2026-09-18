@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The inherited hypotheses and exact-cell sign conventions are used correctly. The centroid-cap arguments, including strict enlargement, the zero-support local-disk exclusions, the exact endpoint marginal identities, both Brunn-Minkowski inclusions, the W-star coefficient ledger, the bridge containment and quantitative substitution, and the endpoint/middle decomposition are all valid. Inequality (17) is stated only as the remaining conditional comparison and is not claimed to be proved.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

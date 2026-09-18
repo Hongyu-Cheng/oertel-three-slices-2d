@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The repaired statement supplies every hypothesis needed to apply the accepted three-cap theorem: K is a compact two-dimensional convex body and the affine functions are nonconstant, pairwise nonparallel, and sum to -1. The Q_J cells and the lower-crossing predicate I_i are explicitly defined. The cap substitution, exact cutoff, and defect-only relaxation are algebraically valid. The parameter family satisfies the structural hypotheses; its determinant, support, area, cap, and cap-order computations are consistent; the lower-crossing argument handles the boundary correctly; and the strict inequality A_sc(s)>A_3cap(s) throughout [0,100] proves the claimed interval exclusion. The displayed s=49/2 scalar interval and separating gap are also arithmetically consistent.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is correct and complete relative to the supplied accepted facts. The five open sign chambers are exhaustive up to the stated row and column symmetries, singleton support at column 1 is correctly excluded, and zero-entry boundary strata remain covered by the exact closed-cap formulas. The cap formulas, the strict bound p-a-b>3, positivity of c1 and c2, negativity of every coordinate of g2, and the B/9 and A/9 homothetic-triangle cap bounds are all justified. The centroid calculation uses only affine homothetic images, not centroid additivity for a general Minkowski sum. The complement Brunn-Minkowski allocation is valid with all radicands and strict inequalities checked, and its normalized condition is exactly the already accepted boundary S>S_c(r), so the conclusion does not overclaim a new scalar exclusion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

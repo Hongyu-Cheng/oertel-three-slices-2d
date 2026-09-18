@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The product cover follows pointwise from the affine midpoint identity, the strict whole-plane cover, and complements of the closed endpoint caps. Finite subadditivity and product measure then yield the normalized and unweighted endpoint bounds. In the accepted normalized certificate, substitution at heights 0 and 2 identifies the caps exactly, and the sum identities with S correctly show that at least one endpoint family covers its plane and pays the corresponding full endpoint area. Boundary cases and the final calibration algebra are handled correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

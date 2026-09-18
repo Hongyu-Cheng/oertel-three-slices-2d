@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct. The prescribed cap law identifies the full open support interval of each affine functional and gives a positive constant derivative there. The slice-length argument then forces the convex body to be a parallelogram whose edges are parallel to that functional's level lines. Applying this to three pairwise nonparallel linear parts requires three distinct edge directions, contradicting the two edge directions of a nondegenerate parallelogram. The stated joint-realization consequence follows immediately.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

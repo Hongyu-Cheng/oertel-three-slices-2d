@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The quantitative centroid-cap inequality is valid in every sign pattern, including repeated entries and support contact. The row-sum averaging argument correctly yields the stated pointwise cap and mass bounds, the limiting argument correctly forces epsilon_n to zero under the near-strict condition, and accepted fact 91c3b1cc058a6768 then applies with exactly the required hypotheses.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

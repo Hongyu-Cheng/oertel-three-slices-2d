@@ -1,0 +1,18 @@
+{
+  "advances": "Resolves the proposed rational pentagon family negatively: its middle slice contains a point of halfspace depth exactly \\(1/2\\), so the required strict low-mass finite-cover certificate cannot exist.\n",
+  "author": "mp_r4_pentagon_certificate",
+  "candidate_id": "bdcb254b7e7c3718",
+  "candidate_schema": 2,
+  "created_at": "2026-07-31T05:11:33.474113+00:00",
+  "depends_on": [
+    "400272f6de6c67bb",
+    "8f5f00ddd4f22d2f"
+  ],
+  "external_sources": "none\n",
+  "kind": "theorem",
+  "packet_file": ".math-prover/packets/bdcb254b7e7c3718.md",
+  "proof": "Put\n\\[\nz_*=\\bigl(1,(1/2,1/2)\\bigr)\n\\]\nand define\n\\[\nB_0=\\operatorname{conv}\\{(0,0),(0,1),(1/2,1/2)\\}\\subseteq A_0,\n\\]\n\\[\nB_1=\\operatorname{conv}\\{(1/2,0),(1,1/2),(1/2,1),(0,1/2)\\}\\subseteq A_1,\n\\]\nand\n\\[\nB_2=\\operatorname{conv}\\{(1,1),(1,0),(1/2,1/2)\\}\\subseteq A_2.\n\\]\nTheir exact areas are\n\\[\n|B_0|=\\frac14,\\qquad |B_1|=\\frac12,\\qquad |B_2|=\\frac14.\n\\]\nThus the two-dimensional measure restricted to\n\\[\nB=(\\{0\\}\\times B_0)\\cup(\\{1\\}\\times B_1)\\cup(\\{2\\}\\times B_2)\n\\]\nhas total mass \\(1\\).\n\nConsider the central inversion\n\\[\nJ(r,u,v)=(2-r,1-u,1-v).\n\\]\nIt fixes \\(z_*\\), preserves planar area, exchanges \\(\\{0\\}\\times B_0\\) with \\(\\{2\\}\\times B_2\\), and preserves \\(\\{1\\}\\times B_1\\). Hence \\(J(B)=B\\).\n\nLet \\(K\\) be any proper closed halfspace whose boundary contains \\(z_*\\), and let \\(\\nu\\) denote the measure restricted to \\(B\\). Since \\(J\\) is central inversion about \\(z_*\\), \\(J(K)\\) is the opposite closed halfspace. Therefore\n\\[\nK\\cup J(K)=\\mathbb R^3,\\qquad K\\cap J(K)=\\partial K.\n\\]\nThe symmetry \\(J(B)=B\\) gives \\(\\nu(K)=\\nu(J(K))\\). Inclusion-exclusion now yields\n\\[\n2\\nu(K)\n=\\nu(K)+\\nu(J(K))\n=\\nu(B)+\\nu(B\\cap\\partial K)\n=1+\\nu(B\\cap\\partial K)\\ge1.\n\\]\nConsequently,\n\\[\n\\mu(K)\\ge\\nu(K)\\ge\\frac12.\n\\]\n\nLet \\(H\\) be any closed halfspace containing \\(z_*\\). Accepted fact `400272f6de6c67bb` gives a closed halfspace \\(K\\subseteq H\\) whose boundary contains \\(z_*\\). Hence\n\\[\n\\mu(H)\\ge\\mu(K)\\ge\\frac12,\n\\]\nand therefore \\(h_S(z_*)\\ge1/2\\).\n\nFor the reverse inequality, take\n\\[\nH_*=\\{(r,u,v):v\\ge1/2\\}.\n\\]\nIts three sections have exact areas\n\\[\n\\left|A_0\\cap\\{v\\ge1/2\\}\\right|=\\frac18,\n\\]\n\\[\n\\left|A_1\\cap\\{v\\ge1/2\\}\\right|=\\frac14,\n\\]\nand\n\\[\n\\left|A_2\\cap\\{v\\ge1/2\\}\\right|=\\frac18.\n\\]\nThus \\(\\mu(H_*)=1/2\\), proving\n\\[\nh_S(z_*)=\\frac12.\n\\]\n\nFinally,\n\\[\nT=|A_0|+|A_1|+|A_2|\n=\\frac12+\\frac34+\\frac12\n=\\frac74,\n\\qquad\n\\frac{2T}{9}=\\frac7{18}<\\frac12.\n\\]\nNo halfspace of mass less than \\(7/18\\) contains \\(z_*\\). Hence no finite collection of such halfspaces can cover \\(\\{1\\}\\times A_1\\) in its interiors. In particular, the middle-slice condition in accepted fact `8f5f00ddd4f22d2f` fails, so no complete at-most-nine-halfspace certificate exists for this fixed family.\n",
+  "source_packet_sha256": "9e36a8956baea13bc29ea6505df9ef48bd9a7dab1f369f5365d942d53afc28cf",
+  "statement": "Let\n\\[\nA_0=\\operatorname{conv}\\{(0,0),(1,0),(0,1)\\},\\qquad\nA_2=\\operatorname{conv}\\{(0,0),(1,0),(1,1)\\},\n\\]\nand\n\\[\nA_1=\\operatorname{conv}\\{(0,0),(1,0),(1,1/2),(1/2,1),(0,1/2)\\}.\n\\]\nThen\n\\[\nh_S\\bigl(1,(1/2,1/2)\\bigr)=\\frac12>\\frac7{18}=\\frac{2T}{9}.\n\\]\nConsequently, no collection of halfspaces of mass less than \\(7/18\\) can cover the middle slice in its interiors. In particular, the at-most-nine-halfspace certificate characterized by accepted fact `8f5f00ddd4f22d2f` does not exist for this family.\n",
+  "subgoal_id": "finite-certificate-search"
+}

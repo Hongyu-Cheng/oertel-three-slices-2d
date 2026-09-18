@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The displayed rational data satisfy every inherited identity, inequality, literal stratum, endpoint-cap branch, cyclic four-section constraint, coordinatewise separator constraint, and the new strict (A+) inequality. All nonidentity inequalities and selected branch signs have strict slack, so the data are a relative-interior point of the selected semialgebraic branch.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

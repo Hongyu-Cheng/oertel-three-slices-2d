@@ -1,0 +1,17 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The exact algebraic and Bernstein-sign computations are consistent, but the candidate has a boundary-definition defect and does not, as written, establish the hypothesis of the predecessor implication invoked in the final step.",
+  "critical_errors": [
+    "The statement claims to include the endpoint cap-order boundary d=e, but h is undefined there. Accepted fact 83ae76262528a9f8 defines h only in the case d>e and defines psi separately when d=e. Thus the displayed hypotheses mu_eta/x^2 >= h and nu_eta/(2-x)^2 >= h are not meaningful when a=b, despite the explicit claim that this boundary is included."
+  ],
+  "gaps": [
+    "The proof establishes G_eta(x)>0 only for the actual row-minimum parameter x. The stated envelope implication in accepted fact 83ae76262528a9f8 requires Gamma_eta=min_{s in I} G_eta(s)>=0. Since Gamma_eta<=G_eta(x), positivity at the actual x does not verify that stated hypothesis. The candidate neither proves G_eta(s)>=0 for every s in I nor explicitly invokes and rederives the stronger per-instance contrapositive E<eta => G_eta(x)<0 contained inside the predecessor proof, so the cited conclusion does not follow from the predecessor statement as written."
+  ],
+  "repair_hints": [
+    "Define h also when d=e, for example by the same formula h=(d-e)/(p+d)=0, or state the d=e case separately without branch hypotheses.",
+    "For the last step, either explicitly apply the per-instance contrapositive argument from equations (38)-(41) of accepted fact 83ae76262528a9f8, or prove Gamma_eta>=0 by treating every s in I rather than only the actual x."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

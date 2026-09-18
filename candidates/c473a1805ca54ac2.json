@@ -1,0 +1,18 @@
+{
+  "advances": "Every counterexample to the locked three-slice \\(2T/9\\) conclusion has\n\\[\n\\frac{\\min\\{|A_0|,|A_2|\\}}{\\max\\{|A_0|,|A_2|\\}}<\\frac12.\n\\]\nThe proof uses only the exact residual domain and the arbitrary-body upper\nstrip theorem.  It has no canonical-cover, finite-interior, support, or\ncrossing hypothesis.\n",
+  "author": "mp_r312_global_ratio_half",
+  "candidate_id": "c473a1805ca54ac2",
+  "candidate_schema": 2,
+  "created_at": "2026-08-10T04:04:41.623824+00:00",
+  "depends_on": [
+    "6f36d5017fd780b5",
+    "776f5d2aa96794fd"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/c473a1805ca54ac2.md",
+  "proof": "Write\n\\[\nr=\\frac mM,\\qquad s=\\frac{|A_1|}{M}.\n\\]\nThe locked hypotheses imply\n\\[\n\\frac{A_0+A_2}{2}\\subseteq A_1:\n\\]\nindeed, the midpoint of any point of \\(\\{0\\}\\times A_0\\) and any point of\n\\(\\{2\\}\\times A_2\\) lies in the convex polytope \\(C\\), has height \\(1\\),\nand therefore belongs to \\(\\{1\\}\\times A_1\\).\n\nAssume for contradiction that the locked conclusion fails and \\(r\\geq1/2\\).\nAccepted fact `6f36d5017fd780b5` says that every counterexample belongs to\nexactly one of the two parameter regions\n\\[\n0<r\\leq\\frac15\n\\]\nor\n\\[\n\\frac15<r<r_0,\\qquad S_c(r)<s<U(r),\n\\tag{1}\n\\]\nwhere\n\\[\nr_0=\\frac{163-12\\sqrt{51}}{125},\n\\qquad\nS_c(r)=\n\\left(\\frac{2\\sqrt5+\\sqrt{14r-2}}6\\right)^2.\n\\tag{2}\n\\]\nIn particular, the first region is incompatible with \\(r\\geq1/2\\).\nThe same accepted fact proves\n\\[\n\\frac12<r_0<\\rho<1.\n\\tag{3}\n\\]\nThus the endpoint \\(r=r_0\\) and the whole range \\(r>r_0\\) are already\nexcluded: neither region above contains them.  It remains only to exclude\n\\[\n\\frac12\\leq r<r_0.\n\\tag{4}\n\\]\n\nWe prove on (4) the exact comparison\n\\[\nS_c(r)\\geq1+\\frac r2.\n\\tag{5}\n\\]\nFirst audit the radicals and the left endpoint.  For \\(r\\geq1/2\\),\n\\[\n14r-2\\geq5>0,\\qquad 70r-10\\geq25>0.\n\\]\nAt \\(r=1/2\\),\n\\[\nS_c(1/2)\n=\\left(\\frac{2\\sqrt5+\\sqrt5}{6}\\right)^2\n=\\frac54\n=1+\\frac{1/2}{2}.\n\\tag{6}\n\\]\nExpanding (2), using only positive radicands, gives\n\\[\nS_c(r)\n=\\frac12+\\frac{7r}{18}+\\frac{\\sqrt{70r-10}}9.\n\\]\nConsequently (5) is equivalent to\n\\[\n\\sqrt{70r-10}\\geq r+\\frac92.\n\\tag{7}\n\\]\nOn (4), the left side of (7) is at least \\(5\\), and the right side is at\nleast \\(5\\).  Both sides are therefore nonnegative before squaring.\nSquaring is reversible, and\n\\[\n\\begin{aligned}\n70r-10-\\left(r+\\frac92\\right)^2\n&=-r^2+61r-\\frac{121}{4}\\\\\n&=-\\left(r-\\frac12\\right)\n       \\left(r-\\frac{121}{2}\\right).\n\\end{aligned}\n\\tag{8}\n\\]\nBy (3)-(4),\n\\[\nr-\\frac12\\geq0,\\qquad\nr-\\frac{121}{2}<0.\n\\]\nThus the right side of (8) is nonnegative, proving (7) and hence (5).\nIt vanishes at \\(r=1/2\\) by (6), and is positive for\n\\(1/2<r<r_0\\).\n\nNow (1) and (5) give\n\\[\ns>S_c(r)\\geq1+\\frac r2.\n\\]\nAfter undoing the normalization, this is\n\\[\n|A_1|>M+\\frac m2.\n\\]\nAccepted fact `776f5d2aa96794fd`, which applies to arbitrary compact\ntwo-dimensional convex bodies satisfying the midpoint containment, then\nyields\n\\[\n\\max_{y\\in S}h_S(y)\\geq\\frac{2T}{9},\n\\]\ncontrary to the assumed counterexample.  Hence every counterexample has\n\\(m/M<1/2\\), as claimed.\n",
+  "source_packet_sha256": "fe3721e8ac3d0d738adddb4cdd0a9ea0a93a1ba647dcabb161bcea476aa04729",
+  "statement": "Under the locked three-slice hypotheses, put\n\\[\nM=\\max\\{|A_0|,|A_2|\\},\\qquad\nm=\\min\\{|A_0|,|A_2|\\}.\n\\]\nIf\n\\[\n\\frac mM\\geq\\frac12,\n\\]\nthen\n\\[\n\\max_{y\\in S}h_S(y)\\geq\\frac{2T}{9}.\n\\]\n",
+  "subgoal_id": "global-area-ratio-one-half-exclusion"
+}

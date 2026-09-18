@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The exact coordinates define a compact rational strictly convex polygon in the stated cyclic order. Exact clipping yields precisely the three claimed chords and four positive-area cells, the shoelace areas and total agree with the prescribed data, the zero-branch incidence identities hold, and the affine dominance slack is positive at every vertex of the closed P_0 cell.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

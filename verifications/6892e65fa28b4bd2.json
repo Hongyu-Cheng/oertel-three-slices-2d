@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically complete. It bounds every coupled endpoint allocation before minimizing, separates empty caps from the positive-cap Brunn--Minkowski argument, solves all capacity branches with consistent boundary values, verifies the feasible normalized area intervals by concave endpoint checks, and treats finite limiting-slope tails separately from horizontal halfspaces.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

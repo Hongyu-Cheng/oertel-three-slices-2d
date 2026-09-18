@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The coordinate transformation, triangle areas, cap values and shifted profiles, scalar inequalities, far x-cap, and Minkowski-sum area all check exactly. The quantified profile arguments cover the relevant boundary and degenerate regimes, and the construction establishes the stated strict reverse midpoint-area inequality.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

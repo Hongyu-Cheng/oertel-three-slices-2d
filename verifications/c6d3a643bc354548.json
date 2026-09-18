@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The geometric and algebraic calculations are internally consistent if the intended caps are the intersections with the negative half-spaces of the three linear forms, but the candidate never defines c_1, c_2, or c_3. With no accepted predecessor facts or external source supplying that definition, the statement and its claimed cap identities are not well-defined.",
+  "critical_errors": [],
+  "gaps": [
+    "The quantities c_1, c_2, and c_3 are used in the statement without any definition. The proof asserts that the first, second, and third caps are A+E+F, A+B+C, and C+D+E, respectively, but this does not follow from any definition supplied in the candidate. In particular, the linear forms alone do not specify whether a cap is the positive or negative half-space."
+  ],
+  "repair_hints": [
+    "State explicitly what c_i(K_s) means, including the half-space inequality. If the intended definition is c_i(K_s)=|K_s intersect {ell_i less than or equal to 0}|, then the three sector-union identities used by the proof follow."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

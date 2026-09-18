@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is sequentially valid: the planar Helly alternatives and minimal Farkas normalizations are applicable, the perturbation and private-witness arguments handle horizontal and degenerate sections, all strict area bounds follow with the stated constants, the surplus and midpoint identities are exact up to the explicitly null boundary lines, and both the actual-cover converse and the two-cap completion establish the claimed strict interior covers and mass bounds.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

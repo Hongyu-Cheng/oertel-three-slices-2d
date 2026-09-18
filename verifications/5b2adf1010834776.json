@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The three prescribed cap equations are correctly rewritten as the crossing equalities with endpoint sums (d_2,m,a). The affine functions satisfy f_1+f_2+f_3=-1, the x=1 boundary has zero area, and the accepted extension-cone lemma applies to every proposed convex polygon R containing B. Independent exact checks reproduce the stated area of B, both clipped areas, tau, all three residuals, their positive sum Gamma, and the strictly negative first gate value. Thus any such R would violate a necessary nonnegativity condition, irrespective of k, so the claimed nonexistence follows and covers the stated residual strip.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

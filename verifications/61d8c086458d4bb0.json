@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The eight-orbit parametrization, boundary predicates, exact rational CAD infeasibility, stochastic normalization, threshold-sum strictness, and contradiction under Q>1 check out. However, the claimed unconditional endpoint-completion exclusion does not follow because Q>1 is assumed rather than derived for arbitrary completions.",
+  "critical_errors": [],
+  "gaps": [
+    "The final consequence asserts that the calibration (4)-(5) has no endpoint completion in the accepted reconstruction system, whose witness conditions do not impose Q>1. The proof only starts from (8) and rules out completions with Q>1; it never proves that every completion of (6), (7), and (9) must satisfy Q>1. Thus completions with Q<=1 are not excluded by the written proof."
+  ],
+  "repair_hints": [
+    "Add the missing V-side argument before invoking (8): normalize V by its coordinatewise row minima, define the resulting nonconstant affine functions whose sum is the residual mass, use B>A and (9) to bound each V-cap strictly below alpha_i, and reapply the proved two-cap threshold-sum inequality to derive sum_i sigma_i>1 for every putative completion. Then the existing U-side contradiction applies. Alternatively, weaken the final conclusion to exclude only completions satisfying Q>1."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

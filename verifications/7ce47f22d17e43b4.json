@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine reduction, cap-stability dichotomy, strict Farkas certificate, positivity and uniqueness of the normalized dependence weights, frame assignment, and all stated numerical inequalities are correct. Boundary and degenerate sign patterns are covered, and the conclusion matches the statement.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof validly derives the common interval 4s/9 <= c_l < t < s, applies the accepted two-cap theorem under an exact relabeling, uses strict decrease of the cap bound on that interval, and verifies the strict Regime A comparison by a correct positive factorization. The resulting strict cycle contradicts the two root-tail inequalities.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

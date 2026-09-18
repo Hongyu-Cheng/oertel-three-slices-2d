@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the conditional exact-target Brunn--Minkowski inequalities, exhaustively reduces the 292 distinct triples to 19 undominated instances, and verifies the scalar calibration, crossings, and W=0.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,18 @@
+{
+  "advances": "Excludes Alternative 2 throughout Regime A by applying the accepted two-cap theorem to the two centroid-positive root caps and then checking the complete strict scalar chain.\n",
+  "author": "mp_r91_regime_a_two_cap_closure",
+  "candidate_id": "e11f10108dc9595a",
+  "candidate_schema": 2,
+  "created_at": "2026-08-01T17:59:58.117869+00:00",
+  "depends_on": [
+    "0688f679297c8baa",
+    "6e68b44550cac3c8"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/e11f10108dc9595a.md",
+  "proof": "Assume Alternative 2. Retain the indices \\(i,j,\\ell\\) after the interchange of \\(i,\\ell\\) allowed in accepted fact `6e68b44550cac3c8`, and write\n\\[\nc_h=\\left|K\\cap\\{f_h\\le0\\}\\right|,\n\\qquad\nt=\\frac{2(1+r+s)}9.\n\\]\nThat fact gives\n\\[\n0<r<\\frac13,\\qquad s>1-r,\\qquad\nc_i+r<t,\\qquad c_j+r<t,\n\\]\n\\[\nf_i(g)>0,\\qquad f_j(g)>0,\\qquad c_\\ell\\ge\\frac{4s}{9}.\n\\tag{1}\n\\]\nIts strict low-mass inequality for the actual \\(\\ell\\)-shift has the form\n\\[\nc_\\ell+u_\\ell+v_\\ell<t\n\\]\nwith \\(u_\\ell,v_\\ell\\ge0\\), and hence\n\\[\nc_\\ell<t.\n\\tag{2}\n\\]\nAlso \\(s>1-r>0\\). Since \\(r<1/3\\), one has \\(5>9r\\), so\n\\[\n7s>7(1-r)>2(1+r).\n\\]\nTherefore \\(2(1+r+s)<9s\\), namely \\(t<s\\). Combining this with (1)-(2) gives the required common monotonicity domain\n\\[\n\\frac{4s}{9}\\le c_\\ell<t<s.\n\\tag{3}\n\\]\n\nApply accepted theorem `0688f679297c8baa` with its dummy labels\n\\[\n(f_1,f_2,f_3)=(f_i,f_j,f_\\ell).\n\\]\nThis is only a relabeling in that theorem: the functions remain nonconstant, their linear parts remain pairwise nonparallel, their sum is \\(-1\\), and the first two centroid signs are strict by (1). Thus\n\\[\n\\max\\{c_i,c_j\\}\\ge 2\\sqrt{s\\,c_\\ell}-2c_\\ell.\n\\tag{4}\n\\]\n\nFor fixed \\(s>0\\), put \\(\\Phi(u)=2\\sqrt{su}-2u\\). On \\([4s/9,s]\\),\n\\[\n\\Phi'(u)=\\sqrt{\\frac{s}{u}}-2\n\\le\\frac32-2=-\\frac12<0.\n\\]\nHence \\(\\Phi\\) is strictly decreasing there. By (3),\n\\[\n\\Phi(c_\\ell)>\\Phi(t).\n\\tag{5}\n\\]\n\nIt remains to check the strict Regime A comparison. Since\n\\[\n3t-r=\\frac{2+2s-r}{3}>0,\n\\]\nwe may compare squares. Direct substitution of \\(t=2(1+r+s)/9\\) gives\n\\[\n4st-(3t-r)^2\n=\n\\frac{4(s-1+r)(s+1+2r)+r(8-9r)}9\n>0,\n\\tag{6}\n\\]\nbecause \\(s-1+r>0\\), \\(s+1+2r>0\\), \\(r>0\\), and \\(8-9r>0\\). Thus\n\\[\n2\\sqrt{st}>3t-r,\n\\qquad\\text{equivalently}\\qquad\n\\Phi(t)=2\\sqrt{st}-2t>t-r.\n\\tag{7}\n\\]\n\nFinally, the two strict root tails in (1) give\n\\[\n\\max\\{c_i,c_j\\}<t-r.\n\\tag{8}\n\\]\nEquations (4), (5), (7), and (8) yield the impossible strict chain\n\\[\n\\max\\{c_i,c_j\\}\n\\ge\\Phi(c_\\ell)\n>\\Phi(t)\n>t-r\n>\\max\\{c_i,c_j\\}.\n\\]\nTherefore Alternative 2 cannot occur anywhere in Regime A.\n",
+  "source_packet_sha256": "ef2f6edd5c82e3dbf1ccca31c4c8dcdd7674e18a2a3e57c216aa60abf0aff24b",
+  "statement": "Under Alternative 2 of accepted fact `6e68b44550cac3c8`, the two root-tail inequalities are impossible.\n",
+  "subgoal_id": "canonical-root-tail-regime-a-two-cap-closure"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The halfplane identity and the necessity and sufficiency criterion are correct, including lower-dimensional A, opposite or repeated normals, degenerate rectangles, and infinite families. The compactness-plus-Helly argument yields a finite minimally infeasible triple, and its Farkas certificate is excluded exactly by conditions 1 and 2. The applications of the accepted predecessor facts match their hypotheses, and the trigonometric allocation model correctly demonstrates that continuity and the stated antipodal structure alone do not force Wulff nonemptiness.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

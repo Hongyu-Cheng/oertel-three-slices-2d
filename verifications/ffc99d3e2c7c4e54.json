@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly converts the prescribed full sections and Q_{jk} area into a lower bound on the right-hand width-slope jump, transfers that bound by concavity to the negative-U cap, and obtains |Q_j| <= 121/850. Unsupported strict chambers and cutting-line boundary cases are adequately excluded, all area and derivative inequalities have the correct direction, and the numerical contradiction with |Q_j| = 1/5 is exact.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

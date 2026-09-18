@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The polygon areas, containment and contact conditions, cap and gate values, crossing profile, Minkowski-sum hull, midpoint area, branch condition, and final strict inequality all verify exactly, with no mathematical error or gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

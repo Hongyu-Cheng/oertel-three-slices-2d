@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The rational area computations, scalar inequalities, shifted profiles, and clipped Minkowski-sum calculation are internally consistent, but the claim involving U is not verifiable from the permitted material because U is never defined.",
+  "critical_errors": [],
+  "gaps": [
+    "Neither the candidate nor any external source or accepted predecessor fact defines the function U or states the conditions under which U(r)=2-r. Therefore r>1/2 (even together with r<rho) does not justify the asserted branch, and the final lower-bound expression depending on U cannot be verified."
+  ],
+  "repair_hints": [
+    "Supply the exact definition of U, including all branch domains, and then verify explicitly that the computed r lies in the domain where U(r)=2-r."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

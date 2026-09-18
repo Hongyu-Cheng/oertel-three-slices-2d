@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap lower and upper estimates are valid, the infimal-convolution payment bound follows with the stated endpoint cases, the transfer through the Minkowski-average width is correct, and the three-cap pigeonhole argument and locked-problem consequence match the accepted predecessor facts. The polytope example and numerical comparison are also correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the positive-length admissible interval from the strict area triangle inequalities, verifies the endpoint conventions, convexity, and nesting of both set families, proves the two centroid containments using the planar centroid-cap bound and slice convexity, and applies the accepted fixed-direction profile formula and true-region identity with all domain conditions satisfied. No mathematical error or gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

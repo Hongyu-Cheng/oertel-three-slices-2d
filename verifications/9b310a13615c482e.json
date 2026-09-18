@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The argument is mathematically complete. The strict area-triangle inequalities give the required profile range and ensure the endpoint upper caps have positive area. Compatibility and planar Brunn--Minkowski yield the claimed lower bound for every endpoint allocation; the concavity endpoint comparison is in the correct direction, and its strictness contradicts the centroid upper-cap bound under condition (3), including the equality case. The resulting directional profile inequalities imply membership of the middle centroid in the exact depth region. The normalization, open-class calibration, compatibility examples, and explicit rational calibration are all consistent and correctly computed.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The claim is proved by the final two-case argument. The area and containment reductions are correct, and the cap formulas and breakpoint orderings are consistent. Since P lies in x <= 0, its x-nonnegative part has zero area and Q contributes exactly 1/10 there. If A >= 0, all of P lies in y >= 0, contradicting the prescribed y total. If A < 0, containment forces F > 0, so Q is covered by the x- and y-nonnegative halfspaces, whose Q-areas sum to at most 1/5, contradicting |Q| = 1/3. The cases are exhaustive, including boundary and degenerate endpoint positions allowed by the statement.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

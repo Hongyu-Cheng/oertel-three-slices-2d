@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The endpoint extension of the edge moment conditions is valid, the zero-pattern and incidence enumeration is exhaustive, and the sole surviving type-I configuration is correctly excluded by the endpoint-valid 3+3 moment formulas and the defining relations of the subspace.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

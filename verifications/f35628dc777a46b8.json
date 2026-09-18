@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The post-deletion polygon and chamber code are consistent with the accepted first-event geometry. The displayed cell formulas exhaust the nonzero canonical equality rows, the modular minors certify the exact block ranks 4, 4, and 6, and no nonzero active inequality row remains. Both release rows are the claimed exact P-area stresses. The capacity formula is unchanged because it depends only on the stationary A0 and A2 data. Moving only kappa_3 along e_2 preserves the sole chamber area involving kappa_3 exactly, annihilates every other equality row, and has the stated nonzero f_1 differential.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cell masses, marginals, common-upper areas, endpoint cover consequences, sign exclusions, residual-strip inequalities, three unprojected Brunn--Minkowski inequalities, and final strict row-target failure all check exactly. The concluding distinction between this abstract area-incidence survivor and an actual common affine/body realization is explicit and consistent with the accepted predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

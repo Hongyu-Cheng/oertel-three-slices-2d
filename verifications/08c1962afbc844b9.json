@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The affine normalization preserves all relevant inequalities and profile values; the cap-area formulas and their boundary cases are exact; the residual-domain inequalities imply the stated support bounds; midpoint compatibility and bounding rectangles give the required support and width-product estimates; and the clamp-cell argument exhausts zero, quadratic, and plateau cases and yields the strict final inequality.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

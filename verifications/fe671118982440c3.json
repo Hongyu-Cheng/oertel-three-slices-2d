@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete. The cap-compatible fiber and strict square-root cap implication are derived correctly; the seven-term minimum is reduced exactly to the five closed survivor cases with all equality boundaries preserved; the stated consequences follow with the claimed strictness; and the eight-stratum normal form together with the accepted compact degeneration result supports the exhaustive finite cover. The accepted no-degeneration fact implies a positive uniform infimum of eta/q, and the scalar bridge and cap lower bound then yield the two strict threshold inequalities and the excluded strip.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

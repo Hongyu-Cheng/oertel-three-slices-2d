@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The shared-base triangle scaling and truncated-cap area are exact; the positive-cap sets are contained in K and overlap only on an area-zero line; the P-cell multiplicity identity and mixed-area algebra give (1) exactly; the middle-cell partition gives (2), whose strict positive term has the correct sign; and (3), the impossibility of (4), and the uniform boundary claims follow with no gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

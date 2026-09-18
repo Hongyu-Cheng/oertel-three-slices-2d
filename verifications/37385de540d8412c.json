@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the exact row mass, handles the closed-cap saturation boundary, obtains the reflected-cap bound by monotonicity, verifies the strict residual arithmetic, treats both equal-area labelings, and applies the accepted three-row certificate and planar centroid-depth fact without a gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The separator inequality correctly orders the near axis endpoints of D beyond the far axis endpoints of B. Convexity then places the hull of the two full D-axis intervals inside D, and its exact area yields the claimed four-section inequality. The trace identifications and all rational substitutions for the stated survivor are correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

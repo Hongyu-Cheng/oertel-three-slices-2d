@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The common-fan signs force the stated support extrema for C1 and C3; the exact mixed-area identity for T_L+C, the gamma/4 midpoint-area factor, and the singleton-cell inclusions are valid modulo null cutting lines. Convex horizontal sections force the Q13 strip over the shared positive height range, including all boundary and strictness cases needed. Independent rational recomputation confirms both support upper bounds, the inequalities 11d>1/10 and 4d>1/10, and the final contradiction d>241/200 versus d<1/20.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

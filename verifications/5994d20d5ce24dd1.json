@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The sign parametrization follows exactly from the three support sets and the column-sum identities. The two-positive cap formulas, including equal positive entries, correctly imply x+y<4d/5 and z+w<4e/5. These bounds and the strict one-positive signs in row 3 give 0<(a+b)/p<4/5; the exact one-positive cap formula, including equal negative entries, then yields c_3>25/49>1/2. Since A and B are positive and all cap fractions are nonnegative, the third strict row would instead force c_3<t<=1/2. All strictness, equality, endpoint, and repeated-value cases used by the argument are handled correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

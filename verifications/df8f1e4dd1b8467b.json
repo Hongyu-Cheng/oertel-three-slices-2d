@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the exterior cell charges, the mixed-area endpoint, the pairwise-disjoint full-support ledger, and the strict universal ratio bound from the supplied predecessor facts. The coordinate-area calculation, exact-cell boundary treatment, algebra, strict inequalities, and both symmetric exterior cases are complete.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

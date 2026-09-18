@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The directional variational and compatibility arguments are otherwise coherent, but the claimed equivalence between (CB) and (XD) is false as written because (CB) is an implication with antecedent W>0 whereas (XD) is stated as an unconditional inequality.",
+  "critical_errors": [
+    "Accepted fact 58b8e7bb5c3be36f defines (CB) as W>0 implying that the maximum weighted contact sum is nonnegative. Identity (21) shows only that the consequent of this implication is equivalent to (XD). For W<=0, (CB) is automatically true while the unconditional inequality (XD) remains a nontrivial condition, and the candidate proves no reason it must hold. Thus the statement and proof claim an invalid exact equivalence."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "State that, under the antecedent W>0, the conclusion of (CB) is equivalent to (XD), or formulate (XD) itself as the implication W>0 implies the displayed remainder inequality."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

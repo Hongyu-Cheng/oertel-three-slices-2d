@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly reduces the positive-area case to a normalized minimizing triangle, applies the accepted parameter inequality with the required hypotheses, derives the claimed hull bound, constructs an equality example for every fixed fan, and obtains exactly the stated equality implications and converses. The zero-area classification follows directly from the accepted predecessor fact.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The affine-transversal optimization, square-root specialization, triangle-depth formula, and explicit residual example are mathematically supported, but the final identification of g_1 with an endpoint of `residual-centroid-segment` is not supported by the candidate or any supplied accepted predecessor fact. The required zero-gap standard therefore forces rejection.",
+  "critical_errors": [],
+  "gaps": [
+    "The statement says that g_1 is the s=1 endpoint of the segment registered in `residual-centroid-segment`, but no definition or accepted predecessor fact for that segment is supplied, and the proof does not establish this identification. It is unverifiable using the evidence allowed by the prompt."
+  ],
+  "repair_hints": [
+    "Remove the unsupported endpoint-identification sentence, or supply an accepted definition and proof for `residual-centroid-segment` that makes the identification checkable."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

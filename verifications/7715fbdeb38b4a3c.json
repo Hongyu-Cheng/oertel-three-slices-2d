@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The cap computations, crossing algebra, minimization, and strict inequality argument correctly prove the stated implication for every triangle satisfying (1). The candidate nevertheless contains an unsupported and, without parameter restrictions, false final applicability claim about the full family K_{R,g}.",
+  "critical_errors": [
+    "The final paragraph claims that the family K_{R,g} is a case of (1), but neither K_{R,g} nor its parameter domain is defined in the candidate or supplied as an accepted fact. For the displayed parametrization, (1) requires R-2g>1 and R+g>0; arbitrary R,g do not satisfy these conditions. Thus the unqualified inclusion and consequent strict-enlargement claim do not follow from the supplied material."
+  ],
+  "gaps": [
+    "The asserted centered-coordinate formula for K_{R,g} has no derivation or accepted source, so its claimed relation to the theorem's triangle class cannot be verified statelessly."
+  ],
+  "repair_hints": [
+    "Supply the definition and parameter range of K_{R,g}, derive the displayed centered-coordinate vertices, and state the inclusion only under the exact conditions R-2g>1 and R+g>0; alternatively remove the unsupported final paragraph if it is not part of the candidate claim."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

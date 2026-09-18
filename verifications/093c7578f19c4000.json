@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The affine-coordinate minima, exact compatibility halfplanes and polygon vertices, and the equivalence with Q-2v contained in the residual simplex R all check exactly. The six directional eta rows follow from the stated barycentric matrix and each has exactly one positive entry on 7/4 < rho <= 2, with the claimed uniform lower bound; the associated one-vertex cap formula and denominator bound yield the stated strict area estimate. The centroid-cap formulas, all rational arithmetic, boundary-through-point reduction, horizontal cases, depth conclusion, and final interior-cover contradiction are correct. No mathematical error or proof gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

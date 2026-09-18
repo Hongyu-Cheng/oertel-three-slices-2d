@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The capacity reduction to the continuous nondecreasing function G_n is valid, the exact cap calculations cover the stated slope chambers and their degenerate boundaries, and positive homogeneity together with the zero-sum identity proves the final strict inequality. The hypotheses also ensure every normal used in part 3 is nonzero, including the downward-vertical cases.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

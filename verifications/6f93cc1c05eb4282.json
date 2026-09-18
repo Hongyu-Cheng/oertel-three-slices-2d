@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The endpoint-cap lemma is proved correctly from convexity of the section endpoints and concavity of the chord-width profile, with the coordinate-area factor handled consistently. Its hypotheses apply to the calibrated A_0 data, the numerical substitution gives the stated contradiction, and the separate-cell polygons, areas, axis sections, and separator are all correctly verified.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

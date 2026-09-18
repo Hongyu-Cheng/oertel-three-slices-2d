@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The chord-concavity inequality, its boundary cases, its sharp profiles, the canonical substitutions (4j)-(4l), and the displayed rational arithmetic are correct. However, the candidate also claims compatibility with all canonical crossings, canonical tails, finite-interior inequalities, and W=0, and that part is not proved from the supplied material because the relevant conditions and several quantities are never defined.",
+  "critical_errors": [],
+  "gaps": [
+    "The candidate and accepted predecessor fact do not define the three canonical crossing equations, the canonical tail conditions, the finite-interior inequalities, the original W-identity, or the quantities M, m, and kappa. Equations (13)-(17), positivity assertions, and the unexplained statement that t=2(M+m+kappa)/9 therefore cannot be checked to imply the claimed full scalar compatibility without importing unstated project history.",
+    "The completion variables are not mapped explicitly to the four A2 cells and four K cells. In particular, the phrase 'the four areas in (13)' is ambiguous because (13) displays six named assignments, some apparently belonging to A2 and some to K; this prevents verification of the final unresolved-coupling claim from the candidate alone."
+  ],
+  "repair_hints": [
+    "State the area-variable mapping and write every canonical crossing, tail, finite-interior, and W condition explicitly, then substitute (10), (13), and (14) into each condition.",
+    "Define M, m, and kappa explicitly as the relevant total areas and show the arithmetic giving t=2(M+m+kappa)/9."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The row and cap sums, crossing equations, strict tails, W=0 identity, four three-cap residuals, slice and compatibility bounds, common-fan midpoint gate, both completion filters, all radical certificates, and the opposite-pair capacity and budget inequalities are exact and correct. Each cited predecessor fact is applied under its stated hypotheses, and the conclusion is limited consistently to survival of the listed formal scalar and cell constraints without asserting simultaneous planar realization.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

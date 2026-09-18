@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The exact base-point geometry, cell tables, derivative blocks, contact and release rows, rank claim, and displayed witness all verify; the witness satisfies Exi=0, Gxi>=0, and Rxi=1.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

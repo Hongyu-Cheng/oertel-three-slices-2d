@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The contradiction after the centroid halfspace bound is algebraically and logically sound, but the candidate does not rigorously establish that bound from the permitted material.",
+  "critical_errors": [],
+  "gaps": [
+    "The asserted one-dimensional concavity lemma is supported only by an unproved localization sketch. The proof does not construct the claimed zeroth- and first-moment-preserving perturbation, prove that one sign preserves nonnegativity and concavity while decreasing the selected side integral, justify termination at a globally affine function, or handle passage to general concave section functions while keeping the mean cut fixed. Since the planar centroid halfspace inequality is essential to (11), (14), and (18), this leaves a substantive proof gap."
+  ],
+  "repair_hints": [
+    "Supply a complete proof of the one-dimensional concavity lemma, including the extremal or localization reduction and the approximation/limit argument, or cite an accepted predecessor whose statement explicitly gives the planar centroid halfspace inequality."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

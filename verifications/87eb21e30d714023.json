@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The rational witness and the displayed numerical inequality checks are consistent, but the candidate makes an incorrect exact-source claim in its opening statement.",
+  "critical_errors": [
+    "The assertion that all the listed finite rows, including the sharp pointwise-dominance strengthening supplied by accepted fact `18e8f69f5a782c16`, are precisely the rows assembled in `4d45f431f428fda2` is false. The statement of `4d45f431f428fda2` augments the earlier system only by the three scalar dominance-shadow rows from `6d887319cbb83136`; it does not contain the sharp cap from `18e8f69f5a782c16`, and `18e8f69f5a782c16` itself depends on `4d45f431f428fda2`. Thus the candidate's claimed source assembly does not match the supplied predecessor facts."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "State that `4d45f431f428fda2` assembles the baseline finite system through the three dominance shadows, and that `18e8f69f5a782c16` is a later augmentation supplying the separately checked sharp cap."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

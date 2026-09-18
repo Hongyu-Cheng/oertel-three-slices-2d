@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The closure argument correctly extends Brunn--Minkowski to the positive-area partial unions and justifies the literal and support-aware area targets. Independent exact Boolean reconstruction confirms the counts 520, 292, 19, 253, 22, 121, and 13, the stated orbit representatives and multiplicities, and the dominance reductions. All displayed scalar identities, discriminants, and inequalities for both the accepted family and the rational table are exact, and the conclusion is scoped to scalar feasibility rather than common-plane realization.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

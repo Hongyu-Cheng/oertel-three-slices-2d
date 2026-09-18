@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The five support orbits are correct and disjoint under exactly the allowed row-1/row-2 and column-2/column-3 interchanges. The first orbit meets the permutation-normal-form hypothesis of accepted fact b894a3da1107beaf, while the second orbit meets the precise open-chamber hypothesis of accepted fact 76bff99d5eaaa46f; the allowed interchanges preserve every other hypothesis. Removing those two orbits leaves exactly the three representatives claimed. Permutations preserve zero entries, and both exclusions require strict open-sign data, so every feasible zero-entry boundary stratum remains outside the conclusion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

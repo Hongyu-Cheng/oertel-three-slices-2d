@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The statement and proof are correct under the supplied accepted facts. The residual-area implications, closed-cap centroid incidences, disjointness and cardinality classification, strict cross-cap bounds, all sign and equality cases for t at most 1/2, exact cap formulas, normalized ratio inequalities, same-isolated-vertex Cauchy argument, and positive-dimensional noncyclic chamber examples all check.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The explicit rectangle, area, cap, and integral arithmetic is internally consistent, but the candidate is not verifiable from the supplied material because its central quantities and hypotheses are defined only by an unavailable reference to equation (9).",
+  "critical_errors": [],
+  "gaps": [
+    "Equation (9) is not supplied, and the candidate does not define p_i, q_i, r_i, I_s, J_t, H_z, P_+, P_-, T_2, T_3, Gamma, Sigma_2, Sigma_3, eta_2, or eta_K. Consequently the asserted coordinate identities, set identities, and evaluations of eta_2, eta_K, Gamma, and Sigma_2 intersect Sigma_3 cannot be checked from the allowed information.",
+    "The statement claims that all displayed support-contact hypotheses hold, but those hypotheses are neither stated in the candidate nor provided as an external source or accepted predecessor fact. The listed numerical equalities therefore cannot be verified to match the full hypotheses being claimed."
+  ],
+  "repair_hints": [
+    "Supply equation (9), the exact definitions of every referenced quantity, and the complete support-contact hypotheses, then verify each claimed set and integral directly from those definitions."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

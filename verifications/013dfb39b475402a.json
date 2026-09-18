@@ -1,0 +1,18 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The chamber argument correctly proves that the explicitly prescribed lower-cell table cannot occur: the two missing sign chambers force the zero lines of h_1 and h_2 to coincide with opposite orientation, after which the required h_3<0 points on both sides give contradictory signs for alpha-1. However, the claimed consequences about a registered fixed-chain calibration are not derivable from the self-contained statement because that calibration and its hypotheses are never defined, and no supplied fact says that every such full realization contains the prohibited lower-cell table.",
+  "critical_errors": [
+    "The proof makes an unstated implication from nonexistence of the explicitly prescribed A_0 lower-cell table to nonexistence of every realization satisfying the undefined registered fixed-chain calibration. With no definition or predecessor fact linking the calibration hypotheses to that table, the stated consequence does not follow from the material supplied."
+  ],
+  "gaps": [
+    "The candidate does not state the hypotheses of the registered fixed-chain calibration or establish that they require exactly the four listed nonzero cell areas and zero for all other cells.",
+    "The final 1/300 inequality follows only vacuously after nonexistence of the relevant full realizations is established; because that nonexistence bridge is missing, the final assertion is also unsupported as written."
+  ],
+  "repair_hints": [
+    "State the full calibration hypotheses self-containedly and prove explicitly that any full realization induces the prohibited A_0 cell table, or supply an accepted predecessor fact giving exactly that implication.",
+    "Clarify that the final universal inequality is a vacuous consequence of the established nonexistence of full realizations."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The middle-cap formulas follow from the repeated-value triangle-cap branches, the row-3 centroid incidence bound yields the strict beta-to-z comparison, and the complementary-cap inclusion plus planar Brunn--Minkowski gives the stated rowwise constraint with all empty, full, constant, and boundary cases handled. The endpoint-allocation minimum and every strict inequality are valid. Exact symbolic verification confirms the formulas for B, b0, N, the Bernstein expansion and all positive coefficients, the elimination identity for E0, the monotonicity calculations, the radical reduction, and the integer square certificate. The final E>0 argument proves the opposite of the necessary strict inequality throughout 1/4 <= A/B < 3/8, with no dependence on endpoint parametrizations, determinant signs, or individual height allocations beyond the stated surviving-system assumptions.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

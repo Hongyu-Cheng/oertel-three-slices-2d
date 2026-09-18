@@ -1,0 +1,16 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The calculation proves (5) for the special coordinate-aligned rows defined by the thresholds s_i, but it does not justify the stated consequence excluding every strict three-row counterexample in the displaced homothetic family.",
+  "critical_errors": [
+    "The final consequence does not follow from the proved inequality. Accepted fact 64760c76cadff481 allows an arbitrary three-row matrix L with column sums equal to 1, whereas the proof considers only rows ell_i=(lambda_i-s_i)/q. Equivalently, its L has entries L_ij=(delta_ij-s_i)/q, so each row has two equal off-diagonal vertex values and its boundary is parallel to a side of Delta. General admissible rows can have three distinct vertex values and arbitrary boundary directions. Homothety of A_0 and A_2 preserves the cap profile of such a row up to scaling and translation, but does not reduce its direction or middle-slice cap to a barycentric corner cap. Thus retaining every endpoint slope for the selected rows is not the same as retaining every three-row witness allowed by the accepted characterization."
+  ],
+  "gaps": [
+    "No argument is given that an arbitrary strict three-row witness from accepted fact 64760c76cadff481 can be transformed, without changing the normalized middle triangle and the relevant masses, into the coordinate-threshold form used in (4)."
+  ],
+  "repair_hints": [
+    "To establish the stated consequence, prove a valid normal-form theorem reducing every admissible three-row matrix L for these homothetic slices to the threshold form L_ij=(delta_ij-s_i)/q, or directly analyze arbitrary affine rows. Otherwise the conclusion must be restricted to the coordinate-aligned threshold subclass."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

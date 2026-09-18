@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof gives a complete exact rational audit of the finite release segment. The convexity, endpoint-cut, merged-fan, containment-contact, middle-cell clipping, and capacity event families remain nonvanishing on the claimed interval except for the intended time-zero contact release and the terminal vertex determinant. The constant-area and crossing arguments apply exactly to the supplied predecessor realization, and the terminal deletion, coordinates, fan map, cell areas, and contact set are mutually consistent.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

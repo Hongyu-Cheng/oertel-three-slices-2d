@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "Both applications of Scott's theorem satisfy the convex-body, positive-area, empty-common-intersection, and exact union-area requirements. The conversions to (10), the algebraic derivation of (11) and (12), the redundancy of (14), and every stated scalar-table calculation are correct. The table is appropriately claimed only as a witness for the enumerated scalar constraints, not as a common-plane realization.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

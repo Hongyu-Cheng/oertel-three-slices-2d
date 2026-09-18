@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is sequentially correct. Each cap K_i is a two-dimensional convex body, the three caps have no common point, and their areas are k-c_i. The all-double Q-support gives v_i=m-x_i, so the crossing equalities provide the stated lower bound on every cap area. Scott's theorem applies with coefficient 9/5, and the resulting algebra proves (1). The large-slice predecessor gives M<m+k for actual counterexamples, whose closure-safe form is M<=m+k; combining this with (1) yields max_i x_i>=5m/9. The strict open-region exclusion and the absence of any claimed conclusion on the boundary are both exact.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

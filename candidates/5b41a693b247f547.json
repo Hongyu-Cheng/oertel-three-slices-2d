@@ -1,0 +1,18 @@
+{
+  "advances": "Eliminates the strict rational survivor at the full \\(A_0\\)-polygon checkpoint: its prescribed \\(P_\\ell\\)-area is more than ten times the exact global convexity upper bound forced by the lower endpoints of the \\(X=0\\) and \\(Y=0\\) chords.\n",
+  "author": "mp_r105_opposite_new_a0_realization",
+  "candidate_id": "5b41a693b247f547",
+  "candidate_schema": 2,
+  "created_at": "2026-08-01T22:14:59.190348+00:00",
+  "depends_on": [
+    "6090beea12ef2770",
+    "989c9b585d2b42cc"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/5b41a693b247f547.md",
+  "proof": "Suppose that such a polygon \\(A\\) exists.  Put\n\\[\n\\alpha=\\frac{249}{5},\\qquad\n\\beta=\\frac{1995999}{20000}.\n\\]\nThe point \\((0,\\alpha)\\) belongs to \\(A\\) because it is an endpoint of the full \\(X=0\\) chord.  Take any \\((x,y)\\) in the strict \\(P_\\ell\\)-cell.  Thus \\(y<0\\) and \\(x+y<100\\).  By convexity, the segment joining \\((0,\\alpha)\\) to \\((x,y)\\) lies in \\(A\\).  It meets \\(Y=0\\) at\n\\[\n\\left(\\frac{\\alpha x}{\\alpha-y},0\\right),\n\\]\nwith the intersection parameter strictly between zero and one.  Since the full \\(Y=0\\) chord starts at \\((\\beta,0)\\), necessarily\n\\[\n\\frac{\\alpha x}{\\alpha-y}\\ge\\beta.\n\\]\nBecause \\(\\alpha-y>0\\), this is equivalent to\n\\[\n\\alpha x+\\beta y\\ge\\alpha\\beta.\n\\]\nConsequently the entire strict \\(P_\\ell\\)-cell is contained in\n\\[\n\\mathcal T=\n\\{(x,y):y\\le0,\\ x+y\\le100,\\ \\alpha x+\\beta y\\ge\\alpha\\beta\\}.\n\\]\n\nHere \\(\\beta>\\alpha>0\\) and \\(\\beta<100\\), so \\(\\mathcal T\\) is the triangle with horizontal base from \\((\\beta,0)\\) to \\((100,0)\\) and third vertex\n\\[\n\\left(100+h,-h\\right),\n\\qquad\nh=\\frac{\\alpha(100-\\beta)}{\\beta-\\alpha}.\n\\]\nAt the accepted rational values,\n\\[\n100-\\beta=\\frac{4001}{20000},\\qquad\n\\beta-\\alpha=\\frac{999999}{20000},\\qquad\nh=\\frac{332083}{1666665}.\n\\]\nIts exact coordinate area is therefore\n\\[\n|\\mathcal T|\n=\\frac12\\frac{4001}{20000}\\frac{332083}{1666665}\n=\\frac{1328664083}{66666600000}.\n\\]\nSince\n\\[\n\\frac15-|\\mathcal T|\n=\\frac{12004655917}{66666600000}>0,\n\\]\nthe coordinate area of \\(P_\\ell\\) is strictly less than the prescribed value \\(1/5\\).  Coordinate area equals physical area because \\(\\Delta=1\\), and cutting-line boundaries have area zero.  This contradicts the prescribed \\(P_\\ell\\)-area.  Hence no polygon realizing the full \\(A_0\\) data exists.\n",
+  "source_packet_sha256": "36f320208837ba4df6561c9a0c399807098718c84b8959d247781cd98a98ac87",
+  "statement": "Use the \\(A_0\\) coordinate and exact-cell convention of accepted fact `989c9b585d2b42cc`.  For the strict rational data of accepted fact `6090beea12ef2770`, there is no compact two-dimensional convex polygon \\(A\\subset\\mathbb R^2\\) with coordinate-area factor \\(\\Delta=1\\), affine chamber coordinates\n\\[\np_j=X,\\qquad p_\\ell=Y,\\qquad p_k=100-X-Y,\n\\]\nfull cutting-line chords\n\\[\nA\\cap\\{X=0\\}\n=\\{(0,y):249/5\\le y\\le499/10\\},\n\\]\n\\[\nA\\cap\\{Y=0\\}\n=\\{(x,0):1995999/20000\\le x\\le1999999/20000\\},\n\\]\n\\[\nA\\cap\\{X+Y=100\\}\n=\\{(100+t,-t):1/1000\\le t\\le101/1000\\},\n\\]\nand only the four positive-area strict cells\n\\[\n\\begin{array}{c|c|c}\nP_j&X<0,\\ Y>0,\\ X+Y<100&1/10000\\\\\nP_0&X>0,\\ Y>0,\\ X+Y<100&565001/4000\\\\\nP_\\ell&X>0,\\ Y<0,\\ X+Y<100&1/5\\\\\nP_{k\\ell}&X>0,\\ Y<0,\\ X+Y>100&1/10000.\n\\end{array}\n\\]\n",
+  "subgoal_id": "opposite-new-survivor-full-a0-realization"
+}

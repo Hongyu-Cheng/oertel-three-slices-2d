@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The support-function containment equivalence, separation argument, protrusion inequality, cap inclusions, positivity and area bounds, calibrated arithmetic, and symmetric relabeling are all valid under the stated hypotheses.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,17 @@
+{
+  "advances": "For the fixed datum, every pair of actual endpoint completions has midpoint \\(R_{jk}\\)-area at least \\(9901/7920000>1/10^7\\).  Thus the positive \\(R_{jk}\\)-budget always overflows, independently of all free endpoint-cell bulges.\n",
+  "author": "mp_r166_opposite_shape_uniform",
+  "candidate_id": "5ef0bf9afb2503ba",
+  "candidate_schema": 2,
+  "created_at": "2026-08-02T04:19:57.184458+00:00",
+  "depends_on": [
+    "73a2cf54a856ca90"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/5ef0bf9afb2503ba.md",
+  "proof": "The fixed full chords give the three points\n\\[\nA=\\left(0,\\frac{9901}{100}\\right),\\qquad\nE=\\left(\\frac{9999}{100},0\\right),\\qquad\nC=(100,0)\n\\]\nin \\(A_0\\): \\(A\\) is the upper endpoint of the \\(X=0\\) chord, while \\(E,C\\) are the two endpoints of the \\(Y=0\\) chord.  Convexity puts the segment \\([A,C]\\) in \\(A_0\\).  The point\n\\[\nD=\\frac1{99}A+\\frac{98}{99}C\n=\\left(\\frac{9800}{99},\\frac{9901}{9900}\\right)\n\\]\ntherefore belongs to \\(A_0\\), and direct addition gives\n\\[\nD_X+D_Y=\\frac{9999}{100}.\n\\]\nConsequently the triangle\n\\[\nT=\\operatorname{conv}\\{E,C,D\\}\n\\]\nis contained in \\(A_0\\).  Every point \\((X,Y)\\) in the interior of \\(T\\) satisfies\n\\[\nY>0,\\qquad X+Y>\\frac{9999}{100},\\qquad X\\le100.\n\\]\n\nThe fixed \\(V=0\\) chord of \\(A_2\\) contains the endpoint\n\\[\n(U,V)=\\left(\\frac1{100},0\\right).\n\\]\nIn \\((q_j,q_k,q_\\ell)\\)-coordinates this point is\n\\[\nq^*=\\left(-\\frac{10199}{100},-\\frac1{100},0\\right).\n\\]\nFor every \\((X,Y)\\in\\operatorname{int}T\\), the midpoint of the corresponding \\(A_0\\)-point and \\(q^*\\) has\n\\[\n2r_j=X-\\frac{10199}{100}<0,\n\\]\n\\[\n2r_k=100-X-Y-\\frac1{100}\n=\\frac{9999}{100}-X-Y<0,\n\\]\nand\n\\[\n2r_\\ell=Y>0.\n\\]\nThus\n\\[\n\\frac{\\operatorname{int}T+q^*}{2}\n\\subseteq B\\cap R_{jk}.\n\\]\nThe affine map on the left scales planar area by \\(1/4\\).  Since \\(EC\\) is a horizontal base of length \\(1/100\\) and \\(D\\) has height \\(9901/9900\\),\n\\[\n|T|\n=\\frac12\\cdot\\frac1{100}\\cdot\\frac{9901}{9900}\n=\\frac{9901}{1980000}.\n\\]\nBoundaries have zero planar area, so\n\\[\n|B\\cap R_{jk}|\n\\ge\\frac14|T|\n=\\frac{9901}{7920000}.\n\\]\nFinally,\n\\[\n9901\\cdot10000000=99010000000>7920000,\n\\]\nwhich proves \\(9901/7920000>1/10000000\\) exactly.\n",
+  "source_packet_sha256": "d9252a123292c990283ca090b9d4e170bfb751adf63522f825245550a1e93f31",
+  "statement": "Fix the exact datum of accepted fact `73a2cf54a856ca90`, and let \\(A_0,A_2\\) be arbitrary compact convex polygons realizing all of its prescribed cell areas, full chords, and incidences.  Use\n\\[\n(p_j,p_\\ell)=(X,Y),\\qquad p_k=100-X-Y\n\\]\non \\(A_0\\), and\n\\[\nU=-q_k,\\qquad V=q_\\ell,\\qquad q_j=U-V-102\n\\]\non \\(A_2\\).  Put \\(B=(A_0+A_2)/2\\), and for a midpoint put \\(r_i=(p_i+q_i)/2\\).  Then\n\\[\n\\left|B\\cap\\{r_j<0,\\ r_k<0,\\ r_\\ell>0\\}\\right|\n\\ge \\frac{9901}{7920000}\n>\\frac1{10^7}.\n\\]\nIn particular, the prescribed positive budget \\(1/10^7\\) of \\(R_{jk}\\) cannot fit for any actual endpoint completion of this datum.\n",
+  "subgoal_id": "opposite-scalar-datum-shape-uniform-excess"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The determinant-cap envelope is valid on all strict and repeated-value branches, the endpoint parametrization and cap reductions preserve all signs and allocations, the exact one-variable optimization proves the endpoint contribution is at least A throughout the feasible interval, and the final rational margin is correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

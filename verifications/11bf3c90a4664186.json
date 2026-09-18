@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is complete and correct. The separation functional exists and is strictly positive on the interior in both the exterior and boundary cases. The sector decomposition and cap algebra are correct, the determinant and segment arguments rigorously establish bf=0, and equality in either applicable inequality chain forces all area into sector D, yielding exactly the stated characterization.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

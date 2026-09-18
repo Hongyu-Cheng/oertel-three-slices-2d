@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and self-contained relative to the two accepted predecessor facts. The fractional-height depth formula exhausts horizontal and tilted boundary-through-point halfspaces, the heavy-halfspace representation yields closed convex depth regions, the Radon-Helly argument proves nonemptiness at T/4, and the equivalence and missing-implication formulation have the stated quantifiers. The rational triangle instance is compatible, its T/4 region is nonempty but entirely at heights strictly between 0 and 1, and the direct middle-slice calculation establishes the claimed 2T/9 slack with exact arithmetic.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

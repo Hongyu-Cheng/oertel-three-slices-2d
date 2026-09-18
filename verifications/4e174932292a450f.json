@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly exhausts the three all-nonzero support representatives and all possible row-1 zero boundaries in the stated orbit. For distinct positive columns, the endpoint cap union bounds, midpoint containment, Brunn-Minkowski inequality, exact uniform lower bound, and centroid-shifted quadrilateral upper bound yield incompatible strict bounds on the common nonpositive cap. For coincident positive columns, the exact cap formulas and common column equations force c_1>1/2, contradicting the accepted I_0 bound c_1<kappa<4/9. All strictness, mean-equality cases, and allowed zero-entry cases are preserved.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is a correct proof for the stated normalized Regime A Alternative 1 homothetic strip family. The strip integration, centroid and two-cap argument, rectangle containment bounds, root-exterior allocation, parameter split at h=1/5, monotonicity and derivative signs, strict inequality directions, and all claimed interface and equality boundaries are valid.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

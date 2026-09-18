@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The exact midpoint-fiber equalities (1)-(2), the convex-hull fiber inclusion (3), the measure-disjointness argument, and the Brunn--Minkowski applications are valid under the supplied hypotheses. However, the claimed lower bound by Gamma_12 is not a well-defined or accepted consequence of the supplied material: Gamma_12 is never defined in the candidate or in accepted fact d3afd91c459bcce8.",
+  "critical_errors": [
+    "Equation (6), and specifically (18), uses Gamma_12 as though accepted fact d3afd91c459bcce8 defined it as the area of a particular hull intersection. That accepted fact contains no symbol or definition Gamma_12; it only proves that the displayed intersection has positive area. Thus the statement is not well-formed as supplied, and the numerical inequality |H cap R_{1,2}| >= Gamma_12 cannot be verified from the accepted predecessor fact."
+  ],
+  "gaps": [],
+  "repair_hints": [
+    "Define Gamma_12 explicitly in the candidate as the planar measure of the predecessor hull intersection, or supply an accepted predecessor fact containing that exact definition. With that definition, P_empty subseteq closure(P_empty) gives the required hull containment."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

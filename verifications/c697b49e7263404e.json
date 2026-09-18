@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly reduces any putative strict system to the covered-small-endpoint normal form, derives the required strict bottom-singleton and top-all-negative area bounds, applies the accepted selector on the stated positive distinct-vertex stratum, and obtains a valid Brunn--Minkowski contradiction. The relabelings, residual-strip inequalities, selector hypotheses, strictness, normalization, and boundary cases all match the statement and supplied predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

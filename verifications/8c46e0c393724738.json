@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct. The positive singleton middle-cell areas make the central simplex coincide with the central exact cell, which calibrates the physical-to-coordinate area factor as 1/5. The P-empty cell then forces delta at least 11 and gamma at least 13. Under permutation invariance, any strict point of the positive-area Q_23 cell generates a permutahedron of coordinate area greater than 1/8; after the gamma-squared area scaling, this forces the area of A_2 to exceed 169/40, contradicting its stipulated area 1. The affine-isomorphism, sign, scaling, convexity, strictness, and degeneracy arguments all match the supplied hypotheses.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

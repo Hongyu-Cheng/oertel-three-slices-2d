@@ -1,0 +1,19 @@
+{
+  "advances": "Excludes the aligned routing case: in the strict area-triangle region, no\nstrict-low-mass certificate halfspace can have an open middle section and\nan open section on the covering endpoint that contain their respective\nslice centroids.\n",
+  "author": "mp_r202_centroid_routing",
+  "candidate_id": "be0f62e98ab423cb",
+  "candidate_schema": 2,
+  "created_at": "2026-08-02T08:33:04.253448+00:00",
+  "depends_on": [
+    "0b5d84877f51b7c3",
+    "2f9be517307232c7",
+    "d2d117bcc58a1ba0"
+  ],
+  "external_sources": "none\n",
+  "kind": "lemma",
+  "packet_file": ".math-prover/packets/be0f62e98ab423cb.md",
+  "proof": "The planar centroid-cap ingredient stated in accepted fact\n`2f9be517307232c7` is exactly the following: if \\(A\\subset\\mathbb R^2\\)\nis a convex body with centroid \\(g\\), then every closed planar halfplane\n\\(Q\\) containing \\(g\\) satisfies\n\\[\n|A\\cap Q|\\ge\\frac49|A|.\n\\tag{7}\n\\]\n\nFor every slice index \\(k\\), (2) gives the exact closed section identity\n\\[\nS\\cap H_r\\cap(\\{k\\}\\times\\mathbb R^2)\n=\\{k\\}\\times(A_k\\cap Q_{r,k}).\n\\tag{8}\n\\]\nThus the mass of \\(H_r\\) is computed with the closed caps \\(Q_{r,k}\\),\nnot with the strict routing sections \\(Q^\\circ_{r,k}\\). Since\n\\(Q^\\circ_{r,k}\\subseteq Q_{r,k}\\), (5) implies\n\\[\ng_1\\in Q_{r,1},\\qquad g_j\\in Q_{r,j}.\n\\tag{9}\n\\]\nThe affine functions \\(f_r\\) in the normalized certificate are\nnonconstant, so \\(Q_{r,k}\\setminus Q^\\circ_{r,k}\\) is a line and has\nplanar area zero; in particular, the strict-versus-closed convention\ncreates no boundary mass. Applying (7) to the two actual closed slice\nsections in (9) yields\n\\[\n|A_1\\cap Q_{r,1}|\\ge\\frac49a_1,\\qquad\n|A_j\\cap Q_{r,j}|\\ge\\frac49a_j.\n\\tag{10}\n\\]\n\nThe three slices are disjoint Borel subsets of parallel planes, so their\ntwo-dimensional Hausdorff measures add. The remaining slice contribution\nis nonnegative, and hence (8)-(10) give\n\\[\n\\mathcal H_2(S\\cap H_r)\n\\ge\\frac49(a_1+a_j).\n\\tag{11}\n\\]\nPut \\(k=2-j\\), the endpoint distinct from \\(j\\). The corresponding strict\ninequality in (1) is\n\\[\na_k<a_1+a_j.\n\\tag{12}\n\\]\nSince \\(T=a_1+a_j+a_k\\), strict algebra now gives\n\\[\n\\frac49(a_1+a_j)-\\frac{2T}{9}\n=\\frac{2}{9}(a_1+a_j-a_k)>0.\n\\tag{13}\n\\]\nCombining (11) and (13) proves (6). This contradicts (3), so the aligned\nsame-index routing in (5) cannot occur in the certificate.\n",
+  "source_packet_sha256": "2c7b6bf82e06da2d55760c6f285823bda3487f5c38f47dd2a46feffd87cdd452",
+  "statement": "Let \\(A_0,A_1,A_2\\subset\\mathbb R^2\\) be nonempty two-dimensional compact\nconvex bodies, let \\(a_k=|A_k|\\), and let \\(T=a_0+a_1+a_2\\). Assume\n\\[\na_0<a_1+a_2,\\qquad a_1<a_0+a_2,\\qquad a_2<a_0+a_1.\n\\tag{1}\n\\]\nLet\n\\[\nS=\\bigcup_{k=0}^2(\\{k\\}\\times A_k),\n\\]\nand let the normalized strict three-halfspace certificate of accepted fact\n`d2d117bcc58a1ba0` be\n\\[\nH_r=\\{(h,w):f_r(w)+s_r(h-1)\\le0\\},\n\\qquad r\\in\\{1,2,3\\},\n\\tag{2}\n\\]\nwith\n\\[\n\\mathcal H_2(S\\cap H_r)<\\frac{2T}{9}.\n\\tag{3}\n\\]\nFor \\(k\\in\\{0,1,2\\}\\), distinguish the open section halfplane used for\nrouting from the closed section used to measure \\(H_r\\):\n\\[\nQ^\\circ_{r,k}\n=\\{w:f_r(w)+s_r(k-1)<0\\},\\qquad\nQ_{r,k}\n=\\{w:f_r(w)+s_r(k-1)\\le0\\}.\n\\tag{4}\n\\]\nChoose \\(j\\in\\{0,2\\}\\) such that\n\\(\\bigcup_{r=1}^3Q^\\circ_{r,j}=\\mathbb R^2\\), whose existence is supplied\nby accepted fact `0b5d84877f51b7c3`. Let \\(g_1\\) and \\(g_j\\) be the\ncentroids of \\(A_1\\) and \\(A_j\\). If, for some \\(r\\in\\{1,2,3\\}\\),\n\\[\ng_1\\in Q^\\circ_{r,1}\n\\quad\\text{and}\\quad\ng_j\\in Q^\\circ_{r,j},\n\\tag{5}\n\\]\nthen\n\\[\n\\mathcal H_2(S\\cap H_r)>\\frac{2T}{9}.\n\\tag{6}\n\\]\nConsequently, no halfspace in the strict-low-mass certificate can satisfy\n(5).\n",
+  "subgoal_id": "same-index-centroid-routing-closure"
+}

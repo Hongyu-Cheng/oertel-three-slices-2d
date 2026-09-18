@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The coordinate-minimum simplex cover yields the stated height bounds; the cap equations force a strict first-coordinate width bound for the translated V-triangle; and the exact maximal normalized triangle area in the resulting truncated simplex is omega times h_V, producing the claimed strict contradiction with |det V| = 11/10. Boundary, repeated-value, and nonconstant cases are handled correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

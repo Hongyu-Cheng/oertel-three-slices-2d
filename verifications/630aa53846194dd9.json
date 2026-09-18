@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the scalar bounds and inclusion-exclusion identities, and its three mutually exclusive cases exhaust all possibilities. The Brunn--Minkowski applications use positive-area compact convex bodies and the compatibility inclusion with the correct inequalities. The quadrant argument in the zero-area case is valid because the affine image has connected open interior, while the midpoint-body argument and individual cap bounds in the remaining case establish the stated strict conclusions. Boundary sets are affine lines of area zero, and all strictness and endpoint cases are handled consistently.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The argument is mathematically complete. The exact support makes D_tau a compact convex body whose nonnegative row-i part consists, up to null coordinate lines, exactly of Q_i and Q_12; C_tau is contained in D_tau, so the two projection maxima are correctly distinguished and ordered. The equal-rail selectors are admissible on the full claimed interval, the cap f_i <= 0 has the correct r_i <= lambda_i orientation, and the two-rail identity yields the stated s^2 Jacobian and exact q_i+q_12 charge. Compatibility gives H_D subset K, and the strict row-capacity inequality correctly forces the strict bounds and their minimum. Degenerate support faces, endpoints, and section-profile breakpoints contribute no missing area or boundary term.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

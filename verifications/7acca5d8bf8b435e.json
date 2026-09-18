@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly exposes the three cap vertices via barycentric-coordinate separation, derives the two possible central-block vertex-count distributions, exhausts the endpoint-incidence types including coincident endpoints, and applies the accepted endpoint-stratum bound with the exact strict comparison to 4/169. No mathematical error or unsupported step affecting the stated conclusions was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

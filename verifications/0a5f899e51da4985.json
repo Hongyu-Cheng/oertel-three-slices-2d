@@ -1,0 +1,18 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The terminal algebraic contradiction is correct conditional on identity (13), but that identity and several quantities and hypotheses needed to state it are neither defined nor established by the candidate or the sole accepted predecessor fact.",
+  "critical_errors": [],
+  "gaps": [
+    "The statement and proof use k, r_J, u_i, v_i, c_i, h, and W, together with \"the three crossings\" and \"canonical tails,\" without defining them. In particular, k is never identified with the area of K, and the lowercase cell quantities are not defined as areas or marginals.",
+    "Equation (13) is the essential squared-scale input, but the equalities u_i+v_i+c_i=h and 3h=2(M+m+k)/3 are merely asserted under the undefined crossing and W hypotheses. Accepted fact 0e51a47a9add571f supplies sign-cell incidence only and contains no crossing or area-balance identity, so (13) does not follow from the supplied material.",
+    "Accepted fact 0e51a47a9add571f is stated for a two-dimensional convex polytope K, whereas the candidate quantifies over any two-dimensional compact convex body K. The candidate gives no extension argument for any invocation of that fact in the broader setting."
+  ],
+  "repair_hints": [
+    "Define every cell area and marginal, and replace the named crossing, W, and tail assumptions by explicit mathematical conditions.",
+    "Supply an accepted predecessor lemma or a direct derivation of the three crossing equalities and the normalization of h, and hence of (13).",
+    "Either restrict K to convex polytopes or prove the required exact-cell statements for arbitrary compact convex bodies."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

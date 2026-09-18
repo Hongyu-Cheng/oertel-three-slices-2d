@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The rational matrix certificate satisfies the stated chamber signs, column and row sums, nondegeneracy, exact cap formulas, scalar-row inequalities, residual and total-budget restrictions, and complement-allocation inequality. Each of the four accepted sufficient gates is excluded by a strict verified margin, and the explicit feasible test point gives a strictly negative value for the radical function G. The uncovered point and the claimed open persistence are therefore established without relying on the CAD assertion.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

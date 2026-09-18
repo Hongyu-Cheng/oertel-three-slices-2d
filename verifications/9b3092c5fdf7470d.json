@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The two-rail section identity follows exactly from the compact convex fiber description of P-sC_tau, Cavalieri integration, and the area scaling under translation and dilation. The measurable lower bound, centerline expansion, and exclusion argument all match their stated hypotheses and conclusions. The listed Minkowski polygons, clipped areas, allowances, and positive excesses in the calibration agree under independent exact rational computation.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

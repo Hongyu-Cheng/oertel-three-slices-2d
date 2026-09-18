@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof validly reduces any convex-body counterexample to an area-one polygon counterexample: translation makes both cap constraints strict while preserving negative defect, inner polygonal approximation preserves the three normalized cut areas and the defect, and positive homothety about the common zero preserves those ratios and brings the polygon under the accepted polygon theorem.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

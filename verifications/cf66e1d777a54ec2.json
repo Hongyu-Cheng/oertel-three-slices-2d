@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct and complete. The support-function identities and signs are consistent, the affine map has Jacobian |det(v_1,v_2)| and sends K into the stated finite triangle, the width-sensitive predecessor is applied under exactly its required branch conditions, the dichotomy is exhaustive, and Cauchy--Schwarz is used in the correct direction to obtain the final energy bound.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The finite-stage identities and strict pairwise gap estimates follow from the accepted all-double crossing and dominant inequalities, and their limiting weak forms are valid. The exact-cell sign convention correctly identifies each limiting c_i with the area of the corresponding positive normalized halfplane. With unit gradients and nonnegative constant affine dependence, both a two-weight limit and an all-positive collinear-gradient limit force a pair of positive halfplanes to cover the plane, contradicting the positive pairwise uncovered-area gap. Boundary cases and the single-positive-weight case are handled correctly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

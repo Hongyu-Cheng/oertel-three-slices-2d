@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The cap-budget deductions, strict denominator bounds, support-width conversion, coordinate substitutions, width subadditivity, and centroid identity are all mathematically valid, including empty caps, threshold support on vertices or edges, and repeated coordinate values.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

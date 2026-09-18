@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate gives a complete and correct finite semialgebraic parameterization of the reduced A2-only geometry. The endpoint, arc, area, convexity, and affine-scaling arguments cover the stated degeneracies and establish the claimed equivalence with the target inequality.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

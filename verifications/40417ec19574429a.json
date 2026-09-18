@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The positive scaling and permutation reductions preserve the relevant cap fractions. For each cyclic middle row, the exact cap formula gives p^2/((p+a)(p+b))>4/9 because the displayed difference is strictly positive when d=p-a-b>0. The U-end caps cover by the column-sum identity and q>1, yielding the strict aggregate and maximum bounds. Substituting A=r/S and B=1/S gives the claimed right-hand side exactly, and when S=1-r/2 that side is zero while the strict middle-cap estimate keeps the left side positive. No mathematical error or gap was found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

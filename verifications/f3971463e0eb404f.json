@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is correct. The Q-cell multiplicities in (1), the R-cell multiplicities in (7)-(8), the tail implication t_i >= 0, the contrapositive use of the large-slice lemma, and the strict final inequality all check exactly. The algebra from the summed crossings through the contradiction is valid, and all cited predecessor hypotheses apply.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

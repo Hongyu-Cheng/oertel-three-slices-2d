@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The strict-empty and strict-low hypotheses yield the stated two-direction wedge containment, and the invertible affine coordinate map converts its triangular image bound by the correct Jacobian factor. Accepted fact 624b129b68e0fdee applies to both remaining rows and gives a positive A_2 cap in every allowed endpoint state, so each A_0 cap has area strictly below m. The resulting strict inequality, its consequences, and every stated rational calibration calculation are correct.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

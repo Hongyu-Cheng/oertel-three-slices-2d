@@ -1,0 +1,18 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The explicit polygon, area, section, and integral calculations are internally consistent, and the stated marginal domination does yield the bound 38 for positive measures on the explicitly defined height correspondence. However, several central conclusions depend on notions that are not defined or supplied, so they cannot be verified from the permitted material.",
+  "critical_errors": [],
+  "gaps": [
+    "The assertion that the triple satisfies all complete strict normalized support-contact hypotheses is uncheckable: the candidate neither defines nor enumerates those hypotheses. Verifying a collection of displayed inequalities and geometric properties does not prove satisfaction of an unspecified full hypothesis list.",
+    "The functions a_W and b_W are used in (11) and (18) without defining them as the lower and upper horizontal-section endpoints of W. The proof implicitly uses that interpretation, but the statement does not supply it.",
+    "The extension to measures on full products of horizontal sections and the final probability-kernel obstruction are not stated precisely enough to verify. The underlying product space, the body marginals, the exact dominating body measures, and the meaning of preserving either required mass are not defined. In particular, (11)-(14) alone impose no preservation condition, so the assertion that preservation forces total mass N-H or |Q^+| requires an additional definition or lemma."
+  ],
+  "repair_hints": [
+    "State the complete normalized support-contact hypothesis list in the candidate and check each item explicitly.",
+    "Define I_W(v)=[a_W(v),b_W(v)] before (11).",
+    "Formally define the full-section measure, its two body marginals, the dominating planar-plus-section measures, and the preservation constraints; then prove that projection gives (14) and that each preservation constraint forces mass exceeding 38."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

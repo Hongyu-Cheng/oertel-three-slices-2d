@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The sector-union identities, base-body area computations, edge-flux parametrization, surjectivity construction, tangent-space algebra, descent criterion, and explicit quadrilateral family all check out, including the stated convexity range and exact ratio derivatives.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

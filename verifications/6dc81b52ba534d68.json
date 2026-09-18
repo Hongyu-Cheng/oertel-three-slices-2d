@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The exact polygon, cap, residual, interval, and endpoint computations are correct, and the convex horizontal-section argument validly contradicts the required lower-cap area throughout the claimed range.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

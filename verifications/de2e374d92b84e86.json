@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The complement-cover lemma is valid for all boundary and degenerate cases, its three applications use exactly the required threshold-sum conditions, and the resulting bound M_1+M_2 >= 1+min{A,B} is correct. The strict residual-strip lower bound implies max{A,B}<1+min{A,B}, which yields a strict average bound above 2(1+A+B)/9 and hence the claimed maximum inequality.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

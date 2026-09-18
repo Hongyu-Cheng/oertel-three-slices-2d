@@ -1,0 +1,18 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The W=0 obstruction and the rational polygon realization are consistent, but the claimed scalar survivor fails elementary forced-cell Brunn-Minkowski capacities. In particular, the table is already impossible at R_1, so it does not pass the full scalar relaxation claimed in the statement.",
+  "critical_errors": [
+    "In (5)-(7), p_0=4/5 and q_1=461/1725 are positive. Accepted fact 0e51a47a9add571f forces (P_0+Q_1)/2 to be contained in R_1. Planar Brunn-Minkowski therefore requires r_1 >= (sqrt(p_0)+sqrt(q_1))^2/4. This lower bound is strictly greater than (p_0+q_1)/4=1841/6900, whereas the assigned r_1=163/1725=652/6900. Thus the proposed scalar table violates a universal forced-cell capacity by a large exact margin.",
+    "The same omitted check also fails for two forced doubleton images. Since (P_12+Q_12)/2 is contained in R_12 but r_12=p_12=43/4600<q_12=1/100, Brunn-Minkowski gives (sqrt(p_12)+sqrt(q_12))^2/4>p_12=r_12. Likewise, (P_23+Q_23)/2 is contained in R_23 and r_23=p_23=43/4600<q_23=2/115, so its required capacity also fails."
+  ],
+  "gaps": [
+    "For (4), the proof cites the four-path classification in accepted fact a2a9387275a2c97c, whose stated hypotheses include polytopality, all crossings, canonical tails, and finite-interior cap conditions. Those hypotheses are absent from the structural statement here, which allows general compact convex bodies. The connected-support argument does extend directly by convexity, but that weaker-hypothesis argument is not supplied or cited as a stated predecessor result."
+  ],
+  "repair_hints": [
+    "Replace the formal table and enforce all nine universally forced single-cell Brunn-Minkowski capacities from accepted fact 0e51a47a9add571f simultaneously with the row totals, crossings, W=0, tails, three-cap gates, completion gate, and opposite-pair budget.",
+    "Give a self-contained connected-positive-support argument for compact convex bodies before deriving the surviving paths in (4), or add the missing hypotheses needed to invoke the accepted fact as stated."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

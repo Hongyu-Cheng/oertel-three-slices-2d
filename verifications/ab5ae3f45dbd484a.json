@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives the convex-extension marginal inequality, verifies every required geometric hypothesis for the explicit K_0 using the accepted predecessor fact, and establishes the claimed nonmembership by exact rational threshold and violation calculations.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

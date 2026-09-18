@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The contradiction argument is mathematically sound. The lower-crossing equalities and the two cover inequalities give the strict upper bound on the normalized sum of the two large-end caps. Under the strict-low assumption, the shifted-wedge predecessor applies: the identity f_q=-1-f_i-f_l and the triangular description imply D=-1-alpha_q-L_i-L_l, so its cap formulas and chord-product inequality give the lower bound 1-r^2. The stated ratio band makes this lower bound strictly larger than the upper bound. Boundary cap states and equality cases used in the argument are covered by the accepted predecessor facts.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

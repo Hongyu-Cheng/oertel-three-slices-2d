@@ -1,0 +1,19 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The visible-fan bounds and ledger algebra are largely correct, but the candidate contains a false clipping-fraction claim and a false visible-index claim under its expressly included repeated-vertex degeneracy. Its spanning-chord conclusion is also not stated precisely enough to verify.",
+  "critical_errors": [
+    "The definition sets vartheta(0,0,0)=0 while claiming vartheta is the area fraction on which an affine function is nonpositive. On a nondegenerate triangle, vertex values (0,0,0) make the affine function identically zero, so the nonpositive fraction is 1, not 0. The proof's clipping interpretation is therefore false as stated.",
+    "The assertion that the visible indices form one cyclic interval is false under the candidate's explicitly allowed zero-length-edge degeneracy. For example, take a counterclockwise square containing the central triangle, repeat its northeast vertex consecutively, and take P strictly northeast of the square. The right and top edges are visible, but the intervening zero-length edge has lambda=0, so the positive-lambda indices are separated and are not one cyclic interval."
+  ],
+  "gaps": [
+    "The claimed failure of 'universal effective-spanning-chord domination' and the assertion about an individual face or a pair of adjacent faces are not verifiable from the candidate because neither the domination property nor a transverse spanning chord is defined as a quantified inequality. The example proves positive singleton cap area with e2=e3=0, but the further domination conclusion has no precise statement to which that computation can be matched."
+  ],
+  "repair_hints": [
+    "Set vartheta(0,0,0)=1, or restrict the clipping-fraction assertion to nonzero affine functions and explain why the all-zero case cannot occur in any positive-reach fan triangle.",
+    "Require consecutive polygon vertices to be distinct, or state the visible-chain interval property only after deleting zero-length edges.",
+    "Define the alleged spanning-chord domination inequality and the admissible faces or face pairs, then show explicitly how the example violates every quantified choice; otherwise remove that conclusion."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly derives positivity of p_empty from the weighted identity, proves the four-path support classification and its realizability, applies the accepted endpoint, slab, incidence, and Brunn--Minkowski facts without double counting to obtain (8), and verifies every scalar identity, strict inequality, support claim, and capacity bound in the calibration.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

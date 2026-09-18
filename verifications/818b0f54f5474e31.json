@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The equal-rail selector is feasible for every stated section, the exact-support tail decomposition and area scaling are correct, the averaging argument yields the missing-face bound with the claimed strict improvement, both exclusion gates follow from the accepted capacities, and the rational calibration checks exactly.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof correctly reduces midpoint containment and zero endpoint caps to containment in the exact hexagonal region F, parameterizes the full closed support-line family, derives the necessary weak chord-density inequalities from genuine lower crossings, and exactly minimizes the resulting area loss. The resulting universal area upper bound is strictly below M, and the relaxation includes the stated density ties, collinear limits, and support-face degeneracies.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The midpoint-coordinate map follows from the accepted common-plane conventions, the listed source pairs and edge data certify the exact Minkowski half-sum, and all clipping, shoelace, partition, and budget-subtraction calculations are exact. The four positive excesses contradict the prescribed cell areas for every polygon containing B.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

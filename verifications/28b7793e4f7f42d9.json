@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is mathematically correct and complete. The polygon containments, areas, strict inequalities, hull-excess estimates, transformed contact data, localized counterexample, clipped-intersection computations, and universal local-gap equivalence all follow with the stated exact values and quantifiers.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

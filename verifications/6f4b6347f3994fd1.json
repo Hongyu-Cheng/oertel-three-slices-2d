@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The velocity affects only the first ear apex. Its direction is exactly parallel to the ear base, so the sole potentially affected canonical chamber-area row has zero differential, while every other canonical equality row is independent of that coordinate or lies in a stationary block. The turn differential calculation, including the vertex indexing, determinant, rational scaling, and integer product, is exact and positive.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

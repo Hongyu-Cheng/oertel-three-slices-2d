@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The displayed rational datum exactly satisfies the stated positivity, box, and incidence conditions, all three scalar identities, all four full-chord perspective inequalities, the numerical hypotheses of the R_{jk} bound, and both reverse fitted inequalities on the branch gamma=tau=0 and beta<A<B. The additional row-by-row audit is also arithmetically correct: among (10a)-(12b) and (19a)-(19f), only (19c) fails, exactly as claimed.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

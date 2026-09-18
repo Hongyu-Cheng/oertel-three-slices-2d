@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The general Q>1 criterion is proved correctly: the normalized stochastic factorization of U is valid, invertibility preserves nonconstancy of the transformed rows, the accepted two-cap theorem yields the strict threshold-sum inequality, and the strict row bounds contradict Q>1. The fixed rational data satisfy the required cap-fraction inequalities, while the accepted global normal-form fact correctly excludes the remaining ranges -1 <= Q <= 1 and Q < -1.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

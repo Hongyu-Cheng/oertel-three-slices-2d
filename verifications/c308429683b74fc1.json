@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate is correct under the supplied accepted predecessor facts. Global failure gives the strict residual area inequalities and m/M < 3/8. The active-cut coverage and finite-slope comparison establish the stated endpoint-payment bounds. The planar individual-sector inequality applies directly to the three bisected full middle chords, with the sector partition yielding the claimed bounds on p and s_3. Trimming the endpoint polygons by the two complementary cuts preserves positive area, handles partial and overlapping caps, and places their midpoint sum in singleton sector 3. The accepted area-compatibility inequality then gives the stated lower bound, while the depth and residual inequalities give the strict upper bound. These imply M + 18 sqrt(M n) < 27 n, contradicting 0 < n <= m < 3M/8. Zero payments, supporting cuts, equality cases in the weak intermediate inequalities, and the off-center-chord consequence are all handled correctly. No mathematical errors or gaps were found.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

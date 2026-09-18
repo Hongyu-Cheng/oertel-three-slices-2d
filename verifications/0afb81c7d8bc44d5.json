@@ -1,0 +1,14 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "REJECTED",
+  "summary": "The adjacent-chord hull argument and the resulting contradiction g_0>c=g_0+y are valid, but the preliminary application of the sharp chord lemma is not valid as written under the candidate's exact-cell convention.",
+  "critical_errors": [],
+  "gaps": [
+    "By (4), Q_N is defined using u,w,v>=0, so it can contain points on u=0, w=0, or v=0. The proof's assertion that Q_N lies in 0<u,w,v<tau is therefore false, and Q_N itself does not satisfy the sharp chord lemma's hypothesis that the central cell B be contained in the strict strip 0<Y<tau. Although the cutting-line portions have zero area and the later contradiction does not use (9j)-(9l), the proof never replaces Q_N by its strict-sign part or otherwise justifies this boundary change."
+  ],
+  "repair_hints": [
+    "Apply the sharp chord lemma to Q_N intersected with {u>0,w>0,v>0}, explicitly noting that the three cutting lines are null and hence this replacement preserves area g, or delete the unused preliminary chord-lemma discussion."
+  ],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

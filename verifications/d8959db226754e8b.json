@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The candidate correctly derives the general endpoint-stratified normalized finite system, clears all denominators with a positive polynomial factor, proves the converse reconstruction including degenerate boundary strata, obtains the common-plane scale inequality with a reversible polynomial reformulation, and matches the accepted equal-cap specialization.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

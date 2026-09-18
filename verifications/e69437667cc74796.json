@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The displayed rational witness satisfies the chamber sign, column-sum, determinant, cap, scalar, residual-strip, budget, and complement-allocation conditions exactly. Its allowances strictly evade the 1/4, b91db809305bf041, and (9/20,3/10) threshold gates, its value of t strictly evades the cap-only gate, and the explicit feasible radical-gate parameters give G<0. The strict margins also support the claimed open uncovered neighborhood.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The proof is mathematically sound. The normalization and strict residual bounds are valid; Theorem 1.2 of Tanganelli Castrillon applies with exponent 1/4 and exact constant 314928; the accepted frame proof does establish the required strict 1/1000 row estimate; and the fixed-window chord, signed-layer, Farkas-weight, support-clearance, midpoint-area, endpoint-threshold, double-cover, and final deficit arguments all have the stated signs and constants. The rational comparisons and boundary cases check out.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

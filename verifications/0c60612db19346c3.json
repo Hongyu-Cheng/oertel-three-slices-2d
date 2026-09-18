@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The general bound follows exactly from the accepted three-cap inequality after the stated substitutions, all hypotheses match, and independent exact rational recomputation confirms every area, cap, ordering, cutoff, and scalar-interval value used in the particular instance.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

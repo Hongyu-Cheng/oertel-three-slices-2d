@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The polygon descriptions and areas, the height-zero and height-two halfspace masses and interior covers, and the middle-slice depth calculation all check exactly. The centrally symmetric subpolygon gives the required middle-trace lower bound, the reflected copy of A_0 gives the endpoint-trace lower bound for every halfspace direction, and the exhibited rational halfspace attains total mass 1/4. Hence no halfspace of mass below 11/48 contains p, so the asserted middle-slice cover obstruction follows without a gap.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}

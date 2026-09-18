@@ -1,0 +1,10 @@
+{
+  "schema": "math-prover-verifier-v2",
+  "verdict": "APPROVED",
+  "summary": "The compatibility polygon is derived exactly from the three facets of the translated simplex, and the equivalent containment Q-2v in Delta has the same three inequalities with the correct signs. The halfspace normalization, boundary translation, slice thresholds, use of Q-2v containment, centroid-cap and two-cap estimates, horizontal-normal cases, strict boundary handling, arithmetic, and application of the accepted middle-slice criterion are all correct, including on the boundary of the full translation triangle.",
+  "critical_errors": [],
+  "gaps": [],
+  "repair_hints": [],
+  "target_match": null,
+  "target_match_explanation": "Not applicable."
+}
