@@ -2,7 +2,7 @@
 
 This repository contains the fact graph behind the paper
 
-> H. Cheng and A. Basu, [*A centerpoint theorem for three planar convex bodies*](https://arxiv.org/abs/2609.32953), 2026.
+> H. Cheng and A. Basu, [*A Centerpoint Theorem for Three Planar Convex Bodies*](https://arxiv.org/abs/2609.32953), 2026.
 
 The problem is stated in [`problem_statement.md`](problem_statement.md). It asks whether the three planar slices of a compact convex set in $\mathbb{Z}\times\mathbb{R}^2$ always contain a point such that every closed halfspace containing it captures at least 2/9 of the total area. The graph answers yes. The accepted final fact is [`0fee37ee73addcc3`](facts/0fee37ee73addcc3.md).
 
