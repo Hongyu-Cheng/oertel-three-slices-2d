@@ -12,6 +12,10 @@ The proof search ran in Codex, mainly with GPT-5.6 Sol and GPT-6 Astra, using a 
 
 Every fact here carries the label `LLM-verified`. None of them has been reviewed by a human or checked formally. The proof in the paper, however, was distilled from this graph and verified by the authors, who take full responsibility for it.
 
+## Lean formalization
+
+The Lean 4 formalization follows the manuscript's proof and was developed with AI assistance. See the [Lean package README](lean/README.md) for usage, verification, scope and licensing.
+
 ## Size
 
 | | count |
@@ -61,6 +65,7 @@ The 18 facts below carry most of the mathematics; their short names are ours. In
 - `candidates/<id>.json` holds every submitted candidate, accepted or rejected, as the worker wrote it.
 - `verifications/<run>.json` holds every verifier verdict with its summary and, for rejections, the errors found.
 - `state.json` is the ledger that ties these together: candidates, facts, runs, and subgoals with their status.
+- `lean/` holds the Lean formalization described above, and `.github/workflows/lean.yml` builds and checks it on GitHub.
 
 Prompts, handoff files, and the unverified working memory of the search are not included. Some run records in `state.json` still name those files.
 
